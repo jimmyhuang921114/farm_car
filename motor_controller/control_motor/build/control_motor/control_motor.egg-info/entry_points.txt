@@ -1,0 +1,4 @@
+[console_scripts]
+Twist2Speed = control_motor.Twist2Speed:main
+control_dual = control_motor.control_dual:main
+

@@ -1,0 +1,23 @@
+[0.007s] Invoking command in '/home/jimmy/work/docker/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/jimmy/work/docker/install/dynamixel_sdk_custom_interfaces:/home/jimmy/work/docker/install/dynamixel_sdk:/home/jimmy/work/docker/install/dynamixel_sdk_examples:/home/jimmy/work/docker/install/control_motor:/opt/ros/humble /usr/bin/cmake --build /home/jimmy/work/docker/build/dynamixel_sdk_examples -- -j20 -l20
+[0.030s] [35m[1mConsolidate compiler generated dependencies of target read_write_node[0m
+[0.041s] [100%] Built target read_write_node
+[0.048s] Invoked command in '/home/jimmy/work/docker/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/jimmy/work/docker/install/dynamixel_sdk_custom_interfaces:/home/jimmy/work/docker/install/dynamixel_sdk:/home/jimmy/work/docker/install/dynamixel_sdk_examples:/home/jimmy/work/docker/install/control_motor:/opt/ros/humble /usr/bin/cmake --build /home/jimmy/work/docker/build/dynamixel_sdk_examples -- -j20 -l20
+[0.062s] Invoking command in '/home/jimmy/work/docker/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/jimmy/work/docker/install/dynamixel_sdk_custom_interfaces:/home/jimmy/work/docker/install/dynamixel_sdk:/home/jimmy/work/docker/install/dynamixel_sdk_examples:/home/jimmy/work/docker/install/control_motor:/opt/ros/humble /usr/bin/cmake --install /home/jimmy/work/docker/build/dynamixel_sdk_examples
+[0.066s] -- Install configuration: ""
+[0.066s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[0.066s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[0.066s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[0.066s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[0.066s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[0.066s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[0.066s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[0.066s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[0.066s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[0.066s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[0.066s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[0.066s] -- Installing: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[0.067s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[0.067s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[0.067s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[0.068s] -- Up-to-date: /home/jimmy/work/docker/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[0.068s] Invoked command in '/home/jimmy/work/docker/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/jimmy/work/docker/install/dynamixel_sdk_custom_interfaces:/home/jimmy/work/docker/install/dynamixel_sdk:/home/jimmy/work/docker/install/dynamixel_sdk_examples:/home/jimmy/work/docker/install/control_motor:/opt/ros/humble /usr/bin/cmake --install /home/jimmy/work/docker/build/dynamixel_sdk_examples
