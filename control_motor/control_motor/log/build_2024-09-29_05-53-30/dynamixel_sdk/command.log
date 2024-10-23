@@ -1,0 +1,1 @@
+Invoking command in '/home/jimmy/work/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jimmy/work/install/my_robot_package:/home/jimmy/work/install/control_motor:/opt/ros/humble /usr/bin/cmake --build /home/jimmy/work/build/dynamixel_sdk -- -j20 -l20

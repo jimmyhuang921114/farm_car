@@ -1,0 +1,42 @@
+[0.726s] Invoking command in '/home/jimmy/work/docker/DynamixelSDK/control_motor': PYTHONPATH=/home/jimmy/work/build/control_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jimmy/work/install/control_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/jimmy/work/build/control_motor/build install --record /home/jimmy/work/build/control_motor/install.log --single-version-externally-managed install_data
+[0.887s] running egg_info
+[0.887s] writing ../../../build/control_motor/control_motor.egg-info/PKG-INFO
+[0.887s] writing dependency_links to ../../../build/control_motor/control_motor.egg-info/dependency_links.txt
+[0.888s] writing entry points to ../../../build/control_motor/control_motor.egg-info/entry_points.txt
+[0.888s] writing requirements to ../../../build/control_motor/control_motor.egg-info/requires.txt
+[0.888s] writing top-level names to ../../../build/control_motor/control_motor.egg-info/top_level.txt
+[0.889s] reading manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+[0.890s] writing manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+[0.890s] running build
+[0.890s] running build_py
+[0.890s] copying control_motor/motorspeed.py -> /home/jimmy/work/build/control_motor/build/lib/control_motor
+[0.890s] copying control_motor/Twist2Speed.py -> /home/jimmy/work/build/control_motor/build/lib/control_motor
+[0.890s] copying control_motor/control_dual.py -> /home/jimmy/work/build/control_motor/build/lib/control_motor
+[0.890s] copying control_motor/motor_speed_transform.py -> /home/jimmy/work/build/control_motor/build/lib/control_motor
+[0.891s] running install
+[0.891s] running install_lib
+[0.891s] copying /home/jimmy/work/build/control_motor/build/lib/control_motor/motorspeed.py -> /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor
+[0.891s] copying /home/jimmy/work/build/control_motor/build/lib/control_motor/Twist2Speed.py -> /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor
+[0.892s] copying /home/jimmy/work/build/control_motor/build/lib/control_motor/control_dual.py -> /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor
+[0.892s] copying /home/jimmy/work/build/control_motor/build/lib/control_motor/motor_speed_transform.py -> /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor
+[0.892s] byte-compiling /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor/motorspeed.py to motorspeed.cpython-310.pyc
+[0.892s] byte-compiling /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor/Twist2Speed.py to Twist2Speed.cpython-310.pyc
+[0.893s] byte-compiling /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor/motor_control.py to motor_control.cpython-310.pyc
+[0.893s] Sorry: IndentationError: expected an indented block after function definition on line 33 (motor_control.py, line 36)
+[0.893s] byte-compiling /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor/control_dual.py to control_dual.cpython-310.pyc
+[0.894s] byte-compiling /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor/motor_speed_transform.py to motor_speed_transform.cpython-310.pyc
+[0.894s]   File "/home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor/motor_speed_transform.py", line 26
+[0.894s]     if __name__='__main__':
+[0.894s]        ^^^^^^^^^^^^^^^^^^^
+[0.894s] SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[0.894s] 
+[0.895s] running install_data
+[0.895s] running install_egg_info
+[0.896s] removing '/home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor-0.0.0-py3.10.egg-info' (and everything under it)
+[0.896s] Copying ../../../build/control_motor/control_motor.egg-info to /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor-0.0.0-py3.10.egg-info
+[0.897s] running install_scripts
+[0.913s] Installing Twist2Speed script to /home/jimmy/work/install/control_motor/lib/control_motor
+[0.913s] Installing control_dual script to /home/jimmy/work/install/control_motor/lib/control_motor
+[0.913s] Installing motorspeed script to /home/jimmy/work/install/control_motor/lib/control_motor
+[0.913s] writing list of installed files to '/home/jimmy/work/build/control_motor/install.log'
+[0.940s] Invoked command in '/home/jimmy/work/docker/DynamixelSDK/control_motor' returned '0': PYTHONPATH=/home/jimmy/work/build/control_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jimmy/work/install/control_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/jimmy/work/build/control_motor/build install --record /home/jimmy/work/build/control_motor/install.log --single-version-externally-managed install_data

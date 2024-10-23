@@ -1,0 +1,6 @@
+  File "/home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor/motorspeed.py", line 10
+    self.publisher = self.node.create_publisher(Twist, 'cmd_vel',self.sendtext 10)
+                                                                 ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Sorry: IndentationError: expected an indented block after function definition on line 33 (motor_control.py, line 36)

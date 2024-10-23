@@ -1,0 +1,6 @@
+Sorry: IndentationError: expected an indented block after function definition on line 33 (motor_control.py, line 36)
+  File "/home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor/motor_speed_transform.py", line 26
+    if __name__='__main__':
+       ^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+

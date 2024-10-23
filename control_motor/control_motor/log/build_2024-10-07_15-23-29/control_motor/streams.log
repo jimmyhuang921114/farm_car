@@ -1,0 +1,31 @@
+[0.675s] Invoking command in '/home/jimmy/work/docker/DynamixelSDK/control_motor': PYTHONPATH=/home/jimmy/work/build/control_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jimmy/work/install/control_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/jimmy/work/build/control_motor/build install --record /home/jimmy/work/build/control_motor/install.log --single-version-externally-managed install_data
+[0.836s] running egg_info
+[0.836s] writing ../../../build/control_motor/control_motor.egg-info/PKG-INFO
+[0.837s] writing dependency_links to ../../../build/control_motor/control_motor.egg-info/dependency_links.txt
+[0.837s] writing entry points to ../../../build/control_motor/control_motor.egg-info/entry_points.txt
+[0.837s] writing requirements to ../../../build/control_motor/control_motor.egg-info/requires.txt
+[0.837s] writing top-level names to ../../../build/control_motor/control_motor.egg-info/top_level.txt
+[0.839s] reading manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+[0.839s] writing manifest file '../../../build/control_motor/control_motor.egg-info/SOURCES.txt'
+[0.840s] running build
+[0.840s] running build_py
+[0.840s] running install
+[0.840s] running install_lib
+[0.841s] Sorry: IndentationError: expected an indented block after function definition on line 33 (motor_control.py, line 36)
+[0.842s] byte-compiling /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor/motor_control.py to motor_control.cpython-310.pyc
+[0.842s] byte-compiling /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor/motor_speed_transform.py to motor_speed_transform.cpython-310.pyc
+[0.842s]   File "/home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor/motor_speed_transform.py", line 26
+[0.842s]     if __name__='__main__':
+[0.842s]        ^^^^^^^^^^^^^^^^^^^
+[0.842s] SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[0.842s] 
+[0.843s] running install_data
+[0.843s] running install_egg_info
+[0.843s] removing '/home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor-0.0.0-py3.10.egg-info' (and everything under it)
+[0.843s] Copying ../../../build/control_motor/control_motor.egg-info to /home/jimmy/work/install/control_motor/lib/python3.10/site-packages/control_motor-0.0.0-py3.10.egg-info
+[0.844s] running install_scripts
+[0.856s] Installing Twist2Speed script to /home/jimmy/work/install/control_motor/lib/control_motor
+[0.856s] Installing control_dual script to /home/jimmy/work/install/control_motor/lib/control_motor
+[0.856s] Installing motorspeed script to /home/jimmy/work/install/control_motor/lib/control_motor
+[0.857s] writing list of installed files to '/home/jimmy/work/build/control_motor/install.log'
+[0.871s] Invoked command in '/home/jimmy/work/docker/DynamixelSDK/control_motor' returned '0': PYTHONPATH=/home/jimmy/work/build/control_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jimmy/work/install/control_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/control_motor build --build-base /home/jimmy/work/build/control_motor/build install --record /home/jimmy/work/build/control_motor/install.log --single-version-externally-managed install_data
