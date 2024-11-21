@@ -63,15 +63,9 @@ class ControlSwitcher(Node):
         else:
             return  # 沒有可用的命令發佈
         
-        # 使用 ROS 2 的方法動態獲取 data.json 的路徑
-        package_share_directory = get_package_share_directory('control_motor')
-        file_path = os.path.join(package_share_directory, 'config', 'data.json')
         
-        # 從 config 檔案中讀取參數
-        with open(file_path, 'r', encoding='utf-8') as file:
-            data = json.load(file)
-        L = data['wheel_base']  # 輪距
-        r = data['wheel_radius']  # 輪子半徑
+        L = 2 # 輪距
+        r = 0.15915494309189535# 輪子半徑
 
         # 使用 transform 函數計算輪子的速度
         W_L, W_R = transform(v, W, L, r)

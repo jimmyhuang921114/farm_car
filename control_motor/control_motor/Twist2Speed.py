@@ -32,8 +32,8 @@ class TwistToOKPublisherNode:
         speed_wish_right = int((msg.angular.z*160)/2 + msg.linear.x*1000)
         speed_wish_left = int(msg.linear.x*2000-speed_wish_right)
         
-        speed_msg.motorspeed1 = left_speed 
-        speed_msg.motorspeed2 = right_speed 
+        speed_msg.left_motor_speed = left_speed 
+        speed_msg.right_motor_speed = right_speed 
         
         self.publisher.publish(speed_msg)
         
