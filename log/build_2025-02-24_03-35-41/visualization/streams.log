@@ -1,0 +1,37 @@
+[0.684s] Invoking command in '/workspace/src/visualization': PYTHONPATH=/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visualization build --build-base /workspace/build/visualization/build install --record /workspace/build/visualization/install.log --single-version-externally-managed install_data
+[0.779s] running egg_info
+[0.779s] creating ../../build/visualization/visualization.egg-info
+[0.779s] writing ../../build/visualization/visualization.egg-info/PKG-INFO
+[0.779s] writing dependency_links to ../../build/visualization/visualization.egg-info/dependency_links.txt
+[0.779s] writing entry points to ../../build/visualization/visualization.egg-info/entry_points.txt
+[0.779s] writing requirements to ../../build/visualization/visualization.egg-info/requires.txt
+[0.779s] writing top-level names to ../../build/visualization/visualization.egg-info/top_level.txt
+[0.780s] writing manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+[0.780s] reading manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+[0.780s] writing manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+[0.780s] running build
+[0.780s] running build_py
+[0.781s] creating /workspace/build/visualization/build
+[0.781s] creating /workspace/build/visualization/build/lib
+[0.781s] creating /workspace/build/visualization/build/lib/visualization
+[0.781s] copying visualization/visual.py -> /workspace/build/visualization/build/lib/visualization
+[0.781s] copying visualization/__init__.py -> /workspace/build/visualization/build/lib/visualization
+[0.781s] running install
+[0.781s] running install_lib
+[0.781s] creating /workspace/install/visualization/lib/python3.10/site-packages/visualization
+[0.781s] copying /workspace/build/visualization/build/lib/visualization/visual.py -> /workspace/install/visualization/lib/python3.10/site-packages/visualization
+[0.781s] copying /workspace/build/visualization/build/lib/visualization/__init__.py -> /workspace/install/visualization/lib/python3.10/site-packages/visualization
+[0.781s] byte-compiling /workspace/install/visualization/lib/python3.10/site-packages/visualization/visual.py to visual.cpython-310.pyc
+[0.782s] byte-compiling /workspace/install/visualization/lib/python3.10/site-packages/visualization/__init__.py to __init__.cpython-310.pyc
+[0.782s] running install_data
+[0.782s] creating /workspace/install/visualization/share/ament_index
+[0.782s] creating /workspace/install/visualization/share/ament_index/resource_index
+[0.782s] creating /workspace/install/visualization/share/ament_index/resource_index/packages
+[0.782s] copying resource/visualization -> /workspace/install/visualization/share/ament_index/resource_index/packages
+[0.782s] copying package.xml -> /workspace/install/visualization/share/visualization
+[0.782s] running install_egg_info
+[0.783s] Copying ../../build/visualization/visualization.egg-info to /workspace/install/visualization/lib/python3.10/site-packages/visualization-0.0.0-py3.10.egg-info
+[0.783s] running install_scripts
+[0.793s] Installing visual script to /workspace/install/visualization/lib/visualization
+[0.793s] writing list of installed files to '/workspace/build/visualization/install.log'
+[0.805s] Invoked command in '/workspace/src/visualization' returned '0': PYTHONPATH=/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visualization build --build-base /workspace/build/visualization/build install --record /workspace/build/visualization/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/visualization/visualization.egg-info
+writing ../../build/visualization/visualization.egg-info/PKG-INFO
+writing dependency_links to ../../build/visualization/visualization.egg-info/dependency_links.txt
+writing entry points to ../../build/visualization/visualization.egg-info/entry_points.txt
+writing requirements to ../../build/visualization/visualization.egg-info/requires.txt
+writing top-level names to ../../build/visualization/visualization.egg-info/top_level.txt
+writing manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+reading manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+writing manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/build/visualization/build
+creating /workspace/build/visualization/build/lib
+creating /workspace/build/visualization/build/lib/visualization
+copying visualization/visual.py -> /workspace/build/visualization/build/lib/visualization
+copying visualization/__init__.py -> /workspace/build/visualization/build/lib/visualization
+running install
+running install_lib
+creating /workspace/install/visualization/lib/python3.10/site-packages/visualization
+copying /workspace/build/visualization/build/lib/visualization/visual.py -> /workspace/install/visualization/lib/python3.10/site-packages/visualization
+copying /workspace/build/visualization/build/lib/visualization/__init__.py -> /workspace/install/visualization/lib/python3.10/site-packages/visualization
+byte-compiling /workspace/install/visualization/lib/python3.10/site-packages/visualization/visual.py to visual.cpython-310.pyc
+byte-compiling /workspace/install/visualization/lib/python3.10/site-packages/visualization/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /workspace/install/visualization/share/ament_index
+creating /workspace/install/visualization/share/ament_index/resource_index
+creating /workspace/install/visualization/share/ament_index/resource_index/packages
+copying resource/visualization -> /workspace/install/visualization/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/install/visualization/share/visualization
+running install_egg_info
+Copying ../../build/visualization/visualization.egg-info to /workspace/install/visualization/lib/python3.10/site-packages/visualization-0.0.0-py3.10.egg-info
+running install_scripts
+Installing visual script to /workspace/install/visualization/lib/visualization
+writing list of installed files to '/workspace/build/visualization/install.log'

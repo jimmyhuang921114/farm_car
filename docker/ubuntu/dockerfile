@@ -111,6 +111,7 @@ RUN apt-get update && apt-get install -y \
     librealsense2-dev
 RUN pip install pyrealsense2==2.55.1.6486
 
+
 # ============== Communication Tool ===================
 RUN pip install pyserial==3.5
 
@@ -119,6 +120,12 @@ RUN pip install pyserial==3.5
 RUN pip install numpy==1.26.4
 RUN pip install lap==0.5.12
 RUN pip install cython_bbox==0.1.5
+
+# ============== Qt ===================
+RUN pip install PySide6
+RUN apt update && apt install -y qt6-wayland xcb libxcb-cursor0 libxkbcommon-x11-0 libqt6gui6 libqt6widgets6
+
+
 
 # ================= Copy tmux Configuration ======================
 # Copy tmux.conf to root and work user directories

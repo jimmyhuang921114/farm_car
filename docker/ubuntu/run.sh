@@ -23,7 +23,8 @@ fi
 
 # Run the Docker container
 echo -e "${YELLOW}Running Docker container from image '$IMAGE_NAME'...${NC}"
-docker run -it \
+docker run -it --rm \
+           -v /dev:/dev \
            -v "$MOUNT_DIR":/workspace \
            -v /tmp/.X11-unix:/tmp/.X11-unix \
            -v ${HOME}/.Xauthority:/home/${user}/.Xauthority \
