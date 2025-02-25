@@ -63,6 +63,7 @@ class PeopleTrackNode(Node):
         self.bridge = CvBridge()
         self.create_subscription(Image, '/camera/color', self.color_callback, 10)
         self.create_subscription(Image, '/camera/depth', self.depth_callback, 10)
+        self.pub_annotated_image = self.create_publisher(Image, '/annotated_image', 10)
         self.get_logger().info('people_track node is up and running!')
 
         # ------------ YOLO 模型 -------------
@@ -77,6 +78,11 @@ class PeopleTrackNode(Node):
         self.yolo_thread = threading.Thread(target=self.yolo_track, daemon=True)
         self.yolo_thread.start()
 
+
+    def publish_annotated_image(self, frame):
+        if frame is not None:
+            img_msg = self.bridge.cv2_to_imgmsg(frame, encoding="bgr8")
+            self.pub_annotated_image.publish(img_msg)
 
     def timer_callback(self):
         msg = Int32MultiArray()
@@ -95,7 +101,7 @@ class PeopleTrackNode(Node):
             else:
                 self.status = "LOCKED"
                 self.center_x = (self.x1 + self.x2)/2
-                msg.data = [int(self.center_x), int(self.depth_value)]
+                msg.data = [int(self.center_x)-640, int(self.depth_value/10)]
                 self.get_logger().info( f"[timer_callback] => LOCKED => state=1")
 
         self.pub_track_data.publish(msg)
@@ -175,14 +181,14 @@ class PeopleTrackNode(Node):
             self.get_logger().info(f"inference time: {int((time.time() - start_time)*1000)}")
             ## post process
             start_time = time.time()
-            if len(detections) == 0:
-                self.has_detection = False
-                cv2.imshow("YOLOv8 Tracking", frame)
-                if cv2.waitKey(1) & 0xFF == ord('q'):
-                    break
-                continue
-            else:
-                self.has_detection = True
+            # if len(detections) == 0:
+            #     self.has_detection = False
+            #     cv2.imshow("YOLOv8 Tracking", frame)
+            #     if cv2.waitKey(1) & 0xFF == ord('q'):
+            #         break
+            #     continue
+            # else:
+            #     self.has_detection = True
 
             dets = torch.cat([
                 detections[:, 0].unsqueeze(1),
@@ -232,6 +238,7 @@ class PeopleTrackNode(Node):
                         cv2.putText(frame, f"Depth: {self.depth_value}", (self.x1, self.y2 + 15),
                                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
 
+            self.publish_annotated_image(frame)
             cv2.imshow("YOLOv8 Tracking", frame)
 
             key = cv2.waitKey(1) & 0xFF

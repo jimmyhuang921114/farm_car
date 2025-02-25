@@ -14,7 +14,7 @@ class UltrasonicReceiver(Node):
     def __init__(self):
         super().__init__('ultrasonic_receiver')
         
-        self.declare_parameter('port', '/dev/ttyUSB0')
+        self.declare_parameter('port', '/dev/serial/by-path/pci-0000:04:00.4-usb-0:2.1:1.0-port0')
         self.declare_parameter('baudrate', 115200)
         
         port = self.get_parameter('port').value

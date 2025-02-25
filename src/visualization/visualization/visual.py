@@ -64,7 +64,7 @@ class Ros2Node(Node):
         self.create_subscription(Float32MultiArray, '/obstacle/xy_list', self.obstacle_callback, 10)
         self.create_subscription(Image, '/camera/color', self.rgb_callback, 10)
         self.create_subscription(Image, '/camera/depth', self.depth_callback, 10)
-        self.create_subscription(Image, '/tracking_image', self.tracking_callback, 10)
+        self.create_subscription(Image, '/annotated_image', self.tracking_callback, 10)
         self.create_subscription(Image, '/masked_image', self.masked_callback, 10)
         self.create_subscription(Int16MultiArray, '/ultrasonic_data_1', self.ultrasonic_data_1_callback, 10)
         self.create_subscription(Int16MultiArray, '/ultrasonic_data_2', self.ultrasonic_data_2_callback, 10)
@@ -335,18 +335,19 @@ class CoordinateViewWidget(QWidget):
             painter.drawRect(car_rect)
             # Positions: left side: two sensors; front: two sensors; right: two sensors; back: two sensors.
             offset = 50  # increased offset for clarity
+            top_bot_offset = 20
             positions = [
                 (cx - halfW - offset, cy - halfH/2),  # left-top
                 (cx - halfW - offset, cy + halfH/2),  # left-bottom
 
-                (cx - halfW/2, cy - halfH - offset),  # front-left
-                (cx + halfW/2, cy - halfH - offset),  # front-right
+                (cx - halfW/2 - top_bot_offset, cy + halfH + offset),  # back-left
+                (cx + halfW/2 + top_bot_offset, cy + halfH + offset),  # back-right
 
-                (cx + halfW + offset, cy - halfH/2),  # right-top
                 (cx + halfW + offset, cy + halfH/2),  # right-bottom
-
-                (cx - halfW/2, cy + halfH + offset),  # back-left
-                (cx + halfW/2, cy + halfH + offset),  # back-right
+                (cx + halfW + offset, cy - halfH/2),  # right-top
+                                                
+                (cx + halfW/2 + top_bot_offset, cy - halfH - offset),  # front-right    
+                (cx - halfW/2 - top_bot_offset, cy - halfH - offset),  # front-left         
             ]
             painter.setFont(QFont("Arial", 14))
             for i, pos in enumerate(positions):

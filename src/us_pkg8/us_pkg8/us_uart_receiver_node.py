@@ -10,13 +10,13 @@ class UltrasonicReceiver(Node):
     def __init__(self):
         super().__init__('ultrasonic_receiver')
         
-        self.declare_parameter('port', '/dev/ttyUSB1')
+        self.declare_parameter('port', '/dev/serial/by-path/pci-0000:04:00.4-usb-0:2.3:1.0-port0')
         self.declare_parameter('baudrate', 115200)
         
         port = self.get_parameter('port').value
         baudrate = self.get_parameter('baudrate').value
         
-        self.publisher_ = self.create_publisher(Int16MultiArray, 'ultrasonic_uart_data', 10)
+        self.publisher_ = self.create_publisher(Int16MultiArray, 'ultrasonic_data_2', 10)
         
         try:
             self.serial_port = serial.Serial(port, baudrate, timeout=0.05)  # 降低 timeout，讓讀取更即時

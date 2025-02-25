@@ -142,6 +142,8 @@ RUN echo "if command -v tmux &> /dev/null; then" >> /home/work/.bashrc && \
 
 
 # ================= Finalize Container Configuration ======================
+CMD usermod -aG dialout work
+CMD usermod -aG video work
 # Switch back to non-root user
 USER work
 
