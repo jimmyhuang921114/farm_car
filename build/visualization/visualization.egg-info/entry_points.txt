@@ -1,4 +1,0 @@
-[console_scripts]
-sim_node = visualization.sim_node:main
-visual = visualization.visual:main
-
