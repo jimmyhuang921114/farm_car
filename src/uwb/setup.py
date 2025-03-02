@@ -25,6 +25,7 @@ setup(
             'localization = uwb.uwb_localization:main',
             'last_filter = uwb.uwb_last_filter:main',
             'visualization = uwb.uwb_visualization:main',
+            'position_nls = uwb.position_nls:main',
         ],
     },
 )
