@@ -1,0 +1,43 @@
+[1.733s] Invoking command in '/workspace/src/visualization': PYTHONPATH=/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visualization build --build-base /workspace/build/visualization/build install --record /workspace/build/visualization/install.log --single-version-externally-managed install_data
+[1.944s] running egg_info
+[1.945s] creating ../../build/visualization/visualization.egg-info
+[1.946s] writing ../../build/visualization/visualization.egg-info/PKG-INFO
+[1.947s] writing dependency_links to ../../build/visualization/visualization.egg-info/dependency_links.txt
+[1.947s] writing entry points to ../../build/visualization/visualization.egg-info/entry_points.txt
+[1.947s] writing requirements to ../../build/visualization/visualization.egg-info/requires.txt
+[1.947s] writing top-level names to ../../build/visualization/visualization.egg-info/top_level.txt
+[1.948s] writing manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+[1.951s] reading manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+[1.952s] writing manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+[1.953s] running build
+[1.953s] running build_py
+[1.953s] creating /workspace/build/visualization/build
+[1.953s] creating /workspace/build/visualization/build/lib
+[1.953s] creating /workspace/build/visualization/build/lib/visualization
+[1.954s] copying visualization/sim_node.py -> /workspace/build/visualization/build/lib/visualization
+[1.954s] copying visualization/visual.py -> /workspace/build/visualization/build/lib/visualization
+[1.954s] copying visualization/__init__.py -> /workspace/build/visualization/build/lib/visualization
+[1.955s] running install
+[1.955s] running install_lib
+[1.957s] creating /workspace/install/visualization/lib/python3.10/site-packages/visualization
+[1.957s] copying /workspace/build/visualization/build/lib/visualization/sim_node.py -> /workspace/install/visualization/lib/python3.10/site-packages/visualization
+[1.957s] copying /workspace/build/visualization/build/lib/visualization/visual.py -> /workspace/install/visualization/lib/python3.10/site-packages/visualization
+[1.957s] copying /workspace/build/visualization/build/lib/visualization/__init__.py -> /workspace/install/visualization/lib/python3.10/site-packages/visualization
+[1.957s] byte-compiling /workspace/install/visualization/lib/python3.10/site-packages/visualization/sim_node.py to sim_node.cpython-310.pyc
+[1.958s] byte-compiling /workspace/install/visualization/lib/python3.10/site-packages/visualization/visual.py to visual.cpython-310.pyc
+[1.960s] byte-compiling /workspace/install/visualization/lib/python3.10/site-packages/visualization/__init__.py to __init__.cpython-310.pyc
+[1.960s] running install_data
+[1.960s] creating /workspace/install/visualization/share/ament_index
+[1.960s] creating /workspace/install/visualization/share/ament_index/resource_index
+[1.960s] creating /workspace/install/visualization/share/ament_index/resource_index/packages
+[1.960s] copying resource/visualization -> /workspace/install/visualization/share/ament_index/resource_index/packages
+[1.960s] copying package.xml -> /workspace/install/visualization/share/visualization
+[1.961s] creating /workspace/install/visualization/share/visualization/launch
+[1.961s] copying launch/main_launch.py -> /workspace/install/visualization/share/visualization/launch
+[1.961s] running install_egg_info
+[1.962s] Copying ../../build/visualization/visualization.egg-info to /workspace/install/visualization/lib/python3.10/site-packages/visualization-0.0.0-py3.10.egg-info
+[1.962s] running install_scripts
+[1.980s] Installing sim_node script to /workspace/install/visualization/lib/visualization
+[1.980s] Installing visual script to /workspace/install/visualization/lib/visualization
+[1.980s] writing list of installed files to '/workspace/build/visualization/install.log'
+[2.041s] Invoked command in '/workspace/src/visualization' returned '0': PYTHONPATH=/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visualization build --build-base /workspace/build/visualization/build install --record /workspace/build/visualization/install.log --single-version-externally-managed install_data

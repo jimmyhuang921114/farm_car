@@ -1,0 +1,25 @@
+[2.567s] Invoking command in '/workspace/src/track': PYTHONPATH=/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/track build --build-base /workspace/build/track/build install --record /workspace/build/track/install.log --single-version-externally-managed install_data
+[2.933s] running egg_info
+[2.934s] writing ../../build/track/track.egg-info/PKG-INFO
+[2.935s] writing dependency_links to ../../build/track/track.egg-info/dependency_links.txt
+[2.935s] writing entry points to ../../build/track/track.egg-info/entry_points.txt
+[2.935s] writing requirements to ../../build/track/track.egg-info/requires.txt
+[2.935s] writing top-level names to ../../build/track/track.egg-info/top_level.txt
+[2.938s] reading manifest file '../../build/track/track.egg-info/SOURCES.txt'
+[2.939s] writing manifest file '../../build/track/track.egg-info/SOURCES.txt'
+[2.940s] running build
+[2.940s] running build_py
+[2.941s] running install
+[2.942s] running install_lib
+[2.944s] running install_data
+[2.945s] running install_egg_info
+[2.949s] removing '/workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info' (and everything under it)
+[2.949s] Copying ../../build/track/track.egg-info to /workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info
+[2.949s] running install_scripts
+[2.981s] Installing byte_old script to /workspace/install/track/lib/track
+[2.982s] Installing bytetrack script to /workspace/install/track/lib/track
+[2.982s] Installing open_rs script to /workspace/install/track/lib/track
+[2.982s] Installing test script to /workspace/install/track/lib/track
+[2.982s] Installing track_point_sub script to /workspace/install/track/lib/track
+[2.983s] writing list of installed files to '/workspace/build/track/install.log'
+[3.045s] Invoked command in '/workspace/src/track' returned '0': PYTHONPATH=/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/track build --build-base /workspace/build/track/build install --record /workspace/build/track/install.log --single-version-externally-managed install_data

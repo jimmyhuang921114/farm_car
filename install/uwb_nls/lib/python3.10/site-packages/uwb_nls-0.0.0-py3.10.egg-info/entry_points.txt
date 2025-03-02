@@ -1,0 +1,5 @@
+[console_scripts]
+filter_node_nls = uwb_nls.uwb_last_filter_nls:main
+position_nls = uwb_nls.position_nls:main
+visualization_all = uwb_nls.uwb_visualization:main
+

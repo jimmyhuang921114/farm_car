@@ -1,0 +1,37 @@
+[1.745s] Invoking command in '/workspace/src/record': PYTHONPATH=/workspace/build/record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/record/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/record build --build-base /workspace/build/record/build install --record /workspace/build/record/install.log --single-version-externally-managed install_data
+[1.953s] running egg_info
+[1.955s] creating ../../build/record/record.egg-info
+[1.957s] writing ../../build/record/record.egg-info/PKG-INFO
+[1.958s] writing dependency_links to ../../build/record/record.egg-info/dependency_links.txt
+[1.958s] writing entry points to ../../build/record/record.egg-info/entry_points.txt
+[1.958s] writing requirements to ../../build/record/record.egg-info/requires.txt
+[1.958s] writing top-level names to ../../build/record/record.egg-info/top_level.txt
+[1.958s] writing manifest file '../../build/record/record.egg-info/SOURCES.txt'
+[1.964s] reading manifest file '../../build/record/record.egg-info/SOURCES.txt'
+[1.966s] writing manifest file '../../build/record/record.egg-info/SOURCES.txt'
+[1.966s] running build
+[1.966s] running build_py
+[1.966s] creating /workspace/build/record/build
+[1.966s] creating /workspace/build/record/build/lib
+[1.966s] creating /workspace/build/record/build/lib/record
+[1.966s] copying record/record_node.py -> /workspace/build/record/build/lib/record
+[1.966s] copying record/__init__.py -> /workspace/build/record/build/lib/record
+[1.967s] running install
+[1.968s] running install_lib
+[1.970s] creating /workspace/install/record/lib/python3.10/site-packages/record
+[1.970s] copying /workspace/build/record/build/lib/record/record_node.py -> /workspace/install/record/lib/python3.10/site-packages/record
+[1.970s] copying /workspace/build/record/build/lib/record/__init__.py -> /workspace/install/record/lib/python3.10/site-packages/record
+[1.971s] byte-compiling /workspace/install/record/lib/python3.10/site-packages/record/record_node.py to record_node.cpython-310.pyc
+[1.973s] byte-compiling /workspace/install/record/lib/python3.10/site-packages/record/__init__.py to __init__.cpython-310.pyc
+[1.974s] running install_data
+[1.974s] creating /workspace/install/record/share/ament_index
+[1.974s] creating /workspace/install/record/share/ament_index/resource_index
+[1.974s] creating /workspace/install/record/share/ament_index/resource_index/packages
+[1.974s] copying resource/record -> /workspace/install/record/share/ament_index/resource_index/packages
+[1.975s] copying package.xml -> /workspace/install/record/share/record
+[1.975s] running install_egg_info
+[1.975s] Copying ../../build/record/record.egg-info to /workspace/install/record/lib/python3.10/site-packages/record-0.0.0-py3.10.egg-info
+[1.976s] running install_scripts
+[1.991s] Installing record_node script to /workspace/install/record/lib/record
+[1.991s] writing list of installed files to '/workspace/build/record/install.log'
+[2.047s] Invoked command in '/workspace/src/record' returned '0': PYTHONPATH=/workspace/build/record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/record/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/record build --build-base /workspace/build/record/build install --record /workspace/build/record/install.log --single-version-externally-managed install_data

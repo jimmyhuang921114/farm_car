@@ -1,0 +1,28 @@
+[2.435s] Invoking command in '/workspace/src/uwb': PYTHONPATH=/workspace/build/uwb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/uwb/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb build --build-base /workspace/build/uwb/build install --record /workspace/build/uwb/install.log --single-version-externally-managed install_data
+[2.751s] running egg_info
+[2.752s] writing ../../build/uwb/uwb.egg-info/PKG-INFO
+[2.753s] writing dependency_links to ../../build/uwb/uwb.egg-info/dependency_links.txt
+[2.753s] writing entry points to ../../build/uwb/uwb.egg-info/entry_points.txt
+[2.753s] writing requirements to ../../build/uwb/uwb.egg-info/requires.txt
+[2.753s] writing top-level names to ../../build/uwb/uwb.egg-info/top_level.txt
+[2.756s] reading manifest file '../../build/uwb/uwb.egg-info/SOURCES.txt'
+[2.757s] writing manifest file '../../build/uwb/uwb.egg-info/SOURCES.txt'
+[2.757s] running build
+[2.757s] running build_py
+[2.757s] copying uwb/uwb_localization.py -> /workspace/build/uwb/build/lib/uwb
+[2.758s] running install
+[2.758s] running install_lib
+[2.760s] copying /workspace/build/uwb/build/lib/uwb/uwb_localization.py -> /workspace/install/uwb/lib/python3.10/site-packages/uwb
+[2.761s] byte-compiling /workspace/install/uwb/lib/python3.10/site-packages/uwb/uwb_localization.py to uwb_localization.cpython-310.pyc
+[2.762s] running install_data
+[2.763s] running install_egg_info
+[2.765s] removing '/workspace/install/uwb/lib/python3.10/site-packages/uwb-0.0.0-py3.10.egg-info' (and everything under it)
+[2.768s] Copying ../../build/uwb/uwb.egg-info to /workspace/install/uwb/lib/python3.10/site-packages/uwb-0.0.0-py3.10.egg-info
+[2.768s] running install_scripts
+[2.793s] Installing filter script to /workspace/install/uwb/lib/uwb
+[2.793s] Installing last_filter script to /workspace/install/uwb/lib/uwb
+[2.793s] Installing localization script to /workspace/install/uwb/lib/uwb
+[2.794s] Installing receiver script to /workspace/install/uwb/lib/uwb
+[2.794s] Installing visualization script to /workspace/install/uwb/lib/uwb
+[2.794s] writing list of installed files to '/workspace/build/uwb/install.log'
+[2.863s] Invoked command in '/workspace/src/uwb' returned '0': PYTHONPATH=/workspace/build/uwb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/uwb/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uwb build --build-base /workspace/build/uwb/build install --record /workspace/build/uwb/install.log --single-version-externally-managed install_data

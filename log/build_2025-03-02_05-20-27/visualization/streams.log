@@ -1,0 +1,22 @@
+[2.140s] Invoking command in '/workspace/src/visualization': PYTHONPATH=/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visualization build --build-base /workspace/build/visualization/build install --record /workspace/build/visualization/install.log --single-version-externally-managed install_data
+[2.447s] running egg_info
+[2.448s] writing ../../build/visualization/visualization.egg-info/PKG-INFO
+[2.449s] writing dependency_links to ../../build/visualization/visualization.egg-info/dependency_links.txt
+[2.449s] writing entry points to ../../build/visualization/visualization.egg-info/entry_points.txt
+[2.450s] writing requirements to ../../build/visualization/visualization.egg-info/requires.txt
+[2.450s] writing top-level names to ../../build/visualization/visualization.egg-info/top_level.txt
+[2.452s] reading manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+[2.453s] writing manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+[2.454s] running build
+[2.454s] running build_py
+[2.454s] running install
+[2.454s] running install_lib
+[2.456s] running install_data
+[2.456s] running install_egg_info
+[2.459s] removing '/workspace/install/visualization/lib/python3.10/site-packages/visualization-0.0.0-py3.10.egg-info' (and everything under it)
+[2.460s] Copying ../../build/visualization/visualization.egg-info to /workspace/install/visualization/lib/python3.10/site-packages/visualization-0.0.0-py3.10.egg-info
+[2.461s] running install_scripts
+[2.496s] Installing sim_node script to /workspace/install/visualization/lib/visualization
+[2.496s] Installing visual script to /workspace/install/visualization/lib/visualization
+[2.497s] writing list of installed files to '/workspace/build/visualization/install.log'
+[2.571s] Invoked command in '/workspace/src/visualization' returned '0': PYTHONPATH=/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visualization build --build-base /workspace/build/visualization/build install --record /workspace/build/visualization/install.log --single-version-externally-managed install_data

@@ -1,0 +1,45 @@
+[1.744s] Invoking command in '/workspace/src/obstacle_detect_last': PYTHONPATH=/workspace/build/obstacle_detect_last/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/obstacle_detect_last/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_detect_last build --build-base /workspace/build/obstacle_detect_last/build install --record /workspace/build/obstacle_detect_last/install.log --single-version-externally-managed install_data
+[1.950s] running egg_info
+[1.951s] creating ../../build/obstacle_detect_last/obstacle_detect_last.egg-info
+[1.951s] writing ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/PKG-INFO
+[1.951s] writing dependency_links to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/dependency_links.txt
+[1.952s] writing entry points to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/entry_points.txt
+[1.952s] writing requirements to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/requires.txt
+[1.952s] writing top-level names to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/top_level.txt
+[1.952s] writing manifest file '../../build/obstacle_detect_last/obstacle_detect_last.egg-info/SOURCES.txt'
+[1.953s] reading manifest file '../../build/obstacle_detect_last/obstacle_detect_last.egg-info/SOURCES.txt'
+[1.954s] writing manifest file '../../build/obstacle_detect_last/obstacle_detect_last.egg-info/SOURCES.txt'
+[1.955s] running build
+[1.955s] running build_py
+[1.955s] creating /workspace/build/obstacle_detect_last/build
+[1.955s] creating /workspace/build/obstacle_detect_last/build/lib
+[1.955s] creating /workspace/build/obstacle_detect_last/build/lib/obstacle_detect_last
+[1.955s] copying obstacle_detect_last/obs_draw.py -> /workspace/build/obstacle_detect_last/build/lib/obstacle_detect_last
+[1.955s] copying obstacle_detect_last/open_rs.py -> /workspace/build/obstacle_detect_last/build/lib/obstacle_detect_last
+[1.955s] copying obstacle_detect_last/obs_detect.py -> /workspace/build/obstacle_detect_last/build/lib/obstacle_detect_last
+[1.956s] copying obstacle_detect_last/__init__.py -> /workspace/build/obstacle_detect_last/build/lib/obstacle_detect_last
+[1.956s] running install
+[1.956s] running install_lib
+[1.958s] creating /workspace/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last
+[1.958s] copying /workspace/build/obstacle_detect_last/build/lib/obstacle_detect_last/obs_draw.py -> /workspace/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last
+[1.960s] copying /workspace/build/obstacle_detect_last/build/lib/obstacle_detect_last/open_rs.py -> /workspace/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last
+[1.960s] copying /workspace/build/obstacle_detect_last/build/lib/obstacle_detect_last/obs_detect.py -> /workspace/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last
+[1.960s] copying /workspace/build/obstacle_detect_last/build/lib/obstacle_detect_last/__init__.py -> /workspace/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last
+[1.961s] byte-compiling /workspace/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last/obs_draw.py to obs_draw.cpython-310.pyc
+[1.962s] byte-compiling /workspace/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last/open_rs.py to open_rs.cpython-310.pyc
+[1.964s] byte-compiling /workspace/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last/obs_detect.py to obs_detect.cpython-310.pyc
+[1.968s] byte-compiling /workspace/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last/__init__.py to __init__.cpython-310.pyc
+[1.968s] running install_data
+[1.968s] creating /workspace/install/obstacle_detect_last/share/ament_index
+[1.968s] creating /workspace/install/obstacle_detect_last/share/ament_index/resource_index
+[1.968s] creating /workspace/install/obstacle_detect_last/share/ament_index/resource_index/packages
+[1.969s] copying resource/obstacle_detect_last -> /workspace/install/obstacle_detect_last/share/ament_index/resource_index/packages
+[1.969s] copying package.xml -> /workspace/install/obstacle_detect_last/share/obstacle_detect_last
+[1.969s] running install_egg_info
+[1.972s] Copying ../../build/obstacle_detect_last/obstacle_detect_last.egg-info to /workspace/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last-0.0.0-py3.10.egg-info
+[1.974s] running install_scripts
+[1.985s] Installing obs_detect script to /workspace/install/obstacle_detect_last/lib/obstacle_detect_last
+[1.985s] Installing obs_draw script to /workspace/install/obstacle_detect_last/lib/obstacle_detect_last
+[1.985s] Installing open_rs script to /workspace/install/obstacle_detect_last/lib/obstacle_detect_last
+[1.986s] writing list of installed files to '/workspace/build/obstacle_detect_last/install.log'
+[2.044s] Invoked command in '/workspace/src/obstacle_detect_last' returned '0': PYTHONPATH=/workspace/build/obstacle_detect_last/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/obstacle_detect_last/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_detect_last build --build-base /workspace/build/obstacle_detect_last/build install --record /workspace/build/obstacle_detect_last/install.log --single-version-externally-managed install_data

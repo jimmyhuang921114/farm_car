@@ -1,0 +1,23 @@
+[2.159s] Invoking command in '/workspace/src/obstacle_detect_last': PYTHONPATH=/workspace/build/obstacle_detect_last/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/obstacle_detect_last/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_detect_last build --build-base /workspace/build/obstacle_detect_last/build install --record /workspace/build/obstacle_detect_last/install.log --single-version-externally-managed install_data
+[2.458s] running egg_info
+[2.459s] writing ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/PKG-INFO
+[2.459s] writing dependency_links to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/dependency_links.txt
+[2.459s] writing entry points to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/entry_points.txt
+[2.459s] writing requirements to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/requires.txt
+[2.460s] writing top-level names to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/top_level.txt
+[2.462s] reading manifest file '../../build/obstacle_detect_last/obstacle_detect_last.egg-info/SOURCES.txt'
+[2.463s] writing manifest file '../../build/obstacle_detect_last/obstacle_detect_last.egg-info/SOURCES.txt'
+[2.463s] running build
+[2.464s] running build_py
+[2.464s] running install
+[2.465s] running install_lib
+[2.467s] running install_data
+[2.467s] running install_egg_info
+[2.469s] removing '/workspace/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last-0.0.0-py3.10.egg-info' (and everything under it)
+[2.470s] Copying ../../build/obstacle_detect_last/obstacle_detect_last.egg-info to /workspace/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last-0.0.0-py3.10.egg-info
+[2.471s] running install_scripts
+[2.502s] Installing obs_detect script to /workspace/install/obstacle_detect_last/lib/obstacle_detect_last
+[2.502s] Installing obs_draw script to /workspace/install/obstacle_detect_last/lib/obstacle_detect_last
+[2.503s] Installing open_rs script to /workspace/install/obstacle_detect_last/lib/obstacle_detect_last
+[2.503s] writing list of installed files to '/workspace/build/obstacle_detect_last/install.log'
+[2.556s] Invoked command in '/workspace/src/obstacle_detect_last' returned '0': PYTHONPATH=/workspace/build/obstacle_detect_last/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/obstacle_detect_last/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_detect_last build --build-base /workspace/build/obstacle_detect_last/build install --record /workspace/build/obstacle_detect_last/install.log --single-version-externally-managed install_data
