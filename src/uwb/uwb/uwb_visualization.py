@@ -17,10 +17,10 @@ class VisualizationNode(Node):
 
         # 感應器位置定義
         self.sensor_positions = {
-            0: (0.0, 30.0),
-            2: (0.0, -30.0),
-            3: (-97.0, 30.0),
-            5: (-97.0, -30.0)
+            0: (0.0, 0.0),
+            2: (28.5, -44.0),
+            3: (-28.5, -44.0),
+            5: (0.0, -100.0)
         }
 
         self.figure, self.ax = plt.subplots(figsize=(8, 8))

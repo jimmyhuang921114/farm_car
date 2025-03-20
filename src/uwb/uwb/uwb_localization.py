@@ -10,17 +10,11 @@ class LocalizationNode(Node):
         super().__init__('localization')
 
         self.sensor_positions = {
-            0: (0.0, 0.0, 0.0),
-            2: (28.5, -44.0, 0.0),
-            3: (-28.5, -44.0, 0.0),
-            5: (0.0, -100.0, 0.0)
+            0: (30.0, 0.0, 0.0),
+            2: (-30.0, 0.0, 0.0),
+            3: (30.0, -97.0, 15.0),
+            5: (-30.0, -97.0, 15.0)
         }
-        # self.sensor_positions = {
-        #     0: np.array([0.0,   30.0,  0.0]),
-        #     2: np.array([0.0,  -30.0,  0.0]),
-        #     3: np.array([-97.0, 30.0, 15.0]),
-        #     5: np.array([-97.0, -30.0, 15.0])
-        # }
         self.distances = {0: None, 2: None, 3: None, 5: None}
 
         self.subscribers = [

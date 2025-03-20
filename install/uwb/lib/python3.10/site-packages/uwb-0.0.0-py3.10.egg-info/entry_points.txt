@@ -1,7 +1,0 @@
-[console_scripts]
-filter = uwb.uwb_filter:main
-last_filter = uwb.uwb_last_filter:main
-localization = uwb.uwb_localization:main
-receiver = uwb.uwb_receiver:main
-visualization = uwb.uwb_visualization:main
-

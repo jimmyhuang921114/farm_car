@@ -23,18 +23,18 @@ class UWBPositionNLS(Node):
         self.latest_data = {0: None, 2: None, 3: None, 5: None}
 
         # 定義各感應器的固定全局座標
-        self.sensor_positions = {
-            0: (0.0, 0.0, 0.0),
-            2: (28.5, -44.0, 0.0),
-            3: (-28.5, -44.0, 0.0),
-            5: (0.0, -100.0, 0.0)
-        }
         # self.sensor_positions = {
-        #     0: np.array([0.0,   30.0,  0.0]),
-        #     2: np.array([0.0,  -30.0,  0.0]),
-        #     3: np.array([-97.0, 30.0, 15.0]),
-        #     5: np.array([-97.0, -30.0, 15.0])
+        #     0: (0.0, 0.0, 0.0),
+        #     2: (28.5, -44.0, 0.0),
+        #     3: (-28.5, -44.0, 0.0),
+        #     5: (0.0, -100.0, 0.0)
         # }
+        self.sensor_positions = {
+            0: np.array([26.0,   0.0,  0.0]),
+            2: np.array([-26.0,  0.0,  0.0]),
+            3: np.array([33.0, -102.0, 15.0]),
+            5: np.array([-33.0, -102.0, 15.0])
+        }
 
         # 設定 Timer，每 0.1 秒觸發一次定位計算
         self.timer = self.create_timer(0.1, self.timer_callback)

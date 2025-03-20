@@ -26,7 +26,13 @@ from ultralytics import YOLO
 ###############################################################################
 # 請換成你自己訓練好的 YOLOv8 權重檔
 ###############################################################################
-MODEL_PATH = "./src/track/track/best.pt"
+
+# MODEL_PATH = "./src/track/track/best_old_l.pt"        #40
+# MODEL_PATH = "./src/track/track/best_new_l.pt"        #40-43
+# MODEL_PATH = "./src/track/track/best_new_m.pt"        #53
+# MODEL_PATH = "./src/track/track/best_old_l.engine"    #58-60
+MODEL_PATH = "./src/track/track/best_new_l.engine"    #60-63
+# MODEL_PATH = "./src/track/track/best_new_m.engine"    #76-80
 a=0
 
 
@@ -67,7 +73,9 @@ class PeopleTrackNode(Node):
         self.get_logger().info('people_track node is up and running!')
 
         # ------------ YOLO 模型 -------------
-        self.model = YOLO(MODEL_PATH,task = 'detect').to('cuda')
+        # self.model = YOLO(MODEL_PATH,task = 'detect').to('cuda')
+        self.model = YOLO(MODEL_PATH)   
+
         print(f"running at: {self.model.device}")
         time.sleep(3)
 
@@ -77,7 +85,6 @@ class PeopleTrackNode(Node):
         # ------------ 副執行緒 -------------
         self.yolo_thread = threading.Thread(target=self.yolo_track, daemon=True)
         self.yolo_thread.start()
-
 
     def publish_annotated_image(self, frame):
         if frame is not None:
@@ -126,12 +133,6 @@ class PeopleTrackNode(Node):
             return 0
         return int(dval) 
 
-    def reset_realsense_devices(self):
-        ctx = rs.context()
-        for device in ctx.query_devices():
-            self.get_logger().info(f"Resetting device: {device.get_info(rs.camera_info.name)}")
-            device.hardware_reset()
-
     def yolo_track(self):
         tracker = BYTETracker(self.tracker_args)
         msg = Int32MultiArray()
@@ -139,10 +140,22 @@ class PeopleTrackNode(Node):
         use_realsense = False
         if self.tracker_args.realsense:
             use_realsense = True
+
         elif self.tracker_args.video_path:
-            cap = cv2.VideoCapture(self.tracker_args.video_path)
+            # 假設影片目錄包含 color.mp4 (RGB 影片) 和 depth.mp4 (深度影片)
+            color_video_path = os.path.join(self.tracker_args.video_path, "color_video.mp4")
+            depth_video_path = os.path.join(self.tracker_args.video_path, "depth_video.mp4")
+
+            if os.path.exists(color_video_path) and os.path.exists(depth_video_path):
+                cap_color = cv2.VideoCapture(color_video_path)
+                cap_depth = cv2.VideoCapture(depth_video_path) 
+            else:
+                self.get_logger().error(f"Cannot find video files in {self.tracker_args.video_path}")
+                return
+            
         else:
-            cap = cv2.VideoCapture(0)
+            cap_color = cv2.VideoCapture(0)
+            cap_depth = None  # 網路攝影機沒有深度影像s
 
         # fps counter
         last_print_fps = 0
@@ -155,6 +168,7 @@ class PeopleTrackNode(Node):
             if time.time() - last_print_fps >= 1.0:
                 self.get_logger().warn(f"Actual FPS: {frame_count}")
                 last_print_fps = time.time()
+                a = frame_count
                 frame_count = 0
             frame_count += 1
             ## camera
@@ -175,20 +189,12 @@ class PeopleTrackNode(Node):
             self.get_logger().info(f"camera time: {int((time.time() - start_time)*1000)}")
             ## inference
             start_time = time.time()
-            results = self.model(frame)
+            results = self.model(frame,verbose=True)
             detections = results[0].boxes.xyxy
             scores = results[0].boxes.conf
             self.get_logger().info(f"inference time: {int((time.time() - start_time)*1000)}")
             ## post process
             start_time = time.time()
-            # if len(detections) == 0:
-            #     self.has_detection = False
-            #     cv2.imshow("YOLOv8 Tracking", frame)
-            #     if cv2.waitKey(1) & 0xFF == ord('q'):
-            #         break
-            #     continue
-            # else:
-            #     self.has_detection = True
 
             dets = torch.cat([
                 detections[:, 0].unsqueeze(1),
@@ -237,6 +243,8 @@ class PeopleTrackNode(Node):
                                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
                         cv2.putText(frame, f"Depth: {self.depth_value}", (self.x1, self.y2 + 15),
                                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
+                        cv2.putText(frame, f"fps: {a}", (self.x1, self.y2 - 20) 
+                                    ,cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
 
             self.publish_annotated_image(frame)
             cv2.imshow("YOLOv8 Tracking", frame)

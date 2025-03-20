@@ -20,8 +20,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'receiver = uwb_nls.uwb_receiver:main',
+            #'filter_ransac = uwb_nls.uwb_ransac_filter:main',
+            'first_filter = uwb_nls.uwb_filter:main',
             'position_nls = uwb_nls.position_nls:main',
-            'filter_node_nls = uwb_nls.uwb_last_filter_nls:main',
+            'last_filter_nls = uwb_nls.uwb_last_filter_nls:main',
             'visualization_all = uwb_nls.uwb_visualization:main',
         ],
     },
