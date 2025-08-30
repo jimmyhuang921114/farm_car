@@ -1,0 +1,28 @@
+[3.287s] Invoking command in '/workspace/src/ultrasonic': PYTHONPATH=/workspace/build/ultrasonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/ultrasonic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ultrasonic build --build-base /workspace/build/ultrasonic/build install --record /workspace/build/ultrasonic/install.log --single-version-externally-managed install_data
+[3.361s] /usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[3.361s]   warnings.warn(
+[3.683s] /usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'
+[3.683s]   warnings.warn(msg)
+[3.936s] running egg_info
+[3.983s] writing ../../build/ultrasonic/ultrasonic.egg-info/PKG-INFO
+[3.994s] writing dependency_links to ../../build/ultrasonic/ultrasonic.egg-info/dependency_links.txt
+[3.995s] writing entry points to ../../build/ultrasonic/ultrasonic.egg-info/entry_points.txt
+[3.995s] writing requirements to ../../build/ultrasonic/ultrasonic.egg-info/requires.txt
+[3.995s] writing top-level names to ../../build/ultrasonic/ultrasonic.egg-info/top_level.txt
+[4.061s] reading manifest file '../../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'
+[4.064s] writing manifest file '../../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'
+[4.064s] running build
+[4.064s] running build_py
+[4.065s] running install
+[4.066s] running install_lib
+[4.108s] running install_data
+[4.109s] running install_egg_info
+[4.155s] removing '/workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic-0.0.0-py3.10.egg-info' (and everything under it)
+[4.155s] Copying ../../build/ultrasonic/ultrasonic.egg-info to /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic-0.0.0-py3.10.egg-info
+[4.156s] running install_scripts
+[4.243s] Installing checker script to /workspace/install/ultrasonic/lib/ultrasonic
+[4.243s] Installing obstacle script to /workspace/install/ultrasonic/lib/ultrasonic
+[4.244s] Installing receiver script to /workspace/install/ultrasonic/lib/ultrasonic
+[4.244s] Installing visualizer script to /workspace/install/ultrasonic/lib/ultrasonic
+[4.245s] writing list of installed files to '/workspace/build/ultrasonic/install.log'
+[4.337s] Invoked command in '/workspace/src/ultrasonic' returned '0': PYTHONPATH=/workspace/build/ultrasonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/ultrasonic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ultrasonic build --build-base /workspace/build/ultrasonic/build install --record /workspace/build/ultrasonic/install.log --single-version-externally-managed install_data

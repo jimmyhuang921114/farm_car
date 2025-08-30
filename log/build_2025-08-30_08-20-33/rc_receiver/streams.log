@@ -1,0 +1,26 @@
+[1.995s] Invoking command in '/workspace/src/motor_control/rc_receiver': LD_LIBRARY_PATH=/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64 PYTHONPATH=/workspace/build/rc_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/rc_receiver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rc_receiver build --build-base /workspace/build/rc_receiver/build install --record /workspace/build/rc_receiver/install.log --single-version-externally-managed install_data
+[2.057s] /usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[2.057s]   warnings.warn(
+[2.365s] /usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'
+[2.365s]   warnings.warn(msg)
+[2.590s] running egg_info
+[2.627s] writing ../../../build/rc_receiver/rc_receiver.egg-info/PKG-INFO
+[2.628s] writing dependency_links to ../../../build/rc_receiver/rc_receiver.egg-info/dependency_links.txt
+[2.628s] writing entry points to ../../../build/rc_receiver/rc_receiver.egg-info/entry_points.txt
+[2.629s] writing requirements to ../../../build/rc_receiver/rc_receiver.egg-info/requires.txt
+[2.629s] writing top-level names to ../../../build/rc_receiver/rc_receiver.egg-info/top_level.txt
+[2.704s] reading manifest file '../../../build/rc_receiver/rc_receiver.egg-info/SOURCES.txt'
+[2.705s] adding license file 'LICENSE'
+[2.707s] writing manifest file '../../../build/rc_receiver/rc_receiver.egg-info/SOURCES.txt'
+[2.707s] running build
+[2.708s] running build_py
+[2.708s] running install
+[2.709s] running install_lib
+[2.748s] running install_data
+[2.749s] running install_egg_info
+[2.785s] removing '/workspace/install/rc_receiver/lib/python3.10/site-packages/rc_receiver-0.0.0-py3.10.egg-info' (and everything under it)
+[2.786s] Copying ../../../build/rc_receiver/rc_receiver.egg-info to /workspace/install/rc_receiver/lib/python3.10/site-packages/rc_receiver-0.0.0-py3.10.egg-info
+[2.788s] running install_scripts
+[2.864s] Installing rc_receiver script to /workspace/install/rc_receiver/lib/rc_receiver
+[2.866s] writing list of installed files to '/workspace/build/rc_receiver/install.log'
+[2.928s] Invoked command in '/workspace/src/motor_control/rc_receiver' returned '0': LD_LIBRARY_PATH=/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64 PYTHONPATH=/workspace/build/rc_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/rc_receiver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rc_receiver build --build-base /workspace/build/rc_receiver/build install --record /workspace/build/rc_receiver/install.log --single-version-externally-managed install_data

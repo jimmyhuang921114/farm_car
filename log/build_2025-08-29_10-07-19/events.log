@@ -1,0 +1,1072 @@
+[0.000000] (-) TimerEvent: {}
+[0.000857] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.000985] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.001451] (motor_if) JobQueued: {'identifier': 'motor_if', 'dependencies': OrderedDict()}
+[0.001555] (obs_filiter) JobQueued: {'identifier': 'obs_filiter', 'dependencies': OrderedDict()}
+[0.001635] (pixhawk_control) JobQueued: {'identifier': 'pixhawk_control', 'dependencies': OrderedDict()}
+[0.001708] (rc_receiver_if) JobQueued: {'identifier': 'rc_receiver_if', 'dependencies': OrderedDict()}
+[0.001776] (record) JobQueued: {'identifier': 'record', 'dependencies': OrderedDict()}
+[0.001841] (track) JobQueued: {'identifier': 'track', 'dependencies': OrderedDict()}
+[0.001905] (ultrasonic) JobQueued: {'identifier': 'ultrasonic', 'dependencies': OrderedDict()}
+[0.001972] (uwb_nls) JobQueued: {'identifier': 'uwb_nls', 'dependencies': OrderedDict()}
+[0.002035] (visualization) JobQueued: {'identifier': 'visualization', 'dependencies': OrderedDict()}
+[0.002098] (rc_receiver) JobQueued: {'identifier': 'rc_receiver', 'dependencies': OrderedDict([('rc_receiver_if', '/workspace/install/rc_receiver_if')])}
+[0.002180] (rc_receiver_if) JobStarted: {'identifier': 'rc_receiver_if'}
+[0.037132] (camera) JobStarted: {'identifier': 'camera'}
+[0.081389] (motor) JobStarted: {'identifier': 'motor'}
+[0.098090] (-) TimerEvent: {}
+[0.102064] (motor_if) JobStarted: {'identifier': 'motor_if'}
+[0.122910] (obs_filiter) JobStarted: {'identifier': 'obs_filiter'}
+[0.157371] (pixhawk_control) JobStarted: {'identifier': 'pixhawk_control'}
+[0.193733] (record) JobStarted: {'identifier': 'record'}
+[0.198440] (-) TimerEvent: {}
+[0.219790] (track) JobStarted: {'identifier': 'track'}
+[0.254721] (rc_receiver_if) JobProgress: {'identifier': 'rc_receiver_if', 'progress': 'cmake'}
+[0.255284] (rc_receiver_if) JobProgress: {'identifier': 'rc_receiver_if', 'progress': 'build'}
+[0.256728] (rc_receiver_if) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/workspace/build/rc_receiver_if', '--', '-j8', '-l8'], 'cwd': '/workspace/build/rc_receiver_if', 'env': OrderedDict([('TWINE_PASSWORD', 'NvidiaJetson24'), ('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONFAULTHANDLER', '1'), ('CUDACXX', '/usr/local/cuda/bin/nvcc'), ('PYTHONIOENCODING', 'utf-8'), ('PIP_ROOT_USER_ACTION', 'ignore'), ('LANGUAGE', 'en_US:en'), ('PIP_TRUSTED_HOST', 'jetson.webredirect.org'), ('PIP_DEFAULT_TIMEOUT', '100'), ('PYTHONHASHSEED', 'random'), ('HOSTNAME', 'ubuntu'), ('TWINE_REPOSITORY_URL', 'http://jao-51/jp6/cu126'), ('TAR_INDEX_URL', 'http://jetson.webredirect.org:8000/jp6/cu126'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:'), ('HOME', '/home/work'), ('OLDPWD', '/home/work'), ('CMAKE_CUDA_COMPILER', '/usr/local/cuda/bin/nvcc'), ('TORCH_NVCC_FLAGS', '-Xfatbin -compress-all'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_TOOLKIT_ROOT_DIR', '/usr/local/cuda'), ('CUDA_NVCC_EXECUTABLE', '/usr/local/cuda/bin/nvcc'), ('CUDNN_LIB_PATH', '/usr/lib/aarch64-linux-gnu'), ('CUDAARCHS', '87'), ('PIP_CACHE_PURGE', 'true'), ('COLCON_PREFIX_PATH', '/workspace/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('RS_VER', 'v2.56.5'), ('SCP_UPLOAD_PASS', 'nvidia'), ('PIP_DISABLE_PIP_VERSION_CHECK', 'on'), ('CUDA_ARCHITECTURES', '87'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('TWINE_USERNAME', 'jp6'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PIP_INDEX_URL', 'https://pypi.org/simple'), ('PIP_NO_CACHE_DIR', 'off'), ('DISPLAY', ':1'), ('SCP_UPLOAD_USER', 'nvidia'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XAUTHORITY', '/home/work/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('SCP_UPLOAD_URL', 'jao-51:/dist/jp6/cu126'), ('AMENT_PREFIX_PATH', '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install'), ('TWINE_NON_INTERACTIVE', '1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PYTHON_VERSION', '3.10'), ('OPENCV_VERSION', '4.10.0'), ('SETUPTOOLS_USE_DISTUTILS', 'stdlib'), ('NVCC_PATH', '/usr/local/cuda/bin/nvcc'), ('OPENCV_URL', ''), ('PWD', '/workspace/build/rc_receiver_if'), ('LC_ALL', 'C.UTF-8'), ('CUDA_HOME', '/usr/local/cuda'), ('CUDNN_LIB_INCLUDE_PATH', '/usr/include'), ('PYTHONPATH', '/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('PIP_EXTRA_INDEX_URL', ''), ('COLCON', '1'), ('CUDA_BIN_PATH', '/usr/local/cuda/bin'), ('CMAKE_PREFIX_PATH', '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera')]), 'shell': False}
+[0.298615] (-) TimerEvent: {}
+[0.399580] (-) TimerEvent: {}
+[0.500342] (-) TimerEvent: {}
+[0.605492] (-) TimerEvent: {}
+[0.713413] (-) TimerEvent: {}
+[0.825660] (-) TimerEvent: {}
+[0.929299] (-) TimerEvent: {}
+[1.033376] (-) TimerEvent: {}
+[1.134167] (-) TimerEvent: {}
+[1.237394] (-) TimerEvent: {}
+[1.338112] (-) TimerEvent: {}
+[1.438872] (-) TimerEvent: {}
+[1.517839] (motor_if) JobProgress: {'identifier': 'motor_if', 'progress': 'cmake'}
+[1.519473] (motor_if) JobProgress: {'identifier': 'motor_if', 'progress': 'build'}
+[1.520062] (motor_if) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/workspace/build/motor_if', '--', '-j8', '-l8'], 'cwd': '/workspace/build/motor_if', 'env': OrderedDict([('TWINE_PASSWORD', 'NvidiaJetson24'), ('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONFAULTHANDLER', '1'), ('CUDACXX', '/usr/local/cuda/bin/nvcc'), ('PYTHONIOENCODING', 'utf-8'), ('PIP_ROOT_USER_ACTION', 'ignore'), ('LANGUAGE', 'en_US:en'), ('PIP_TRUSTED_HOST', 'jetson.webredirect.org'), ('PIP_DEFAULT_TIMEOUT', '100'), ('PYTHONHASHSEED', 'random'), ('HOSTNAME', 'ubuntu'), ('TWINE_REPOSITORY_URL', 'http://jao-51/jp6/cu126'), ('TAR_INDEX_URL', 'http://jetson.webredirect.org:8000/jp6/cu126'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:'), ('HOME', '/home/work'), ('OLDPWD', '/home/work'), ('CMAKE_CUDA_COMPILER', '/usr/local/cuda/bin/nvcc'), ('TORCH_NVCC_FLAGS', '-Xfatbin -compress-all'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_TOOLKIT_ROOT_DIR', '/usr/local/cuda'), ('CUDA_NVCC_EXECUTABLE', '/usr/local/cuda/bin/nvcc'), ('CUDNN_LIB_PATH', '/usr/lib/aarch64-linux-gnu'), ('CUDAARCHS', '87'), ('PIP_CACHE_PURGE', 'true'), ('COLCON_PREFIX_PATH', '/workspace/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('RS_VER', 'v2.56.5'), ('SCP_UPLOAD_PASS', 'nvidia'), ('PIP_DISABLE_PIP_VERSION_CHECK', 'on'), ('CUDA_ARCHITECTURES', '87'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('TWINE_USERNAME', 'jp6'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PIP_INDEX_URL', 'https://pypi.org/simple'), ('PIP_NO_CACHE_DIR', 'off'), ('DISPLAY', ':1'), ('SCP_UPLOAD_USER', 'nvidia'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XAUTHORITY', '/home/work/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('SCP_UPLOAD_URL', 'jao-51:/dist/jp6/cu126'), ('AMENT_PREFIX_PATH', '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install'), ('TWINE_NON_INTERACTIVE', '1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PYTHON_VERSION', '3.10'), ('OPENCV_VERSION', '4.10.0'), ('SETUPTOOLS_USE_DISTUTILS', 'stdlib'), ('NVCC_PATH', '/usr/local/cuda/bin/nvcc'), ('OPENCV_URL', ''), ('PWD', '/workspace/build/motor_if'), ('LC_ALL', 'C.UTF-8'), ('CUDA_HOME', '/usr/local/cuda'), ('CUDNN_LIB_INCLUDE_PATH', '/usr/include'), ('PYTHONPATH', '/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('PIP_EXTRA_INDEX_URL', ''), ('COLCON', '1'), ('CUDA_BIN_PATH', '/usr/local/cuda/bin'), ('CMAKE_PREFIX_PATH', '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera')]), 'shell': False}
+[1.526255] (obs_filiter) JobProgress: {'identifier': 'obs_filiter', 'progress': 'cmake'}
+[1.528858] (obs_filiter) JobProgress: {'identifier': 'obs_filiter', 'progress': 'build'}
+[1.529984] (obs_filiter) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/workspace/build/obs_filiter', '--', '-j8', '-l8'], 'cwd': '/workspace/build/obs_filiter', 'env': OrderedDict([('TWINE_PASSWORD', 'NvidiaJetson24'), ('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONFAULTHANDLER', '1'), ('CUDACXX', '/usr/local/cuda/bin/nvcc'), ('PYTHONIOENCODING', 'utf-8'), ('PIP_ROOT_USER_ACTION', 'ignore'), ('LANGUAGE', 'en_US:en'), ('PIP_TRUSTED_HOST', 'jetson.webredirect.org'), ('PIP_DEFAULT_TIMEOUT', '100'), ('PYTHONHASHSEED', 'random'), ('HOSTNAME', 'ubuntu'), ('TWINE_REPOSITORY_URL', 'http://jao-51/jp6/cu126'), ('TAR_INDEX_URL', 'http://jetson.webredirect.org:8000/jp6/cu126'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:'), ('HOME', '/home/work'), ('OLDPWD', '/home/work'), ('CMAKE_CUDA_COMPILER', '/usr/local/cuda/bin/nvcc'), ('TORCH_NVCC_FLAGS', '-Xfatbin -compress-all'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_TOOLKIT_ROOT_DIR', '/usr/local/cuda'), ('CUDA_NVCC_EXECUTABLE', '/usr/local/cuda/bin/nvcc'), ('CUDNN_LIB_PATH', '/usr/lib/aarch64-linux-gnu'), ('CUDAARCHS', '87'), ('PIP_CACHE_PURGE', 'true'), ('COLCON_PREFIX_PATH', '/workspace/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('RS_VER', 'v2.56.5'), ('SCP_UPLOAD_PASS', 'nvidia'), ('PIP_DISABLE_PIP_VERSION_CHECK', 'on'), ('CUDA_ARCHITECTURES', '87'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('TWINE_USERNAME', 'jp6'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PIP_INDEX_URL', 'https://pypi.org/simple'), ('PIP_NO_CACHE_DIR', 'off'), ('DISPLAY', ':1'), ('SCP_UPLOAD_USER', 'nvidia'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XAUTHORITY', '/home/work/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('SCP_UPLOAD_URL', 'jao-51:/dist/jp6/cu126'), ('AMENT_PREFIX_PATH', '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install'), ('TWINE_NON_INTERACTIVE', '1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PYTHON_VERSION', '3.10'), ('OPENCV_VERSION', '4.10.0'), ('SETUPTOOLS_USE_DISTUTILS', 'stdlib'), ('NVCC_PATH', '/usr/local/cuda/bin/nvcc'), ('OPENCV_URL', ''), ('PWD', '/workspace/build/obs_filiter'), ('LC_ALL', 'C.UTF-8'), ('CUDA_HOME', '/usr/local/cuda'), ('CUDNN_LIB_INCLUDE_PATH', '/usr/include'), ('PYTHONPATH', '/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('PIP_EXTRA_INDEX_URL', ''), ('COLCON', '1'), ('CUDA_BIN_PATH', '/usr/local/cuda/bin'), ('CMAKE_PREFIX_PATH', '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera')]), 'shell': False}
+[1.539023] (-) TimerEvent: {}
+[1.641480] (-) TimerEvent: {}
+[1.745403] (-) TimerEvent: {}
+[1.849416] (-) TimerEvent: {}
+[1.951926] (-) TimerEvent: {}
+[2.052676] (-) TimerEvent: {}
+[2.157604] (-) TimerEvent: {}
+[2.258273] (-) TimerEvent: {}
+[2.359035] (-) TimerEvent: {}
+[2.459767] (-) TimerEvent: {}
+[2.561397] (-) TimerEvent: {}
+[2.662126] (-) TimerEvent: {}
+[2.763858] (-) TimerEvent: {}
+[2.779973] (rc_receiver_if) StdoutLine: {'line': b'[  3%] Built target rc_receiver_if__cpp\n'}
+[2.780583] (rc_receiver_if) StdoutLine: {'line': b'[ 12%] Built target rc_receiver_if__rosidl_generator_c\n'}
+[2.780776] (rc_receiver_if) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_rc_receiver_if\n'}
+[2.780936] (rc_receiver_if) StdoutLine: {'line': b'[ 22%] Built target rc_receiver_if__rosidl_typesupport_fastrtps_cpp\n'}
+[2.781085] (rc_receiver_if) StdoutLine: {'line': b'[ 32%] Built target rc_receiver_if__rosidl_typesupport_cpp\n'}
+[2.781225] (rc_receiver_if) StdoutLine: {'line': b'[ 41%] Built target rc_receiver_if__rosidl_typesupport_introspection_cpp\n'}
+[2.783607] (rc_receiver_if) StdoutLine: {'line': b'[ 51%] Built target rc_receiver_if__rosidl_typesupport_c\n'}
+[2.783789] (rc_receiver_if) StdoutLine: {'line': b'[ 61%] Built target rc_receiver_if__rosidl_typesupport_introspection_c\n'}
+[2.783931] (rc_receiver_if) StdoutLine: {'line': b'[ 70%] Built target rc_receiver_if__rosidl_typesupport_fastrtps_c\n'}
+[2.784066] (rc_receiver_if) StdoutLine: {'line': b'[ 70%] Built target rc_receiver_if\n'}
+[2.784197] (rc_receiver_if) StdoutLine: {'line': b'[ 74%] Built target rc_receiver_if__py\n'}
+[2.784326] (rc_receiver_if) StdoutLine: {'line': b'[ 80%] Built target rc_receiver_if__rosidl_generator_py\n'}
+[2.784454] (rc_receiver_if) StdoutLine: {'line': b'[ 87%] Built target rc_receiver_if__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.784864] (rc_receiver_if) StdoutLine: {'line': b'[ 93%] Built target rc_receiver_if__rosidl_typesupport_introspection_c__pyext\n'}
+[2.785049] (rc_receiver_if) StdoutLine: {'line': b'[100%] Built target rc_receiver_if__rosidl_typesupport_c__pyext\n'}
+[2.785204] (rc_receiver_if) StdoutLine: {'line': b'running egg_info\n'}
+[2.785391] (rc_receiver_if) StdoutLine: {'line': b'writing rc_receiver_if.egg-info/PKG-INFO\n'}
+[2.785529] (rc_receiver_if) StdoutLine: {'line': b'writing dependency_links to rc_receiver_if.egg-info/dependency_links.txt\n'}
+[2.785661] (rc_receiver_if) StdoutLine: {'line': b'writing top-level names to rc_receiver_if.egg-info/top_level.txt\n'}
+[2.785788] (rc_receiver_if) StdoutLine: {'line': b"reading manifest file 'rc_receiver_if.egg-info/SOURCES.txt'\n"}
+[2.785914] (rc_receiver_if) StdoutLine: {'line': b"writing manifest file 'rc_receiver_if.egg-info/SOURCES.txt'\n"}
+[2.786044] (rc_receiver_if) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rc_receiver_if_egg\n'}
+[2.787027] (rc_receiver_if) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml\n'}
+[2.787308] (rc_receiver_if) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.790417] (motor_if) StdoutLine: {'line': b'[  3%] Built target motor_if__cpp\n'}
+[2.791264] (motor_if) StdoutLine: {'line': b'[ 12%] Built target motor_if__rosidl_generator_c\n'}
+[2.791451] (motor_if) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_motor_if\n'}
+[2.791606] (motor_if) StdoutLine: {'line': b'[ 22%] Built target motor_if__rosidl_typesupport_introspection_cpp\n'}
+[2.791753] (motor_if) StdoutLine: {'line': b'[ 41%] Built target motor_if__rosidl_typesupport_fastrtps_cpp\n'}
+[2.791916] (motor_if) StdoutLine: {'line': b'[ 41%] Built target motor_if__rosidl_typesupport_c\n'}
+[2.792055] (motor_if) StdoutLine: {'line': b'[ 51%] Built target motor_if__rosidl_typesupport_cpp\n'}
+[2.792188] (motor_if) StdoutLine: {'line': b'[ 61%] Built target motor_if__rosidl_typesupport_fastrtps_c\n'}
+[2.792320] (motor_if) StdoutLine: {'line': b'[ 70%] Built target motor_if__rosidl_typesupport_introspection_c\n'}
+[2.792450] (motor_if) StdoutLine: {'line': b'[ 70%] Built target motor_if\n'}
+[2.792580] (motor_if) StdoutLine: {'line': b'[ 74%] Built target motor_if__py\n'}
+[2.792708] (motor_if) StdoutLine: {'line': b'[ 80%] Built target motor_if__rosidl_generator_py\n'}
+[2.792842] (motor_if) StdoutLine: {'line': b'[ 93%] Built target motor_if__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.792976] (motor_if) StdoutLine: {'line': b'[ 93%] Built target motor_if__rosidl_typesupport_introspection_c__pyext\n'}
+[2.793105] (motor_if) StdoutLine: {'line': b'[100%] Built target motor_if__rosidl_typesupport_c__pyext\n'}
+[2.793233] (motor_if) StdoutLine: {'line': b'running egg_info\n'}
+[2.793400] (motor_if) StdoutLine: {'line': b'writing motor_if.egg-info/PKG-INFO\n'}
+[2.793539] (motor_if) StdoutLine: {'line': b'writing dependency_links to motor_if.egg-info/dependency_links.txt\n'}
+[2.793667] (motor_if) StdoutLine: {'line': b'writing top-level names to motor_if.egg-info/top_level.txt\n'}
+[2.797806] (motor_if) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml\n'}
+[2.798219] (motor_if) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.805870] (obs_filiter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[2.806302] (obs_filiter) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/install/share/rclcpp/cmake)\n'}
+[2.806474] (obs_filiter) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[2.809395] (obs_filiter) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[2.828503] (motor_if) StdoutLine: {'line': b"reading manifest file 'motor_if.egg-info/SOURCES.txt'\n"}
+[2.831090] (motor_if) StdoutLine: {'line': b"writing manifest file 'motor_if.egg-info/SOURCES.txt'\n"}
+[2.857534] (obs_filiter) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[2.864191] (-) TimerEvent: {}
+[2.943435] (motor_if) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_motor_if_egg\n'}
+[2.950271] (obs_filiter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.964343] (-) TimerEvent: {}
+[2.998660] (obs_filiter) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.064684] (-) TimerEvent: {}
+[3.113176] (obs_filiter) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)\n'}
+[3.119824] (obs_filiter) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.165384] (-) TimerEvent: {}
+[3.266233] (-) TimerEvent: {}
+[3.367627] (-) TimerEvent: {}
+[3.402318] (rc_receiver_if) CommandEnded: {'returncode': 0}
+[3.460190] (motor_if) CommandEnded: {'returncode': 0}
+[3.468521] (-) TimerEvent: {}
+[3.483003] (obs_filiter) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.569394] (-) TimerEvent: {}
+[3.670192] (-) TimerEvent: {}
+[3.774405] (-) TimerEvent: {}
+[3.812677] (obs_filiter) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/install/share/sensor_msgs/cmake)\n'}
+[3.874580] (-) TimerEvent: {}
+[3.954116] (obs_filiter) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/install/share/cv_bridge/cmake)\n'}
+[3.974707] (-) TimerEvent: {}
+[3.993287] (obs_filiter) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):\n'}
+[3.993830] (obs_filiter) StderrLine: {'line': b'  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake\n'}
+[3.994203] (obs_filiter) StderrLine: {'line': b'  --help-policy CMP0146" for policy details.  Use the cmake_policy command to\n'}
+[3.994431] (obs_filiter) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[3.994591] (obs_filiter) StderrLine: {'line': b'\n'}
+[3.994735] (obs_filiter) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.994873] (obs_filiter) StderrLine: {'line': b'  /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)\n'}
+[3.995005] (obs_filiter) StderrLine: {'line': b'  /opt/ros/humble/install/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[3.995137] (obs_filiter) StderrLine: {'line': b'  /opt/ros/humble/install/share/cv_bridge/cmake/cv_bridgeConfig.cmake:41 (include)\n'}
+[3.995263] (obs_filiter) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[3.995392] (obs_filiter) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.995518] (obs_filiter) StderrLine: {'line': b'\x1b[0m\n'}
+[4.083811] (-) TimerEvent: {}
+[4.184479] (-) TimerEvent: {}
+[4.192251] (obs_filiter) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):\n'}
+[4.192762] (obs_filiter) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[4.192942] (obs_filiter) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[4.193092] (obs_filiter) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[4.193232] (obs_filiter) StderrLine: {'line': b'\n'}
+[4.193419] (obs_filiter) StderrLine: {'line': b'  CMake variable EIGEN_ROOT is set to:\n'}
+[4.193561] (obs_filiter) StderrLine: {'line': b'\n'}
+[4.193695] (obs_filiter) StderrLine: {'line': b'    /usr/include/eigen3\n'}
+[4.193826] (obs_filiter) StderrLine: {'line': b'\n'}
+[4.193948] (obs_filiter) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[4.194073] (obs_filiter) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[4.194196] (obs_filiter) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.194318] (obs_filiter) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)\n'}
+[4.194445] (obs_filiter) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[4.194571] (obs_filiter) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[4.194694] (obs_filiter) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.194818] (obs_filiter) StderrLine: {'line': b'\x1b[0m\n'}
+[4.231178] (obs_filiter) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.233073] (obs_filiter) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):\n'}
+[4.233727] (obs_filiter) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[4.234070] (obs_filiter) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[4.234356] (obs_filiter) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[4.234608] (obs_filiter) StderrLine: {'line': b'\n'}
+[4.234867] (obs_filiter) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.235171] (obs_filiter) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)\n'}
+[4.235431] (obs_filiter) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[4.235686] (obs_filiter) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[4.235932] (obs_filiter) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.236251] (obs_filiter) StderrLine: {'line': b'\x1b[0m\n'}
+[4.286095] (-) TimerEvent: {}
+[4.337272] (motor_if) JobProgress: {'identifier': 'motor_if', 'progress': 'install'}
+[4.386259] (-) TimerEvent: {}
+[4.400757] (obs_filiter) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.428013] (obs_filiter) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.429791] (obs_filiter) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[4.430215] (obs_filiter) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to png will be disabled\x1b[0m\n'}
+[4.486426] (-) TimerEvent: {}
+[4.589620] (motor_if) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/workspace/build/motor_if'], 'cwd': '/workspace/build/motor_if', 'env': OrderedDict([('TWINE_PASSWORD', 'NvidiaJetson24'), ('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONFAULTHANDLER', '1'), ('CUDACXX', '/usr/local/cuda/bin/nvcc'), ('PYTHONIOENCODING', 'utf-8'), ('PIP_ROOT_USER_ACTION', 'ignore'), ('LANGUAGE', 'en_US:en'), ('PIP_TRUSTED_HOST', 'jetson.webredirect.org'), ('PIP_DEFAULT_TIMEOUT', '100'), ('PYTHONHASHSEED', 'random'), ('HOSTNAME', 'ubuntu'), ('TWINE_REPOSITORY_URL', 'http://jao-51/jp6/cu126'), ('TAR_INDEX_URL', 'http://jetson.webredirect.org:8000/jp6/cu126'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:'), ('HOME', '/home/work'), ('OLDPWD', '/home/work'), ('CMAKE_CUDA_COMPILER', '/usr/local/cuda/bin/nvcc'), ('TORCH_NVCC_FLAGS', '-Xfatbin -compress-all'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_TOOLKIT_ROOT_DIR', '/usr/local/cuda'), ('CUDA_NVCC_EXECUTABLE', '/usr/local/cuda/bin/nvcc'), ('CUDNN_LIB_PATH', '/usr/lib/aarch64-linux-gnu'), ('CUDAARCHS', '87'), ('PIP_CACHE_PURGE', 'true'), ('COLCON_PREFIX_PATH', '/workspace/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('RS_VER', 'v2.56.5'), ('SCP_UPLOAD_PASS', 'nvidia'), ('PIP_DISABLE_PIP_VERSION_CHECK', 'on'), ('CUDA_ARCHITECTURES', '87'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('TWINE_USERNAME', 'jp6'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PIP_INDEX_URL', 'https://pypi.org/simple'), ('PIP_NO_CACHE_DIR', 'off'), ('DISPLAY', ':1'), ('SCP_UPLOAD_USER', 'nvidia'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XAUTHORITY', '/home/work/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('SCP_UPLOAD_URL', 'jao-51:/dist/jp6/cu126'), ('AMENT_PREFIX_PATH', '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install'), ('TWINE_NON_INTERACTIVE', '1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PYTHON_VERSION', '3.10'), ('OPENCV_VERSION', '4.10.0'), ('SETUPTOOLS_USE_DISTUTILS', 'stdlib'), ('NVCC_PATH', '/usr/local/cuda/bin/nvcc'), ('OPENCV_URL', ''), ('PWD', '/workspace/build/motor_if'), ('LC_ALL', 'C.UTF-8'), ('CUDA_HOME', '/usr/local/cuda'), ('CUDNN_LIB_INCLUDE_PATH', '/usr/include'), ('PYTHONPATH', '/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('PIP_EXTRA_INDEX_URL', ''), ('COLCON', '1'), ('CUDA_BIN_PATH', '/usr/local/cuda/bin'), ('CMAKE_PREFIX_PATH', '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera')]), 'shell': False}
+[4.590944] (-) TimerEvent: {}
+[4.614151] (rc_receiver_if) JobProgress: {'identifier': 'rc_receiver_if', 'progress': 'install'}
+[4.614363] (rc_receiver_if) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/workspace/build/rc_receiver_if'], 'cwd': '/workspace/build/rc_receiver_if', 'env': OrderedDict([('TWINE_PASSWORD', 'NvidiaJetson24'), ('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONFAULTHANDLER', '1'), ('CUDACXX', '/usr/local/cuda/bin/nvcc'), ('PYTHONIOENCODING', 'utf-8'), ('PIP_ROOT_USER_ACTION', 'ignore'), ('LANGUAGE', 'en_US:en'), ('PIP_TRUSTED_HOST', 'jetson.webredirect.org'), ('PIP_DEFAULT_TIMEOUT', '100'), ('PYTHONHASHSEED', 'random'), ('HOSTNAME', 'ubuntu'), ('TWINE_REPOSITORY_URL', 'http://jao-51/jp6/cu126'), ('TAR_INDEX_URL', 'http://jetson.webredirect.org:8000/jp6/cu126'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:'), ('HOME', '/home/work'), ('OLDPWD', '/home/work'), ('CMAKE_CUDA_COMPILER', '/usr/local/cuda/bin/nvcc'), ('TORCH_NVCC_FLAGS', '-Xfatbin -compress-all'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_TOOLKIT_ROOT_DIR', '/usr/local/cuda'), ('CUDA_NVCC_EXECUTABLE', '/usr/local/cuda/bin/nvcc'), ('CUDNN_LIB_PATH', '/usr/lib/aarch64-linux-gnu'), ('CUDAARCHS', '87'), ('PIP_CACHE_PURGE', 'true'), ('COLCON_PREFIX_PATH', '/workspace/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('RS_VER', 'v2.56.5'), ('SCP_UPLOAD_PASS', 'nvidia'), ('PIP_DISABLE_PIP_VERSION_CHECK', 'on'), ('CUDA_ARCHITECTURES', '87'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('TWINE_USERNAME', 'jp6'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PIP_INDEX_URL', 'https://pypi.org/simple'), ('PIP_NO_CACHE_DIR', 'off'), ('DISPLAY', ':1'), ('SCP_UPLOAD_USER', 'nvidia'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XAUTHORITY', '/home/work/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('SCP_UPLOAD_URL', 'jao-51:/dist/jp6/cu126'), ('AMENT_PREFIX_PATH', '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install'), ('TWINE_NON_INTERACTIVE', '1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PYTHON_VERSION', '3.10'), ('OPENCV_VERSION', '4.10.0'), ('SETUPTOOLS_USE_DISTUTILS', 'stdlib'), ('NVCC_PATH', '/usr/local/cuda/bin/nvcc'), ('OPENCV_URL', ''), ('PWD', '/workspace/build/rc_receiver_if'), ('LC_ALL', 'C.UTF-8'), ('CUDA_HOME', '/usr/local/cuda'), ('CUDNN_LIB_INCLUDE_PATH', '/usr/include'), ('PYTHONPATH', '/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('PIP_EXTRA_INDEX_URL', ''), ('COLCON', '1'), ('CUDA_BIN_PATH', '/usr/local/cuda/bin'), ('CMAKE_PREFIX_PATH', '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera')]), 'shell': False}
+[4.691130] (-) TimerEvent: {}
+[4.808275] (-) TimerEvent: {}
+[4.847496] (motor_if) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.848086] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/ament_index/resource_index/rosidl_interfaces/motor_if\n'}
+[4.848486] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if\n'}
+[4.849568] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv\n'}
+[4.850273] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/motor_pos.h\n'}
+[4.850609] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail\n'}
+[4.851665] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__functions.c\n'}
+[4.852062] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__struct.h\n'}
+[4.852267] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__type_support.h\n'}
+[4.852421] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__functions.h\n'}
+[4.852563] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg\n'}
+[4.853888] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.854304] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/library_path.sh\n'}
+[4.858050] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/library_path.dsv\n'}
+[4.858661] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_generator_c.so\n'}
+[4.859022] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if\n'}
+[4.859351] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv\n'}
+[4.863286] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail\n'}
+[4.863868] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__rosidl_typesupport_fastrtps_c.h\n'}
+[4.864199] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg\n'}
+[4.865558] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.866177] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_fastrtps_c.so\n'}
+[4.883115] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if\n'}
+[4.890541] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv\n'}
+[4.892113] (rc_receiver_if) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.892520] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/ament_index/resource_index/rosidl_interfaces/rc_receiver_if\n'}
+[4.892716] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if\n'}
+[4.893308] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail\n'}
+[4.897464] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg\n'}
+[4.897964] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__rosidl_typesupport_introspection_c.h\n'}
+[4.898311] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__type_support.c\n'}
+[4.898502] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg\n'}
+[4.899837] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.900089] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail\n'}
+[4.901499] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__functions.c\n'}
+[4.901999] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__type_support.h\n'}
+[4.902214] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__struct.h\n'}
+[4.902413] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__functions.h\n'}
+[4.902560] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.902818] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_introspection_c.so\n'}
+[4.902991] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_c.so\n'}
+[4.903185] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if\n'}
+[4.908403] (-) TimerEvent: {}
+[4.909148] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv\n'}
+[4.909612] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/receiver_data.h\n'}
+[4.909962] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/library_path.sh\n'}
+[4.910147] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/library_path.dsv\n'}
+[4.910420] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_generator_c.so\n'}
+[4.910586] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if\n'}
+[4.913868] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail\n'}
+[4.914321] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg\n'}
+[4.917824] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail\n'}
+[4.918200] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__traits.hpp\n'}
+[4.918396] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__type_support.hpp\n'}
+[4.918548] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__struct.hpp\n'}
+[4.918686] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__builder.hpp\n'}
+[4.918819] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/motor_pos.hpp\n'}
+[4.918950] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg\n'}
+[4.921749] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.922147] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__rosidl_typesupport_fastrtps_c.h\n'}
+[4.922531] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.922839] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_typesupport_fastrtps_c.so\n'}
+[4.923013] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if\n'}
+[4.923164] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if\n'}
+[4.929742] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg\n'}
+[4.933568] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail\n'}
+[4.937684] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__rosidl_typesupport_introspection_c.h\n'}
+[4.943202] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__type_support.c\n'}
+[4.943703] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv\n'}
+[4.944404] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.944634] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_typesupport_introspection_c.so\n'}
+[4.944840] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_typesupport_c.so\n'}
+[4.944987] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if\n'}
+[4.947387] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg\n'}
+[4.947760] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail\n'}
+[4.948481] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/dds_fastrtps\n'}
+[4.949600] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.949863] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail\n'}
+[4.950037] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg\n'}
+[4.951110] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.952505] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.952770] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if\n'}
+[4.957582] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv\n'}
+[4.959413] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail\n'}
+[4.959742] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__type_support.cpp\n'}
+[4.960048] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.960282] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_introspection_cpp.so\n'}
+[4.960753] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_cpp.so\n'}
+[4.961044] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/pythonpath.sh\n'}
+[4.961298] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/pythonpath.dsv\n'}
+[4.961469] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info\n'}
+[4.961828] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__struct.hpp\n'}
+[4.962042] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__type_support.hpp\n'}
+[4.962191] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__traits.hpp\n'}
+[4.962330] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__builder.hpp\n'}
+[4.962588] (motor_if) StdoutLine: {'line': b'-- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.962753] (motor_if) StdoutLine: {'line': b'-- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.962887] (motor_if) StdoutLine: {'line': b'-- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.963033] (motor_if) StdoutLine: {'line': b'-- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.963169] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/receiver_data.hpp\n'}
+[4.963302] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.963431] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if\n'}
+[4.963749] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if\n'}
+[4.963909] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv\n'}
+[4.964043] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv/_motor_pos_s.c\n'}
+[4.964172] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv/_motor_pos.py\n'}
+[4.964298] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv/__init__.py\n'}
+[4.964423] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/_motor_if_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.964552] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.964716] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.964848] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.964989] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/libmotor_if__rosidl_generator_py.so\n'}
+[4.965143] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/_motor_if_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.965347] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/__init__.py\n'}
+[4.965503] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/_motor_if_s.ep.rosidl_typesupport_c.c\n'}
+[4.969653] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg\n'}
+[4.970151] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.970362] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail\n'}
+[4.973749] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.974170] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/dds_fastrtps\n'}
+[4.978786] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.979712] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if\n'}
+[4.980076] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg\n'}
+[4.980330] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail\n'}
+[4.980581] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__type_support.cpp\n'}
+[4.980749] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.981118] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_typesupport_introspection_cpp.so\n'}
+[4.981671] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_typesupport_cpp.so\n'}
+[4.981961] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/pythonpath.sh\n'}
+[4.982238] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/pythonpath.dsv\n'}
+[4.982408] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if-0.0.0-py3.10.egg-info\n'}
+[4.982555] (rc_receiver_if) StdoutLine: {'line': b'-- Installing: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.982792] (rc_receiver_if) StdoutLine: {'line': b'-- Installing: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.983074] (rc_receiver_if) StdoutLine: {'line': b'-- Installing: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.983337] (rc_receiver_if) StdoutLine: {'line': b'-- Installing: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.983771] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if\n'}
+[4.984143] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/_rc_receiver_if_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.984317] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/rc_receiver_if_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.984464] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/librc_receiver_if__rosidl_generator_py.so\n'}
+[4.984636] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/msg\n'}
+[4.984775] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/msg/_receiver_data.py\n'}
+[4.984909] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/msg/_receiver_data_s.c\n'}
+[4.985178] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/msg/__init__.py\n'}
+[4.985378] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/rc_receiver_if_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.985537] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/_rc_receiver_if_s.ep.rosidl_typesupport_c.c\n'}
+[4.985673] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/__init__.py\n'}
+[4.985805] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/_rc_receiver_if_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.985938] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/rc_receiver_if_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.010258] (-) TimerEvent: {}
+[5.111012] (-) TimerEvent: {}
+[5.155040] (motor_if) StdoutLine: {'line': b"Listing '/workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if'...\n"}
+[5.157646] (motor_if) StdoutLine: {'line': b"Listing '/workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv'...\n"}
+[5.183516] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.187220] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.188994] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.189230] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_generator_py.so\n'}
+[5.189421] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/srv/MotorPos.idl\n'}
+[5.189571] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/srv/MotorPos.srv\n'}
+[5.189709] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/srv/MotorPos_Request.msg\n'}
+[5.189844] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/srv/MotorPos_Response.msg\n'}
+[5.190038] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/ament_index/resource_index/package_run_dependencies/motor_if\n'}
+[5.190174] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/ament_index/resource_index/parent_prefix_path/motor_if\n'}
+[5.190305] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/ament_prefix_path.sh\n'}
+[5.190437] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/ament_prefix_path.dsv\n'}
+[5.190568] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/path.sh\n'}
+[5.190694] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/path.dsv\n'}
+[5.190819] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/local_setup.bash\n'}
+[5.190947] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/local_setup.sh\n'}
+[5.191074] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/local_setup.zsh\n'}
+[5.191200] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/local_setup.dsv\n'}
+[5.191325] (motor_if) StdoutLine: {'line': b'-- Installing: /workspace/install/motor_if/share/motor_if/package.dsv\n'}
+[5.191448] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/ament_index/resource_index/packages/motor_if\n'}
+[5.191571] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_cExport.cmake\n'}
+[5.191696] (rc_receiver_if) StdoutLine: {'line': b"Listing '/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if'...\n"}
+[5.191859] (rc_receiver_if) StdoutLine: {'line': b"Listing '/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/msg'...\n"}
+[5.192234] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.192418] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.192557] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.192736] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.198003] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.198203] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_cExport.cmake\n'}
+[5.198366] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.198518] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_cppExport.cmake\n'}
+[5.198659] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.198794] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.198972] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.199108] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.199236] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_cppExport.cmake\n'}
+[5.199403] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.199528] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_pyExport.cmake\n'}
+[5.199652] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.199778] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/rosidl_cmake-extras.cmake\n'}
+[5.200011] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.200165] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.200299] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.200431] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.200562] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.200690] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.200849] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_ifConfig.cmake\n'}
+[5.200983] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_ifConfig-version.cmake\n'}
+[5.201113] (motor_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/motor_if/share/motor_if/package.xml\n'}
+[5.211208] (-) TimerEvent: {}
+[5.214387] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/rc_receiver_if_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.215102] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/rc_receiver_if_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.219010] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/rc_receiver_if_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.219485] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_generator_py.so\n'}
+[5.220290] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/msg/ReceiverData.idl\n'}
+[5.220479] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/msg/ReceiverData.msg\n'}
+[5.220640] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/ament_index/resource_index/package_run_dependencies/rc_receiver_if\n'}
+[5.220944] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/ament_index/resource_index/parent_prefix_path/rc_receiver_if\n'}
+[5.221114] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/ament_prefix_path.sh\n'}
+[5.221280] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/ament_prefix_path.dsv\n'}
+[5.221552] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/path.sh\n'}
+[5.221741] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/path.dsv\n'}
+[5.221900] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/local_setup.bash\n'}
+[5.222047] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/local_setup.sh\n'}
+[5.222189] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/local_setup.zsh\n'}
+[5.222323] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/local_setup.dsv\n'}
+[5.222456] (rc_receiver_if) StdoutLine: {'line': b'-- Installing: /workspace/install/rc_receiver_if/share/rc_receiver_if/package.dsv\n'}
+[5.222589] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/ament_index/resource_index/packages/rc_receiver_if\n'}
+[5.222721] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_generator_cExport.cmake\n'}
+[5.222852] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.223021] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.223179] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.223310] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.223463] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.223590] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_cExport.cmake\n'}
+[5.223911] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.224141] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_generator_cppExport.cmake\n'}
+[5.224311] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.224445] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.224621] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.224778] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.224933] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_cppExport.cmake\n'}
+[5.229832] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.230385] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_generator_pyExport.cmake\n'}
+[5.230579] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.230734] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rosidl_cmake-extras.cmake\n'}
+[5.230884] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.231188] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.231361] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.231507] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.231644] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.231775] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.231967] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_ifConfig.cmake\n'}
+[5.232131] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_ifConfig-version.cmake\n'}
+[5.232292] (rc_receiver_if) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/package.xml\n'}
+[5.258499] (motor_if) CommandEnded: {'returncode': 0}
+[5.311697] (-) TimerEvent: {}
+[5.398638] (rc_receiver_if) CommandEnded: {'returncode': 0}
+[5.413722] (-) TimerEvent: {}
+[5.514595] (-) TimerEvent: {}
+[5.617129] (-) TimerEvent: {}
+[5.721370] (-) TimerEvent: {}
+[5.825404] (-) TimerEvent: {}
+[5.913726] (motor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/motor', 'build', '--build-base', '/workspace/build/motor/build', 'install', '--record', '/workspace/build/motor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/motor_control/motor', 'env': {'TWINE_PASSWORD': 'NvidiaJetson24', 'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONFAULTHANDLER': '1', 'CUDACXX': '/usr/local/cuda/bin/nvcc', 'PYTHONIOENCODING': 'utf-8', 'PIP_ROOT_USER_ACTION': 'ignore', 'LANGUAGE': 'en_US:en', 'PIP_TRUSTED_HOST': 'jetson.webredirect.org', 'PIP_DEFAULT_TIMEOUT': '100', 'PYTHONHASHSEED': 'random', 'HOSTNAME': 'ubuntu', 'TWINE_REPOSITORY_URL': 'http://jao-51/jp6/cu126', 'TAR_INDEX_URL': 'http://jetson.webredirect.org:8000/jp6/cu126', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:', 'HOME': '/home/work', 'OLDPWD': '/home/work', 'CMAKE_CUDA_COMPILER': '/usr/local/cuda/bin/nvcc', 'TORCH_NVCC_FLAGS': '-Xfatbin -compress-all', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'CUDA_TOOLKIT_ROOT_DIR': '/usr/local/cuda', 'CUDA_NVCC_EXECUTABLE': '/usr/local/cuda/bin/nvcc', 'CUDNN_LIB_PATH': '/usr/lib/aarch64-linux-gnu', 'CUDAARCHS': '87', 'PIP_CACHE_PURGE': 'true', 'COLCON_PREFIX_PATH': '/workspace/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', 'RS_VER': 'v2.56.5', 'SCP_UPLOAD_PASS': 'nvidia', 'PIP_DISABLE_PIP_VERSION_CHECK': 'on', 'CUDA_ARCHITECTURES': '87', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'TWINE_USERNAME': 'jp6', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PIP_INDEX_URL': 'https://pypi.org/simple', 'PIP_NO_CACHE_DIR': 'off', 'DISPLAY': ':1', 'SCP_UPLOAD_USER': 'nvidia', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XAUTHORITY': '/home/work/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'SCP_UPLOAD_URL': 'jao-51:/dist/jp6/cu126', 'AMENT_PREFIX_PATH': '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install', 'TWINE_NON_INTERACTIVE': '1', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PYTHON_VERSION': '3.10', 'OPENCV_VERSION': '4.10.0', 'SETUPTOOLS_USE_DISTUTILS': 'stdlib', 'NVCC_PATH': '/usr/local/cuda/bin/nvcc', 'OPENCV_URL': '', 'PWD': '/workspace/build/motor', 'LC_ALL': 'C.UTF-8', 'CUDA_HOME': '/usr/local/cuda', 'CUDNN_LIB_INCLUDE_PATH': '/usr/include', 'PYTHONPATH': '/workspace/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'PIP_EXTRA_INDEX_URL': '', 'COLCON': '1', 'CUDA_BIN_PATH': '/usr/local/cuda/bin', 'CMAKE_PREFIX_PATH': '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install'}, 'shell': False}
+[5.925534] (-) TimerEvent: {}
+[5.970962] (pixhawk_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pixhawk_control', 'build', '--build-base', '/workspace/build/pixhawk_control/build', 'install', '--record', '/workspace/build/pixhawk_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/pixhawk_control', 'env': {'TWINE_PASSWORD': 'NvidiaJetson24', 'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONFAULTHANDLER': '1', 'CUDACXX': '/usr/local/cuda/bin/nvcc', 'PYTHONIOENCODING': 'utf-8', 'PIP_ROOT_USER_ACTION': 'ignore', 'LANGUAGE': 'en_US:en', 'PIP_TRUSTED_HOST': 'jetson.webredirect.org', 'PIP_DEFAULT_TIMEOUT': '100', 'PYTHONHASHSEED': 'random', 'HOSTNAME': 'ubuntu', 'TWINE_REPOSITORY_URL': 'http://jao-51/jp6/cu126', 'TAR_INDEX_URL': 'http://jetson.webredirect.org:8000/jp6/cu126', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:', 'HOME': '/home/work', 'OLDPWD': '/home/work', 'CMAKE_CUDA_COMPILER': '/usr/local/cuda/bin/nvcc', 'TORCH_NVCC_FLAGS': '-Xfatbin -compress-all', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'CUDA_TOOLKIT_ROOT_DIR': '/usr/local/cuda', 'CUDA_NVCC_EXECUTABLE': '/usr/local/cuda/bin/nvcc', 'CUDNN_LIB_PATH': '/usr/lib/aarch64-linux-gnu', 'CUDAARCHS': '87', 'PIP_CACHE_PURGE': 'true', 'COLCON_PREFIX_PATH': '/workspace/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', 'RS_VER': 'v2.56.5', 'SCP_UPLOAD_PASS': 'nvidia', 'PIP_DISABLE_PIP_VERSION_CHECK': 'on', 'CUDA_ARCHITECTURES': '87', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'TWINE_USERNAME': 'jp6', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PIP_INDEX_URL': 'https://pypi.org/simple', 'PIP_NO_CACHE_DIR': 'off', 'DISPLAY': ':1', 'SCP_UPLOAD_USER': 'nvidia', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XAUTHORITY': '/home/work/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'SCP_UPLOAD_URL': 'jao-51:/dist/jp6/cu126', 'AMENT_PREFIX_PATH': '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install', 'TWINE_NON_INTERACTIVE': '1', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PYTHON_VERSION': '3.10', 'OPENCV_VERSION': '4.10.0', 'SETUPTOOLS_USE_DISTUTILS': 'stdlib', 'NVCC_PATH': '/usr/local/cuda/bin/nvcc', 'OPENCV_URL': '', 'PWD': '/workspace/build/pixhawk_control', 'LC_ALL': 'C.UTF-8', 'CUDA_HOME': '/usr/local/cuda', 'CUDNN_LIB_INCLUDE_PATH': '/usr/include', 'PYTHONPATH': '/workspace/build/pixhawk_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'PIP_EXTRA_INDEX_URL': '', 'COLCON': '1', 'CUDA_BIN_PATH': '/usr/local/cuda/bin', 'CMAKE_PREFIX_PATH': '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install'}, 'shell': False}
+[5.986173] (record) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/record', 'build', '--build-base', '/workspace/build/record/build', 'install', '--record', '/workspace/build/record/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/record', 'env': {'TWINE_PASSWORD': 'NvidiaJetson24', 'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONFAULTHANDLER': '1', 'CUDACXX': '/usr/local/cuda/bin/nvcc', 'PYTHONIOENCODING': 'utf-8', 'PIP_ROOT_USER_ACTION': 'ignore', 'LANGUAGE': 'en_US:en', 'PIP_TRUSTED_HOST': 'jetson.webredirect.org', 'PIP_DEFAULT_TIMEOUT': '100', 'PYTHONHASHSEED': 'random', 'HOSTNAME': 'ubuntu', 'TWINE_REPOSITORY_URL': 'http://jao-51/jp6/cu126', 'TAR_INDEX_URL': 'http://jetson.webredirect.org:8000/jp6/cu126', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:', 'HOME': '/home/work', 'OLDPWD': '/home/work', 'CMAKE_CUDA_COMPILER': '/usr/local/cuda/bin/nvcc', 'TORCH_NVCC_FLAGS': '-Xfatbin -compress-all', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'CUDA_TOOLKIT_ROOT_DIR': '/usr/local/cuda', 'CUDA_NVCC_EXECUTABLE': '/usr/local/cuda/bin/nvcc', 'CUDNN_LIB_PATH': '/usr/lib/aarch64-linux-gnu', 'CUDAARCHS': '87', 'PIP_CACHE_PURGE': 'true', 'COLCON_PREFIX_PATH': '/workspace/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', 'RS_VER': 'v2.56.5', 'SCP_UPLOAD_PASS': 'nvidia', 'PIP_DISABLE_PIP_VERSION_CHECK': 'on', 'CUDA_ARCHITECTURES': '87', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'TWINE_USERNAME': 'jp6', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PIP_INDEX_URL': 'https://pypi.org/simple', 'PIP_NO_CACHE_DIR': 'off', 'DISPLAY': ':1', 'SCP_UPLOAD_USER': 'nvidia', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XAUTHORITY': '/home/work/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'SCP_UPLOAD_URL': 'jao-51:/dist/jp6/cu126', 'AMENT_PREFIX_PATH': '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install', 'TWINE_NON_INTERACTIVE': '1', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PYTHON_VERSION': '3.10', 'OPENCV_VERSION': '4.10.0', 'SETUPTOOLS_USE_DISTUTILS': 'stdlib', 'NVCC_PATH': '/usr/local/cuda/bin/nvcc', 'OPENCV_URL': '', 'PWD': '/workspace/build/record', 'LC_ALL': 'C.UTF-8', 'CUDA_HOME': '/usr/local/cuda', 'CUDNN_LIB_INCLUDE_PATH': '/usr/include', 'PYTHONPATH': '/workspace/build/record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'PIP_EXTRA_INDEX_URL': '', 'COLCON': '1', 'CUDA_BIN_PATH': '/usr/local/cuda/bin', 'CMAKE_PREFIX_PATH': '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install'}, 'shell': False}
+[6.014416] (track) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/track', 'build', '--build-base', '/workspace/build/track/build', 'install', '--record', '/workspace/build/track/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/track', 'env': {'TWINE_PASSWORD': 'NvidiaJetson24', 'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONFAULTHANDLER': '1', 'CUDACXX': '/usr/local/cuda/bin/nvcc', 'PYTHONIOENCODING': 'utf-8', 'PIP_ROOT_USER_ACTION': 'ignore', 'LANGUAGE': 'en_US:en', 'PIP_TRUSTED_HOST': 'jetson.webredirect.org', 'PIP_DEFAULT_TIMEOUT': '100', 'PYTHONHASHSEED': 'random', 'HOSTNAME': 'ubuntu', 'TWINE_REPOSITORY_URL': 'http://jao-51/jp6/cu126', 'TAR_INDEX_URL': 'http://jetson.webredirect.org:8000/jp6/cu126', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:', 'HOME': '/home/work', 'OLDPWD': '/home/work', 'CMAKE_CUDA_COMPILER': '/usr/local/cuda/bin/nvcc', 'TORCH_NVCC_FLAGS': '-Xfatbin -compress-all', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'CUDA_TOOLKIT_ROOT_DIR': '/usr/local/cuda', 'CUDA_NVCC_EXECUTABLE': '/usr/local/cuda/bin/nvcc', 'CUDNN_LIB_PATH': '/usr/lib/aarch64-linux-gnu', 'CUDAARCHS': '87', 'PIP_CACHE_PURGE': 'true', 'COLCON_PREFIX_PATH': '/workspace/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', 'RS_VER': 'v2.56.5', 'SCP_UPLOAD_PASS': 'nvidia', 'PIP_DISABLE_PIP_VERSION_CHECK': 'on', 'CUDA_ARCHITECTURES': '87', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'TWINE_USERNAME': 'jp6', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PIP_INDEX_URL': 'https://pypi.org/simple', 'PIP_NO_CACHE_DIR': 'off', 'DISPLAY': ':1', 'SCP_UPLOAD_USER': 'nvidia', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XAUTHORITY': '/home/work/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'SCP_UPLOAD_URL': 'jao-51:/dist/jp6/cu126', 'AMENT_PREFIX_PATH': '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install', 'TWINE_NON_INTERACTIVE': '1', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PYTHON_VERSION': '3.10', 'OPENCV_VERSION': '4.10.0', 'SETUPTOOLS_USE_DISTUTILS': 'stdlib', 'NVCC_PATH': '/usr/local/cuda/bin/nvcc', 'OPENCV_URL': '', 'PWD': '/workspace/build/track', 'LC_ALL': 'C.UTF-8', 'CUDA_HOME': '/usr/local/cuda', 'CUDNN_LIB_INCLUDE_PATH': '/usr/include', 'PYTHONPATH': '/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'PIP_EXTRA_INDEX_URL': '', 'COLCON': '1', 'CUDA_BIN_PATH': '/usr/local/cuda/bin', 'CMAKE_PREFIX_PATH': '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install'}, 'shell': False}
+[6.025693] (-) TimerEvent: {}
+[6.045134] (motor) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml\n'}
+[6.045822] (motor) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.052853] (pixhawk_control) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml\n'}
+[6.053528] (pixhawk_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.076306] (record) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml\n'}
+[6.077060] (record) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.095423] (camera) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camera', 'build', '--build-base', '/workspace/build/camera/build', 'install', '--record', '/workspace/build/camera/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/camera', 'env': {'TWINE_PASSWORD': 'NvidiaJetson24', 'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONFAULTHANDLER': '1', 'CUDACXX': '/usr/local/cuda/bin/nvcc', 'PYTHONIOENCODING': 'utf-8', 'PIP_ROOT_USER_ACTION': 'ignore', 'LANGUAGE': 'en_US:en', 'PIP_TRUSTED_HOST': 'jetson.webredirect.org', 'PIP_DEFAULT_TIMEOUT': '100', 'PYTHONHASHSEED': 'random', 'HOSTNAME': 'ubuntu', 'TWINE_REPOSITORY_URL': 'http://jao-51/jp6/cu126', 'TAR_INDEX_URL': 'http://jetson.webredirect.org:8000/jp6/cu126', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:', 'HOME': '/home/work', 'OLDPWD': '/home/work', 'CMAKE_CUDA_COMPILER': '/usr/local/cuda/bin/nvcc', 'TORCH_NVCC_FLAGS': '-Xfatbin -compress-all', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'CUDA_TOOLKIT_ROOT_DIR': '/usr/local/cuda', 'CUDA_NVCC_EXECUTABLE': '/usr/local/cuda/bin/nvcc', 'CUDNN_LIB_PATH': '/usr/lib/aarch64-linux-gnu', 'CUDAARCHS': '87', 'PIP_CACHE_PURGE': 'true', 'COLCON_PREFIX_PATH': '/workspace/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', 'RS_VER': 'v2.56.5', 'SCP_UPLOAD_PASS': 'nvidia', 'PIP_DISABLE_PIP_VERSION_CHECK': 'on', 'CUDA_ARCHITECTURES': '87', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'TWINE_USERNAME': 'jp6', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PIP_INDEX_URL': 'https://pypi.org/simple', 'PIP_NO_CACHE_DIR': 'off', 'DISPLAY': ':1', 'SCP_UPLOAD_USER': 'nvidia', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XAUTHORITY': '/home/work/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'SCP_UPLOAD_URL': 'jao-51:/dist/jp6/cu126', 'AMENT_PREFIX_PATH': '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install', 'TWINE_NON_INTERACTIVE': '1', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PYTHON_VERSION': '3.10', 'OPENCV_VERSION': '4.10.0', 'SETUPTOOLS_USE_DISTUTILS': 'stdlib', 'NVCC_PATH': '/usr/local/cuda/bin/nvcc', 'OPENCV_URL': '', 'PWD': '/workspace/build/camera', 'LC_ALL': 'C.UTF-8', 'CUDA_HOME': '/usr/local/cuda', 'CUDNN_LIB_INCLUDE_PATH': '/usr/include', 'PYTHONPATH': '/workspace/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/camera/lib/python3.10/site-packages:/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'PIP_EXTRA_INDEX_URL': '', 'COLCON': '1', 'CUDA_BIN_PATH': '/usr/local/cuda/bin', 'CMAKE_PREFIX_PATH': '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install'}, 'shell': False}
+[6.125852] (-) TimerEvent: {}
+[6.142162] (track) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml\n'}
+[6.142857] (track) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.226076] (-) TimerEvent: {}
+[6.240968] (camera) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml\n'}
+[6.249942] (camera) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.328442] (-) TimerEvent: {}
+[6.361443] (motor_if) JobEnded: {'identifier': 'motor_if', 'rc': 0}
+[6.364534] (ultrasonic) JobStarted: {'identifier': 'ultrasonic'}
+[6.428634] (-) TimerEvent: {}
+[6.530592] (-) TimerEvent: {}
+[6.551789] (track) StderrLine: {'line': b"/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[6.552354] (track) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[6.561085] (pixhawk_control) StderrLine: {'line': b"/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[6.561660] (pixhawk_control) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[6.631024] (-) TimerEvent: {}
+[6.631937] (record) StderrLine: {'line': b"/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[6.633970] (record) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[6.671361] (motor) StderrLine: {'line': b"/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[6.672251] (motor) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[6.733429] (-) TimerEvent: {}
+[6.740334] (obs_filiter) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):\n'}
+[6.740945] (obs_filiter) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[6.741150] (obs_filiter) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[6.753701] (obs_filiter) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[6.754009] (obs_filiter) StderrLine: {'line': b'\n'}
+[6.754178] (obs_filiter) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.754327] (obs_filiter) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)\n'}
+[6.754472] (obs_filiter) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[6.754609] (obs_filiter) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[6.754796] (obs_filiter) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.754928] (obs_filiter) StderrLine: {'line': b'\x1b[0m\n'}
+[6.774154] (camera) StderrLine: {'line': b"/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[6.775164] (camera) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[6.827410] (obs_filiter) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[6.833575] (-) TimerEvent: {}
+[6.837436] (obs_filiter) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):\n'}
+[6.837916] (obs_filiter) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[6.838120] (obs_filiter) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[6.838275] (obs_filiter) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[6.838419] (obs_filiter) StderrLine: {'line': b'\n'}
+[6.838555] (obs_filiter) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[6.838685] (obs_filiter) StderrLine: {'line': b'\n'}
+[6.838811] (obs_filiter) StderrLine: {'line': b'    /usr\n'}
+[6.838937] (obs_filiter) StderrLine: {'line': b'\n'}
+[6.839060] (obs_filiter) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[6.839185] (obs_filiter) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[6.839309] (obs_filiter) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.839433] (obs_filiter) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)\n'}
+[6.839557] (obs_filiter) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)\n'}
+[6.839680] (obs_filiter) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[6.839811] (obs_filiter) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[6.839937] (obs_filiter) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.840118] (obs_filiter) StderrLine: {'line': b'\x1b[0m\n'}
+[6.867409] (track) StdoutLine: {'line': b'running egg_info\n'}
+[6.878401] (pixhawk_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.910372] (track) StdoutLine: {'line': b'writing ../../build/track/track.egg-info/PKG-INFO\n'}
+[6.912861] (track) StdoutLine: {'line': b'writing dependency_links to ../../build/track/track.egg-info/dependency_links.txt\n'}
+[6.913676] (track) StdoutLine: {'line': b'writing entry points to ../../build/track/track.egg-info/entry_points.txt\n'}
+[6.914873] (track) StdoutLine: {'line': b'writing requirements to ../../build/track/track.egg-info/requires.txt\n'}
+[6.915348] (track) StdoutLine: {'line': b'writing top-level names to ../../build/track/track.egg-info/top_level.txt\n'}
+[6.929483] (pixhawk_control) StdoutLine: {'line': b'writing ../../build/pixhawk_control/pixhawk_control.egg-info/PKG-INFO\n'}
+[6.933723] (-) TimerEvent: {}
+[6.940521] (pixhawk_control) StdoutLine: {'line': b'writing dependency_links to ../../build/pixhawk_control/pixhawk_control.egg-info/dependency_links.txt\n'}
+[6.941063] (pixhawk_control) StdoutLine: {'line': b'writing entry points to ../../build/pixhawk_control/pixhawk_control.egg-info/entry_points.txt\n'}
+[6.941297] (pixhawk_control) StdoutLine: {'line': b'writing requirements to ../../build/pixhawk_control/pixhawk_control.egg-info/requires.txt\n'}
+[6.941479] (pixhawk_control) StdoutLine: {'line': b'writing top-level names to ../../build/pixhawk_control/pixhawk_control.egg-info/top_level.txt\n'}
+[6.957045] (obs_filiter) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[6.992154] (record) StdoutLine: {'line': b'running egg_info\n'}
+[7.030409] (record) StdoutLine: {'line': b'writing ../../build/record/record.egg-info/PKG-INFO\n'}
+[7.031320] (pixhawk_control) StdoutLine: {'line': b"reading manifest file '../../build/pixhawk_control/pixhawk_control.egg-info/SOURCES.txt'\n"}
+[7.031950] (record) StdoutLine: {'line': b'writing dependency_links to ../../build/record/record.egg-info/dependency_links.txt\n'}
+[7.032459] (record) StdoutLine: {'line': b'writing entry points to ../../build/record/record.egg-info/entry_points.txt\n'}
+[7.032955] (record) StdoutLine: {'line': b'writing requirements to ../../build/record/record.egg-info/requires.txt\n'}
+[7.033318] (record) StdoutLine: {'line': b'writing top-level names to ../../build/record/record.egg-info/top_level.txt\n'}
+[7.033792] (-) TimerEvent: {}
+[7.034707] (pixhawk_control) StdoutLine: {'line': b"writing manifest file '../../build/pixhawk_control/pixhawk_control.egg-info/SOURCES.txt'\n"}
+[7.035167] (pixhawk_control) StdoutLine: {'line': b'running build\n'}
+[7.035462] (pixhawk_control) StdoutLine: {'line': b'running build_py\n'}
+[7.035816] (pixhawk_control) StdoutLine: {'line': b'copying pixhawk_control/rc_receive.py -> /workspace/build/pixhawk_control/build/lib/pixhawk_control\n'}
+[7.036114] (pixhawk_control) StdoutLine: {'line': b'copying pixhawk_control/velocity_to_pwm.py -> /workspace/build/pixhawk_control/build/lib/pixhawk_control\n'}
+[7.036594] (pixhawk_control) StdoutLine: {'line': b'running install\n'}
+[7.037693] (pixhawk_control) StdoutLine: {'line': b'running install_lib\n'}
+[7.041694] (track) StdoutLine: {'line': b"reading manifest file '../../build/track/track.egg-info/SOURCES.txt'\n"}
+[7.061532] (track) StdoutLine: {'line': b"writing manifest file '../../build/track/track.egg-info/SOURCES.txt'\n"}
+[7.062771] (track) StdoutLine: {'line': b'running build\n'}
+[7.063426] (track) StdoutLine: {'line': b'running build_py\n'}
+[7.071446] (track) StdoutLine: {'line': b'running install\n'}
+[7.072805] (track) StdoutLine: {'line': b'running install_lib\n'}
+[7.098522] (pixhawk_control) StdoutLine: {'line': b'copying /workspace/build/pixhawk_control/build/lib/pixhawk_control/rc_receive.py -> /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control\n'}
+[7.099243] (pixhawk_control) StdoutLine: {'line': b'copying /workspace/build/pixhawk_control/build/lib/pixhawk_control/velocity_to_pwm.py -> /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control\n'}
+[7.099870] (camera) StdoutLine: {'line': b'running egg_info\n'}
+[7.100979] (pixhawk_control) StdoutLine: {'line': b'byte-compiling /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control/rc_receive.py to rc_receive.cpython-310.pyc\n'}
+[7.104700] (pixhawk_control) StdoutLine: {'line': b'byte-compiling /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control/velocity_to_pwm.py to velocity_to_pwm.cpython-310.pyc\n'}
+[7.118672] (pixhawk_control) StdoutLine: {'line': b'running install_data\n'}
+[7.119207] (pixhawk_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.133973] (-) TimerEvent: {}
+[7.164760] (record) StdoutLine: {'line': b"reading manifest file '../../build/record/record.egg-info/SOURCES.txt'\n"}
+[7.171466] (camera) StdoutLine: {'line': b'writing ../../build/camera/camera.egg-info/PKG-INFO\n'}
+[7.173166] (record) StdoutLine: {'line': b"writing manifest file '../../build/record/record.egg-info/SOURCES.txt'\n"}
+[7.173691] (camera) StdoutLine: {'line': b'writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt\n'}
+[7.173978] (camera) StdoutLine: {'line': b'writing entry points to ../../build/camera/camera.egg-info/entry_points.txt\n'}
+[7.177677] (pixhawk_control) StdoutLine: {'line': b"removing '/workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.178425] (pixhawk_control) StdoutLine: {'line': b'Copying ../../build/pixhawk_control/pixhawk_control.egg-info to /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control-0.0.0-py3.10.egg-info\n'}
+[7.178689] (record) StdoutLine: {'line': b'running build\n'}
+[7.178894] (record) StdoutLine: {'line': b'running build_py\n'}
+[7.179047] (record) StdoutLine: {'line': b'running install\n'}
+[7.179651] (record) StdoutLine: {'line': b'running install_lib\n'}
+[7.179907] (pixhawk_control) StdoutLine: {'line': b'running install_scripts\n'}
+[7.180075] (camera) StdoutLine: {'line': b'writing requirements to ../../build/camera/camera.egg-info/requires.txt\n'}
+[7.180248] (camera) StdoutLine: {'line': b'writing top-level names to ../../build/camera/camera.egg-info/top_level.txt\n'}
+[7.182265] (track) StdoutLine: {'line': b'running install_data\n'}
+[7.182626] (track) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.241095] (motor) StdoutLine: {'line': b'running egg_info\n'}
+[7.241726] (-) TimerEvent: {}
+[7.275124] (record) StdoutLine: {'line': b'running install_data\n'}
+[7.276707] (record) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.277478] (track) StdoutLine: {'line': b"removing '/workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.293115] (track) StdoutLine: {'line': b'Copying ../../build/track/track.egg-info to /workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info\n'}
+[7.296895] (track) StdoutLine: {'line': b'running install_scripts\n'}
+[7.301635] (motor) StdoutLine: {'line': b'writing ../../../build/motor/motor.egg-info/PKG-INFO\n'}
+[7.310789] (motor) StdoutLine: {'line': b'writing dependency_links to ../../../build/motor/motor.egg-info/dependency_links.txt\n'}
+[7.311257] (motor) StdoutLine: {'line': b'writing entry points to ../../../build/motor/motor.egg-info/entry_points.txt\n'}
+[7.311433] (motor) StdoutLine: {'line': b'writing requirements to ../../../build/motor/motor.egg-info/requires.txt\n'}
+[7.311580] (motor) StdoutLine: {'line': b'writing top-level names to ../../../build/motor/motor.egg-info/top_level.txt\n'}
+[7.324420] (pixhawk_control) StdoutLine: {'line': b'Installing rc_receive script to /workspace/install/pixhawk_control/lib/pixhawk_control\n'}
+[7.326642] (pixhawk_control) StdoutLine: {'line': b'Installing velocity_to_pwm script to /workspace/install/pixhawk_control/lib/pixhawk_control\n'}
+[7.329455] (pixhawk_control) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/pixhawk_control/install.log'\n"}
+[7.341912] (-) TimerEvent: {}
+[7.380953] (record) StdoutLine: {'line': b"removing '/workspace/install/record/lib/python3.10/site-packages/record-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.396978] (camera) StdoutLine: {'line': b"reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'\n"}
+[7.413398] (camera) StdoutLine: {'line': b"writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'\n"}
+[7.414620] (camera) StdoutLine: {'line': b'running build\n'}
+[7.414960] (camera) StdoutLine: {'line': b'running build_py\n'}
+[7.415143] (camera) StdoutLine: {'line': b'running install\n'}
+[7.415302] (camera) StdoutLine: {'line': b'running install_lib\n'}
+[7.442295] (-) TimerEvent: {}
+[7.446560] (record) StdoutLine: {'line': b'Copying ../../build/record/record.egg-info to /workspace/install/record/lib/python3.10/site-packages/record-0.0.0-py3.10.egg-info\n'}
+[7.457915] (record) StdoutLine: {'line': b'running install_scripts\n'}
+[7.488784] (camera) StdoutLine: {'line': b'running install_data\n'}
+[7.489238] (camera) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.497978] (track) StdoutLine: {'line': b'Installing ByteTrack script to /workspace/install/track/lib/track\n'}
+[7.498432] (track) StdoutLine: {'line': b'Installing YOLO script to /workspace/install/track/lib/track\n'}
+[7.498606] (track) StdoutLine: {'line': b'Installing bytetrack script to /workspace/install/track/lib/track\n'}
+[7.498752] (track) StdoutLine: {'line': b'Installing depth script to /workspace/install/track/lib/track\n'}
+[7.498891] (track) StdoutLine: {'line': b'Installing testa script to /workspace/install/track/lib/track\n'}
+[7.499025] (track) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/track/install.log'\n"}
+[7.499161] (motor) StdoutLine: {'line': b"reading manifest file '../../../build/motor/motor.egg-info/SOURCES.txt'\n"}
+[7.504101] (motor) StdoutLine: {'line': b"writing manifest file '../../../build/motor/motor.egg-info/SOURCES.txt'\n"}
+[7.517526] (motor) StdoutLine: {'line': b'running build\n'}
+[7.518450] (motor) StdoutLine: {'line': b'running build_py\n'}
+[7.520338] (motor) StdoutLine: {'line': b'running install\n'}
+[7.521691] (motor) StdoutLine: {'line': b'running install_lib\n'}
+[7.522692] (rc_receiver_if) JobEnded: {'identifier': 'rc_receiver_if', 'rc': 0}
+[7.526007] (uwb_nls) JobStarted: {'identifier': 'uwb_nls'}
+[7.542506] (-) TimerEvent: {}
+[7.546810] (camera) StdoutLine: {'line': b"removing '/workspace/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.548613] (camera) StdoutLine: {'line': b'Copying ../../build/camera/camera.egg-info to /workspace/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info\n'}
+[7.553622] (camera) StdoutLine: {'line': b'running install_scripts\n'}
+[7.577019] (motor) StdoutLine: {'line': b'running install_data\n'}
+[7.578148] (motor) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.581130] (record) StdoutLine: {'line': b'Installing record_node script to /workspace/install/record/lib/record\n'}
+[7.582988] (record) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/record/install.log'\n"}
+[7.608551] (pixhawk_control) CommandEnded: {'returncode': 0}
+[7.633762] (pixhawk_control) JobEnded: {'identifier': 'pixhawk_control', 'rc': 0}
+[7.635420] (motor) StdoutLine: {'line': b"removing '/workspace/install/motor/lib/python3.10/site-packages/motor-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.641790] (motor) StdoutLine: {'line': b'Copying ../../../build/motor/motor.egg-info to /workspace/install/motor/lib/python3.10/site-packages/motor-0.0.0-py3.10.egg-info\n'}
+[7.643256] (-) TimerEvent: {}
+[7.643638] (motor) StdoutLine: {'line': b'running install_scripts\n'}
+[7.697584] (camera) StdoutLine: {'line': b'Installing realsense script to /workspace/install/camera/lib/camera\n'}
+[7.699975] (camera) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/camera/install.log'\n"}
+[7.743457] (-) TimerEvent: {}
+[7.793427] (motor) StdoutLine: {'line': b'Installing find_motor script to /workspace/install/motor/lib/motor\n'}
+[7.794075] (motor) StdoutLine: {'line': b'Installing motor_drive_node script to /workspace/install/motor/lib/motor\n'}
+[7.794274] (motor) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/motor/install.log'\n"}
+[7.849441] (-) TimerEvent: {}
+[7.950223] (-) TimerEvent: {}
+[8.050982] (-) TimerEvent: {}
+[8.151716] (-) TimerEvent: {}
+[8.252464] (-) TimerEvent: {}
+[8.349329] (visualization) JobStarted: {'identifier': 'visualization'}
+[8.353490] (-) TimerEvent: {}
+[8.421027] (track) CommandEnded: {'returncode': 0}
+[8.451674] (track) JobEnded: {'identifier': 'track', 'rc': 0}
+[8.454146] (-) TimerEvent: {}
+[8.454675] (record) CommandEnded: {'returncode': 0}
+[8.486469] (record) JobEnded: {'identifier': 'record', 'rc': 0}
+[8.488349] (camera) CommandEnded: {'returncode': 0}
+[8.517925] (camera) JobEnded: {'identifier': 'camera', 'rc': 0}
+[8.520281] (motor) CommandEnded: {'returncode': 0}
+[8.551825] (motor) JobEnded: {'identifier': 'motor', 'rc': 0}
+[8.555253] (-) TimerEvent: {}
+[8.555658] (rc_receiver) JobStarted: {'identifier': 'rc_receiver'}
+[8.620869] (obs_filiter) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[8.633192] (obs_filiter) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[8.633993] (obs_filiter) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[8.634188] (obs_filiter) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[8.634481] (obs_filiter) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[8.634637] (obs_filiter) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[8.634782] (obs_filiter) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[8.635679] (obs_filiter) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[8.635897] (obs_filiter) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[8.636045] (obs_filiter) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[8.636773] (obs_filiter) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[8.637351] (obs_filiter) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[8.637513] (obs_filiter) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/install/share/pcl_conversions/cmake)\n'}
+[8.655823] (-) TimerEvent: {}
+[8.733402] (obs_filiter) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/install/share/image_transport/cmake)\n'}
+[8.759440] (-) TimerEvent: {}
+[8.861193] (-) TimerEvent: {}
+[8.969404] (-) TimerEvent: {}
+[9.077394] (-) TimerEvent: {}
+[9.156579] (obs_filiter) StdoutLine: {'line': b'-- Configuring done (7.2s)\n'}
+[9.177602] (-) TimerEvent: {}
+[9.279871] (-) TimerEvent: {}
+[9.387167] (-) TimerEvent: {}
+[9.488907] (-) TimerEvent: {}
+[9.549360] (obs_filiter) StdoutLine: {'line': b'-- Generating done (0.4s)\n'}
+[9.577260] (obs_filiter) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/obs_filiter\n'}
+[9.589723] (-) TimerEvent: {}
+[9.690417] (-) TimerEvent: {}
+[9.729943] (obs_filiter) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/realsense_read_node.dir/src/realsense_read.cpp.o\x1b[0m\n'}
+[9.793393] (-) TimerEvent: {}
+[9.831476] (ultrasonic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ultrasonic', 'build', '--build-base', '/workspace/build/ultrasonic/build', 'install', '--record', '/workspace/build/ultrasonic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/ultrasonic', 'env': {'TWINE_PASSWORD': 'NvidiaJetson24', 'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONFAULTHANDLER': '1', 'CUDACXX': '/usr/local/cuda/bin/nvcc', 'PYTHONIOENCODING': 'utf-8', 'PIP_ROOT_USER_ACTION': 'ignore', 'LANGUAGE': 'en_US:en', 'PIP_TRUSTED_HOST': 'jetson.webredirect.org', 'PIP_DEFAULT_TIMEOUT': '100', 'PYTHONHASHSEED': 'random', 'HOSTNAME': 'ubuntu', 'TWINE_REPOSITORY_URL': 'http://jao-51/jp6/cu126', 'TAR_INDEX_URL': 'http://jetson.webredirect.org:8000/jp6/cu126', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:', 'HOME': '/home/work', 'OLDPWD': '/home/work', 'CMAKE_CUDA_COMPILER': '/usr/local/cuda/bin/nvcc', 'TORCH_NVCC_FLAGS': '-Xfatbin -compress-all', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'CUDA_TOOLKIT_ROOT_DIR': '/usr/local/cuda', 'CUDA_NVCC_EXECUTABLE': '/usr/local/cuda/bin/nvcc', 'CUDNN_LIB_PATH': '/usr/lib/aarch64-linux-gnu', 'CUDAARCHS': '87', 'PIP_CACHE_PURGE': 'true', 'COLCON_PREFIX_PATH': '/workspace/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', 'RS_VER': 'v2.56.5', 'SCP_UPLOAD_PASS': 'nvidia', 'PIP_DISABLE_PIP_VERSION_CHECK': 'on', 'CUDA_ARCHITECTURES': '87', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'TWINE_USERNAME': 'jp6', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PIP_INDEX_URL': 'https://pypi.org/simple', 'PIP_NO_CACHE_DIR': 'off', 'DISPLAY': ':1', 'SCP_UPLOAD_USER': 'nvidia', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XAUTHORITY': '/home/work/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'SCP_UPLOAD_URL': 'jao-51:/dist/jp6/cu126', 'AMENT_PREFIX_PATH': '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install', 'TWINE_NON_INTERACTIVE': '1', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PYTHON_VERSION': '3.10', 'OPENCV_VERSION': '4.10.0', 'SETUPTOOLS_USE_DISTUTILS': 'stdlib', 'NVCC_PATH': '/usr/local/cuda/bin/nvcc', 'OPENCV_URL': '', 'PWD': '/workspace/build/ultrasonic', 'LC_ALL': 'C.UTF-8', 'CUDA_HOME': '/usr/local/cuda', 'CUDNN_LIB_INCLUDE_PATH': '/usr/include', 'PYTHONPATH': '/workspace/build/ultrasonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'PIP_EXTRA_INDEX_URL': '', 'COLCON': '1', 'CUDA_BIN_PATH': '/usr/local/cuda/bin', 'CMAKE_PREFIX_PATH': '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install'}, 'shell': False}
+[9.893681] (-) TimerEvent: {}
+[9.915576] (ultrasonic) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml\n'}
+[9.916181] (ultrasonic) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.993851] (-) TimerEvent: {}
+[10.094547] (-) TimerEvent: {}
+[10.195250] (-) TimerEvent: {}
+[10.249415] (ultrasonic) StderrLine: {'line': b"/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[10.249965] (ultrasonic) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[10.295411] (-) TimerEvent: {}
+[10.353485] (uwb_nls) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uwb_nls', 'build', '--build-base', '/workspace/build/uwb_nls/build', 'install', '--record', '/workspace/build/uwb_nls/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/uwb_nls', 'env': {'TWINE_PASSWORD': 'NvidiaJetson24', 'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONFAULTHANDLER': '1', 'CUDACXX': '/usr/local/cuda/bin/nvcc', 'PYTHONIOENCODING': 'utf-8', 'PIP_ROOT_USER_ACTION': 'ignore', 'LANGUAGE': 'en_US:en', 'PIP_TRUSTED_HOST': 'jetson.webredirect.org', 'PIP_DEFAULT_TIMEOUT': '100', 'PYTHONHASHSEED': 'random', 'HOSTNAME': 'ubuntu', 'TWINE_REPOSITORY_URL': 'http://jao-51/jp6/cu126', 'TAR_INDEX_URL': 'http://jetson.webredirect.org:8000/jp6/cu126', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:', 'HOME': '/home/work', 'OLDPWD': '/home/work', 'CMAKE_CUDA_COMPILER': '/usr/local/cuda/bin/nvcc', 'TORCH_NVCC_FLAGS': '-Xfatbin -compress-all', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'CUDA_TOOLKIT_ROOT_DIR': '/usr/local/cuda', 'CUDA_NVCC_EXECUTABLE': '/usr/local/cuda/bin/nvcc', 'CUDNN_LIB_PATH': '/usr/lib/aarch64-linux-gnu', 'CUDAARCHS': '87', 'PIP_CACHE_PURGE': 'true', 'COLCON_PREFIX_PATH': '/workspace/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', 'RS_VER': 'v2.56.5', 'SCP_UPLOAD_PASS': 'nvidia', 'PIP_DISABLE_PIP_VERSION_CHECK': 'on', 'CUDA_ARCHITECTURES': '87', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'TWINE_USERNAME': 'jp6', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PIP_INDEX_URL': 'https://pypi.org/simple', 'PIP_NO_CACHE_DIR': 'off', 'DISPLAY': ':1', 'SCP_UPLOAD_USER': 'nvidia', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XAUTHORITY': '/home/work/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'SCP_UPLOAD_URL': 'jao-51:/dist/jp6/cu126', 'AMENT_PREFIX_PATH': '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install', 'TWINE_NON_INTERACTIVE': '1', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PYTHON_VERSION': '3.10', 'OPENCV_VERSION': '4.10.0', 'SETUPTOOLS_USE_DISTUTILS': 'stdlib', 'NVCC_PATH': '/usr/local/cuda/bin/nvcc', 'OPENCV_URL': '', 'PWD': '/workspace/build/uwb_nls', 'LC_ALL': 'C.UTF-8', 'CUDA_HOME': '/usr/local/cuda', 'CUDNN_LIB_INCLUDE_PATH': '/usr/include', 'PYTHONPATH': '/workspace/build/uwb_nls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'PIP_EXTRA_INDEX_URL': '', 'COLCON': '1', 'CUDA_BIN_PATH': '/usr/local/cuda/bin', 'CMAKE_PREFIX_PATH': '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install'}, 'shell': False}
+[10.395590] (-) TimerEvent: {}
+[10.413553] (uwb_nls) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml\n'}
+[10.414186] (uwb_nls) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.495762] (-) TimerEvent: {}
+[10.552072] (ultrasonic) StdoutLine: {'line': b'running egg_info\n'}
+[10.595970] (-) TimerEvent: {}
+[10.613011] (ultrasonic) StdoutLine: {'line': b'writing ../../build/ultrasonic/ultrasonic.egg-info/PKG-INFO\n'}
+[10.619662] (ultrasonic) StdoutLine: {'line': b'writing dependency_links to ../../build/ultrasonic/ultrasonic.egg-info/dependency_links.txt\n'}
+[10.620177] (ultrasonic) StdoutLine: {'line': b'writing entry points to ../../build/ultrasonic/ultrasonic.egg-info/entry_points.txt\n'}
+[10.620366] (ultrasonic) StdoutLine: {'line': b'writing requirements to ../../build/ultrasonic/ultrasonic.egg-info/requires.txt\n'}
+[10.620522] (ultrasonic) StdoutLine: {'line': b'writing top-level names to ../../build/ultrasonic/ultrasonic.egg-info/top_level.txt\n'}
+[10.696164] (-) TimerEvent: {}
+[10.702656] (ultrasonic) StdoutLine: {'line': b"reading manifest file '../../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'\n"}
+[10.710882] (ultrasonic) StdoutLine: {'line': b"writing manifest file '../../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'\n"}
+[10.711474] (ultrasonic) StdoutLine: {'line': b'running build\n'}
+[10.711665] (ultrasonic) StdoutLine: {'line': b'running build_py\n'}
+[10.712486] (ultrasonic) StdoutLine: {'line': b'running install\n'}
+[10.713384] (ultrasonic) StdoutLine: {'line': b'running install_lib\n'}
+[10.751016] (uwb_nls) StderrLine: {'line': b"/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[10.751532] (uwb_nls) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[10.767834] (ultrasonic) StdoutLine: {'line': b'running install_data\n'}
+[10.768349] (ultrasonic) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.796351] (-) TimerEvent: {}
+[10.831906] (ultrasonic) StdoutLine: {'line': b"removing '/workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.832572] (ultrasonic) StdoutLine: {'line': b'Copying ../../build/ultrasonic/ultrasonic.egg-info to /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic-0.0.0-py3.10.egg-info\n'}
+[10.843622] (ultrasonic) StdoutLine: {'line': b'running install_scripts\n'}
+[10.896502] (-) TimerEvent: {}
+[10.934409] (ultrasonic) StdoutLine: {'line': b'Installing checker script to /workspace/install/ultrasonic/lib/ultrasonic\n'}
+[10.934991] (ultrasonic) StdoutLine: {'line': b'Installing obstacle script to /workspace/install/ultrasonic/lib/ultrasonic\n'}
+[10.935326] (ultrasonic) StdoutLine: {'line': b'Installing receiver script to /workspace/install/ultrasonic/lib/ultrasonic\n'}
+[10.935837] (ultrasonic) StdoutLine: {'line': b'Installing visualizer script to /workspace/install/ultrasonic/lib/ultrasonic\n'}
+[10.936723] (ultrasonic) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/ultrasonic/install.log'\n"}
+[10.996660] (-) TimerEvent: {}
+[11.041944] (ultrasonic) CommandEnded: {'returncode': 0}
+[11.042842] (uwb_nls) StdoutLine: {'line': b'running egg_info\n'}
+[11.094763] (uwb_nls) StdoutLine: {'line': b'writing ../../build/uwb_nls/uwb_nls.egg-info/PKG-INFO\n'}
+[11.095240] (uwb_nls) StdoutLine: {'line': b'writing dependency_links to ../../build/uwb_nls/uwb_nls.egg-info/dependency_links.txt\n'}
+[11.095548] (uwb_nls) StdoutLine: {'line': b'writing entry points to ../../build/uwb_nls/uwb_nls.egg-info/entry_points.txt\n'}
+[11.095713] (uwb_nls) StdoutLine: {'line': b'writing requirements to ../../build/uwb_nls/uwb_nls.egg-info/requires.txt\n'}
+[11.095856] (uwb_nls) StdoutLine: {'line': b'writing top-level names to ../../build/uwb_nls/uwb_nls.egg-info/top_level.txt\n'}
+[11.098310] (-) TimerEvent: {}
+[11.110431] (ultrasonic) JobEnded: {'identifier': 'ultrasonic', 'rc': 0}
+[11.171104] (uwb_nls) StdoutLine: {'line': b"reading manifest file '../../build/uwb_nls/uwb_nls.egg-info/SOURCES.txt'\n"}
+[11.180768] (uwb_nls) StdoutLine: {'line': b"writing manifest file '../../build/uwb_nls/uwb_nls.egg-info/SOURCES.txt'\n"}
+[11.181468] (uwb_nls) StdoutLine: {'line': b'running build\n'}
+[11.181727] (uwb_nls) StdoutLine: {'line': b'running build_py\n'}
+[11.183221] (uwb_nls) StdoutLine: {'line': b'running install\n'}
+[11.184306] (uwb_nls) StdoutLine: {'line': b'running install_lib\n'}
+[11.198459] (-) TimerEvent: {}
+[11.229632] (uwb_nls) StdoutLine: {'line': b'running install_data\n'}
+[11.230171] (uwb_nls) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.275196] (uwb_nls) StdoutLine: {'line': b"removing '/workspace/install/uwb_nls/lib/python3.10/site-packages/uwb_nls-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.276402] (uwb_nls) StdoutLine: {'line': b'Copying ../../build/uwb_nls/uwb_nls.egg-info to /workspace/install/uwb_nls/lib/python3.10/site-packages/uwb_nls-0.0.0-py3.10.egg-info\n'}
+[11.280430] (uwb_nls) StdoutLine: {'line': b'running install_scripts\n'}
+[11.299881] (-) TimerEvent: {}
+[11.381576] (uwb_nls) StdoutLine: {'line': b'Installing distance_filter script to /workspace/install/uwb_nls/lib/uwb_nls\n'}
+[11.382212] (uwb_nls) StdoutLine: {'line': b'Installing last_filter_nls script to /workspace/install/uwb_nls/lib/uwb_nls\n'}
+[11.382462] (uwb_nls) StdoutLine: {'line': b'Installing ndistance_filter script to /workspace/install/uwb_nls/lib/uwb_nls\n'}
+[11.382624] (uwb_nls) StdoutLine: {'line': b'Installing nposition script to /workspace/install/uwb_nls/lib/uwb_nls\n'}
+[11.382822] (uwb_nls) StdoutLine: {'line': b'Installing nposition_filter script to /workspace/install/uwb_nls/lib/uwb_nls\n'}
+[11.383059] (uwb_nls) StdoutLine: {'line': b'Installing nreceiver script to /workspace/install/uwb_nls/lib/uwb_nls\n'}
+[11.385533] (uwb_nls) StdoutLine: {'line': b'Installing nvisual script to /workspace/install/uwb_nls/lib/uwb_nls\n'}
+[11.386068] (uwb_nls) StdoutLine: {'line': b'Installing position_nls script to /workspace/install/uwb_nls/lib/uwb_nls\n'}
+[11.386251] (uwb_nls) StdoutLine: {'line': b'Installing receiver script to /workspace/install/uwb_nls/lib/uwb_nls\n'}
+[11.386394] (uwb_nls) StdoutLine: {'line': b'Installing visualization_all script to /workspace/install/uwb_nls/lib/uwb_nls\n'}
+[11.386527] (uwb_nls) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/uwb_nls/install.log'\n"}
+[11.401409] (-) TimerEvent: {}
+[11.475213] (uwb_nls) CommandEnded: {'returncode': 0}
+[11.506846] (-) TimerEvent: {}
+[11.516477] (uwb_nls) JobEnded: {'identifier': 'uwb_nls', 'rc': 0}
+[11.519768] (visualization) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/visualization', 'build', '--build-base', '/workspace/build/visualization/build', 'install', '--record', '/workspace/build/visualization/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/visualization', 'env': {'TWINE_PASSWORD': 'NvidiaJetson24', 'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONFAULTHANDLER': '1', 'CUDACXX': '/usr/local/cuda/bin/nvcc', 'PYTHONIOENCODING': 'utf-8', 'PIP_ROOT_USER_ACTION': 'ignore', 'LANGUAGE': 'en_US:en', 'PIP_TRUSTED_HOST': 'jetson.webredirect.org', 'PIP_DEFAULT_TIMEOUT': '100', 'PYTHONHASHSEED': 'random', 'HOSTNAME': 'ubuntu', 'TWINE_REPOSITORY_URL': 'http://jao-51/jp6/cu126', 'TAR_INDEX_URL': 'http://jetson.webredirect.org:8000/jp6/cu126', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:', 'HOME': '/home/work', 'OLDPWD': '/home/work', 'CMAKE_CUDA_COMPILER': '/usr/local/cuda/bin/nvcc', 'TORCH_NVCC_FLAGS': '-Xfatbin -compress-all', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'CUDA_TOOLKIT_ROOT_DIR': '/usr/local/cuda', 'CUDA_NVCC_EXECUTABLE': '/usr/local/cuda/bin/nvcc', 'CUDNN_LIB_PATH': '/usr/lib/aarch64-linux-gnu', 'CUDAARCHS': '87', 'PIP_CACHE_PURGE': 'true', 'COLCON_PREFIX_PATH': '/workspace/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', 'RS_VER': 'v2.56.5', 'SCP_UPLOAD_PASS': 'nvidia', 'PIP_DISABLE_PIP_VERSION_CHECK': 'on', 'CUDA_ARCHITECTURES': '87', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'TWINE_USERNAME': 'jp6', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PIP_INDEX_URL': 'https://pypi.org/simple', 'PIP_NO_CACHE_DIR': 'off', 'DISPLAY': ':1', 'SCP_UPLOAD_USER': 'nvidia', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XAUTHORITY': '/home/work/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'SCP_UPLOAD_URL': 'jao-51:/dist/jp6/cu126', 'AMENT_PREFIX_PATH': '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install', 'TWINE_NON_INTERACTIVE': '1', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PYTHON_VERSION': '3.10', 'OPENCV_VERSION': '4.10.0', 'SETUPTOOLS_USE_DISTUTILS': 'stdlib', 'NVCC_PATH': '/usr/local/cuda/bin/nvcc', 'OPENCV_URL': '', 'PWD': '/workspace/build/visualization', 'LC_ALL': 'C.UTF-8', 'CUDA_HOME': '/usr/local/cuda', 'CUDNN_LIB_INCLUDE_PATH': '/usr/include', 'PYTHONPATH': '/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'PIP_EXTRA_INDEX_URL': '', 'COLCON': '1', 'CUDA_BIN_PATH': '/usr/local/cuda/bin', 'CMAKE_PREFIX_PATH': '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install'}, 'shell': False}
+[11.602565] (visualization) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml\n'}
+[11.603178] (visualization) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.607227] (-) TimerEvent: {}
+[11.643776] (rc_receiver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/rc_receiver', 'build', '--build-base', '/workspace/build/rc_receiver/build', 'install', '--record', '/workspace/build/rc_receiver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/motor_control/rc_receiver', 'env': {'TWINE_PASSWORD': 'NvidiaJetson24', 'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONFAULTHANDLER': '1', 'CUDACXX': '/usr/local/cuda/bin/nvcc', 'PYTHONIOENCODING': 'utf-8', 'PIP_ROOT_USER_ACTION': 'ignore', 'LANGUAGE': 'en_US:en', 'PIP_TRUSTED_HOST': 'jetson.webredirect.org', 'PIP_DEFAULT_TIMEOUT': '100', 'PYTHONHASHSEED': 'random', 'HOSTNAME': 'ubuntu', 'TWINE_REPOSITORY_URL': 'http://jao-51/jp6/cu126', 'TAR_INDEX_URL': 'http://jetson.webredirect.org:8000/jp6/cu126', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64', 'HOME': '/home/work', 'OLDPWD': '/home/work', 'CMAKE_CUDA_COMPILER': '/usr/local/cuda/bin/nvcc', 'TORCH_NVCC_FLAGS': '-Xfatbin -compress-all', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'CUDA_TOOLKIT_ROOT_DIR': '/usr/local/cuda', 'CUDA_NVCC_EXECUTABLE': '/usr/local/cuda/bin/nvcc', 'CUDNN_LIB_PATH': '/usr/lib/aarch64-linux-gnu', 'CUDAARCHS': '87', 'PIP_CACHE_PURGE': 'true', 'COLCON_PREFIX_PATH': '/workspace/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', 'RS_VER': 'v2.56.5', 'SCP_UPLOAD_PASS': 'nvidia', 'PIP_DISABLE_PIP_VERSION_CHECK': 'on', 'CUDA_ARCHITECTURES': '87', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'TWINE_USERNAME': 'jp6', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PIP_INDEX_URL': 'https://pypi.org/simple', 'PIP_NO_CACHE_DIR': 'off', 'DISPLAY': ':1', 'SCP_UPLOAD_USER': 'nvidia', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XAUTHORITY': '/home/work/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'SCP_UPLOAD_URL': 'jao-51:/dist/jp6/cu126', 'AMENT_PREFIX_PATH': '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install', 'TWINE_NON_INTERACTIVE': '1', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PYTHON_VERSION': '3.10', 'OPENCV_VERSION': '4.10.0', 'SETUPTOOLS_USE_DISTUTILS': 'stdlib', 'NVCC_PATH': '/usr/local/cuda/bin/nvcc', 'OPENCV_URL': '', 'PWD': '/workspace/build/rc_receiver', 'LC_ALL': 'C.UTF-8', 'CUDA_HOME': '/usr/local/cuda', 'CUDNN_LIB_INCLUDE_PATH': '/usr/include', 'PYTHONPATH': '/workspace/build/rc_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'PIP_EXTRA_INDEX_URL': '', 'COLCON': '1', 'CUDA_BIN_PATH': '/usr/local/cuda/bin', 'CMAKE_PREFIX_PATH': '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install'}, 'shell': False}
+[11.707408] (-) TimerEvent: {}
+[11.733598] (rc_receiver) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml\n'}
+[11.734367] (rc_receiver) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.807623] (-) TimerEvent: {}
+[11.908500] (-) TimerEvent: {}
+[11.984221] (visualization) StderrLine: {'line': b"/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[11.984731] (visualization) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[12.008682] (-) TimerEvent: {}
+[12.060796] (rc_receiver) StderrLine: {'line': b"/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[12.061369] (rc_receiver) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[12.108894] (-) TimerEvent: {}
+[12.209598] (-) TimerEvent: {}
+[12.273225] (visualization) StdoutLine: {'line': b'running egg_info\n'}
+[12.311133] (rc_receiver) StdoutLine: {'line': b'running egg_info\n'}
+[12.311694] (-) TimerEvent: {}
+[12.312601] (visualization) StdoutLine: {'line': b'writing ../../build/visualization/visualization.egg-info/PKG-INFO\n'}
+[12.321398] (visualization) StdoutLine: {'line': b'writing dependency_links to ../../build/visualization/visualization.egg-info/dependency_links.txt\n'}
+[12.321999] (visualization) StdoutLine: {'line': b'writing entry points to ../../build/visualization/visualization.egg-info/entry_points.txt\n'}
+[12.329498] (visualization) StdoutLine: {'line': b'writing requirements to ../../build/visualization/visualization.egg-info/requires.txt\n'}
+[12.329928] (visualization) StdoutLine: {'line': b'writing top-level names to ../../build/visualization/visualization.egg-info/top_level.txt\n'}
+[12.350081] (rc_receiver) StdoutLine: {'line': b'writing ../../../build/rc_receiver/rc_receiver.egg-info/PKG-INFO\n'}
+[12.353390] (rc_receiver) StdoutLine: {'line': b'writing dependency_links to ../../../build/rc_receiver/rc_receiver.egg-info/dependency_links.txt\n'}
+[12.353979] (rc_receiver) StdoutLine: {'line': b'writing entry points to ../../../build/rc_receiver/rc_receiver.egg-info/entry_points.txt\n'}
+[12.354182] (rc_receiver) StdoutLine: {'line': b'writing requirements to ../../../build/rc_receiver/rc_receiver.egg-info/requires.txt\n'}
+[12.358647] (rc_receiver) StdoutLine: {'line': b'writing top-level names to ../../../build/rc_receiver/rc_receiver.egg-info/top_level.txt\n'}
+[12.413417] (-) TimerEvent: {}
+[12.418153] (visualization) StdoutLine: {'line': b"reading manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'\n"}
+[12.421290] (visualization) StdoutLine: {'line': b"writing manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'\n"}
+[12.422495] (visualization) StdoutLine: {'line': b'running build\n'}
+[12.423309] (visualization) StdoutLine: {'line': b'running build_py\n'}
+[12.423525] (visualization) StdoutLine: {'line': b'running install\n'}
+[12.424619] (visualization) StdoutLine: {'line': b'running install_lib\n'}
+[12.434439] (rc_receiver) StdoutLine: {'line': b"reading manifest file '../../../build/rc_receiver/rc_receiver.egg-info/SOURCES.txt'\n"}
+[12.435105] (rc_receiver) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[12.437028] (rc_receiver) StdoutLine: {'line': b"writing manifest file '../../../build/rc_receiver/rc_receiver.egg-info/SOURCES.txt'\n"}
+[12.437499] (rc_receiver) StdoutLine: {'line': b'running build\n'}
+[12.437825] (rc_receiver) StdoutLine: {'line': b'running build_py\n'}
+[12.438355] (rc_receiver) StdoutLine: {'line': b'running install\n'}
+[12.439457] (rc_receiver) StdoutLine: {'line': b'running install_lib\n'}
+[12.468623] (visualization) StdoutLine: {'line': b'running install_data\n'}
+[12.469167] (visualization) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.488043] (rc_receiver) StdoutLine: {'line': b'running install_data\n'}
+[12.488612] (rc_receiver) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.513382] (visualization) StdoutLine: {'line': b"removing '/workspace/install/visualization/lib/python3.10/site-packages/visualization-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.513915] (-) TimerEvent: {}
+[12.514702] (visualization) StdoutLine: {'line': b'Copying ../../build/visualization/visualization.egg-info to /workspace/install/visualization/lib/python3.10/site-packages/visualization-0.0.0-py3.10.egg-info\n'}
+[12.515028] (visualization) StdoutLine: {'line': b'running install_scripts\n'}
+[12.535680] (rc_receiver) StdoutLine: {'line': b"removing '/workspace/install/rc_receiver/lib/python3.10/site-packages/rc_receiver-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.536605] (rc_receiver) StdoutLine: {'line': b'Copying ../../../build/rc_receiver/rc_receiver.egg-info to /workspace/install/rc_receiver/lib/python3.10/site-packages/rc_receiver-0.0.0-py3.10.egg-info\n'}
+[12.545396] (rc_receiver) StdoutLine: {'line': b'running install_scripts\n'}
+[12.601373] (visualization) StdoutLine: {'line': b'Installing sim_node script to /workspace/install/visualization/lib/visualization\n'}
+[12.601936] (visualization) StdoutLine: {'line': b'Installing visual script to /workspace/install/visualization/lib/visualization\n'}
+[12.602150] (visualization) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/visualization/install.log'\n"}
+[12.614349] (-) TimerEvent: {}
+[12.645395] (rc_receiver) StdoutLine: {'line': b'Installing rc_receiver script to /workspace/install/rc_receiver/lib/rc_receiver\n'}
+[12.645966] (rc_receiver) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/rc_receiver/install.log'\n"}
+[12.691350] (visualization) CommandEnded: {'returncode': 0}
+[12.717417] (-) TimerEvent: {}
+[12.743028] (visualization) JobEnded: {'identifier': 'visualization', 'rc': 0}
+[12.747024] (rc_receiver) CommandEnded: {'returncode': 0}
+[12.768404] (rc_receiver) JobEnded: {'identifier': 'rc_receiver', 'rc': 0}
+[12.817618] (-) TimerEvent: {}
+[12.918383] (-) TimerEvent: {}
+[13.019147] (-) TimerEvent: {}
+[13.119903] (-) TimerEvent: {}
+[13.220676] (-) TimerEvent: {}
+[13.321434] (-) TimerEvent: {}
+[13.422165] (-) TimerEvent: {}
+[13.523061] (-) TimerEvent: {}
+[13.623823] (-) TimerEvent: {}
+[13.724619] (-) TimerEvent: {}
+[13.825400] (-) TimerEvent: {}
+[13.926144] (-) TimerEvent: {}
+[14.026901] (-) TimerEvent: {}
+[14.127681] (-) TimerEvent: {}
+[14.228938] (-) TimerEvent: {}
+[14.329952] (-) TimerEvent: {}
+[14.430701] (-) TimerEvent: {}
+[14.531664] (-) TimerEvent: {}
+[14.632435] (-) TimerEvent: {}
+[14.733201] (-) TimerEvent: {}
+[14.833983] (-) TimerEvent: {}
+[14.934719] (-) TimerEvent: {}
+[15.035464] (-) TimerEvent: {}
+[15.137444] (-) TimerEvent: {}
+[15.238309] (-) TimerEvent: {}
+[15.339036] (-) TimerEvent: {}
+[15.441426] (-) TimerEvent: {}
+[15.542174] (-) TimerEvent: {}
+[15.642913] (-) TimerEvent: {}
+[15.749434] (-) TimerEvent: {}
+[15.850246] (-) TimerEvent: {}
+[15.951075] (-) TimerEvent: {}
+[16.051878] (-) TimerEvent: {}
+[16.153433] (-) TimerEvent: {}
+[16.254164] (-) TimerEvent: {}
+[16.354882] (-) TimerEvent: {}
+[16.456489] (-) TimerEvent: {}
+[16.557264] (-) TimerEvent: {}
+[16.657995] (-) TimerEvent: {}
+[16.761445] (-) TimerEvent: {}
+[16.865429] (-) TimerEvent: {}
+[16.966175] (-) TimerEvent: {}
+[17.069430] (-) TimerEvent: {}
+[17.170166] (-) TimerEvent: {}
+[17.272412] (-) TimerEvent: {}
+[17.377434] (-) TimerEvent: {}
+[17.481424] (-) TimerEvent: {}
+[17.582671] (-) TimerEvent: {}
+[17.683473] (-) TimerEvent: {}
+[17.785540] (-) TimerEvent: {}
+[17.889432] (-) TimerEvent: {}
+[17.991335] (-) TimerEvent: {}
+[18.093437] (-) TimerEvent: {}
+[18.197435] (-) TimerEvent: {}
+[18.298216] (-) TimerEvent: {}
+[18.399011] (-) TimerEvent: {}
+[18.499760] (-) TimerEvent: {}
+[18.600619] (-) TimerEvent: {}
+[18.701454] (-) TimerEvent: {}
+[18.802257] (-) TimerEvent: {}
+[18.905433] (-) TimerEvent: {}
+[19.009305] (-) TimerEvent: {}
+[19.110640] (-) TimerEvent: {}
+[19.211356] (-) TimerEvent: {}
+[19.312122] (-) TimerEvent: {}
+[19.412910] (-) TimerEvent: {}
+[19.513729] (-) TimerEvent: {}
+[19.614456] (-) TimerEvent: {}
+[19.717438] (-) TimerEvent: {}
+[19.818219] (-) TimerEvent: {}
+[19.918989] (-) TimerEvent: {}
+[20.019735] (-) TimerEvent: {}
+[20.121417] (-) TimerEvent: {}
+[20.222187] (-) TimerEvent: {}
+[20.322951] (-) TimerEvent: {}
+[20.423758] (-) TimerEvent: {}
+[20.524553] (-) TimerEvent: {}
+[20.625442] (-) TimerEvent: {}
+[20.729440] (-) TimerEvent: {}
+[20.830176] (-) TimerEvent: {}
+[20.930915] (-) TimerEvent: {}
+[21.031701] (-) TimerEvent: {}
+[21.133460] (-) TimerEvent: {}
+[21.234298] (-) TimerEvent: {}
+[21.335123] (-) TimerEvent: {}
+[21.437443] (-) TimerEvent: {}
+[21.538241] (-) TimerEvent: {}
+[21.639392] (-) TimerEvent: {}
+[21.740458] (-) TimerEvent: {}
+[21.841192] (-) TimerEvent: {}
+[21.945452] (-) TimerEvent: {}
+[22.049430] (-) TimerEvent: {}
+[22.150159] (-) TimerEvent: {}
+[22.250889] (-) TimerEvent: {}
+[22.351607] (-) TimerEvent: {}
+[22.452341] (-) TimerEvent: {}
+[22.553064] (-) TimerEvent: {}
+[22.653815] (-) TimerEvent: {}
+[22.754545] (-) TimerEvent: {}
+[22.855261] (-) TimerEvent: {}
+[22.955986] (-) TimerEvent: {}
+[23.056777] (-) TimerEvent: {}
+[23.158466] (-) TimerEvent: {}
+[23.265426] (-) TimerEvent: {}
+[23.366168] (-) TimerEvent: {}
+[23.467419] (-) TimerEvent: {}
+[23.568166] (-) TimerEvent: {}
+[23.669479] (-) TimerEvent: {}
+[23.770201] (-) TimerEvent: {}
+[23.873425] (-) TimerEvent: {}
+[23.977422] (-) TimerEvent: {}
+[24.078151] (-) TimerEvent: {}
+[24.179172] (-) TimerEvent: {}
+[24.285424] (-) TimerEvent: {}
+[24.389635] (-) TimerEvent: {}
+[24.490450] (-) TimerEvent: {}
+[24.593436] (-) TimerEvent: {}
+[24.694867] (-) TimerEvent: {}
+[24.797446] (-) TimerEvent: {}
+[24.901093] (-) TimerEvent: {}
+[25.004347] (-) TimerEvent: {}
+[25.105111] (-) TimerEvent: {}
+[25.207470] (-) TimerEvent: {}
+[25.308284] (-) TimerEvent: {}
+[25.409139] (-) TimerEvent: {}
+[25.509910] (-) TimerEvent: {}
+[25.613438] (-) TimerEvent: {}
+[25.716502] (-) TimerEvent: {}
+[25.817671] (-) TimerEvent: {}
+[25.918455] (-) TimerEvent: {}
+[26.019173] (-) TimerEvent: {}
+[26.119920] (-) TimerEvent: {}
+[26.220690] (-) TimerEvent: {}
+[26.321513] (-) TimerEvent: {}
+[26.422318] (-) TimerEvent: {}
+[26.523521] (-) TimerEvent: {}
+[26.624336] (-) TimerEvent: {}
+[26.725104] (-) TimerEvent: {}
+[26.826823] (-) TimerEvent: {}
+[26.927568] (-) TimerEvent: {}
+[27.028296] (-) TimerEvent: {}
+[27.129416] (-) TimerEvent: {}
+[27.230168] (-) TimerEvent: {}
+[27.330881] (-) TimerEvent: {}
+[27.437435] (-) TimerEvent: {}
+[27.538182] (-) TimerEvent: {}
+[27.638904] (-) TimerEvent: {}
+[27.739625] (-) TimerEvent: {}
+[27.840369] (-) TimerEvent: {}
+[27.941170] (-) TimerEvent: {}
+[28.041925] (-) TimerEvent: {}
+[28.142655] (-) TimerEvent: {}
+[28.243388] (-) TimerEvent: {}
+[28.344110] (-) TimerEvent: {}
+[28.445466] (-) TimerEvent: {}
+[28.546213] (-) TimerEvent: {}
+[28.647006] (-) TimerEvent: {}
+[28.749193] (-) TimerEvent: {}
+[28.849985] (-) TimerEvent: {}
+[28.953435] (-) TimerEvent: {}
+[29.054202] (-) TimerEvent: {}
+[29.154957] (-) TimerEvent: {}
+[29.255781] (-) TimerEvent: {}
+[29.356536] (-) TimerEvent: {}
+[29.457308] (-) TimerEvent: {}
+[29.558051] (-) TimerEvent: {}
+[29.658801] (-) TimerEvent: {}
+[29.761812] (-) TimerEvent: {}
+[29.869428] (-) TimerEvent: {}
+[29.973432] (-) TimerEvent: {}
+[30.074222] (-) TimerEvent: {}
+[30.174963] (-) TimerEvent: {}
+[30.277089] (-) TimerEvent: {}
+[30.377874] (-) TimerEvent: {}
+[30.481627] (-) TimerEvent: {}
+[30.582366] (-) TimerEvent: {}
+[30.617804] (obs_filiter) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable realsense_read_node\x1b[0m\n'}
+[30.685438] (-) TimerEvent: {}
+[30.789433] (-) TimerEvent: {}
+[30.890187] (-) TimerEvent: {}
+[30.993430] (-) TimerEvent: {}
+[31.094183] (-) TimerEvent: {}
+[31.197444] (-) TimerEvent: {}
+[31.298199] (-) TimerEvent: {}
+[31.398966] (-) TimerEvent: {}
+[31.501449] (-) TimerEvent: {}
+[31.604966] (-) TimerEvent: {}
+[31.705763] (-) TimerEvent: {}
+[31.807250] (-) TimerEvent: {}
+[31.908027] (-) TimerEvent: {}
+[32.008808] (-) TimerEvent: {}
+[32.109646] (-) TimerEvent: {}
+[32.210440] (-) TimerEvent: {}
+[32.311362] (-) TimerEvent: {}
+[32.412295] (-) TimerEvent: {}
+[32.513205] (-) TimerEvent: {}
+[32.560458] (obs_filiter) StdoutLine: {'line': b'[ 25%] Built target realsense_read_node\n'}
+[32.613437] (-) TimerEvent: {}
+[32.692931] (obs_filiter) StdoutLine: {'line': b'[ 50%] Built target xz_visualizer_node\n'}
+[32.713606] (-) TimerEvent: {}
+[32.772540] (obs_filiter) StdoutLine: {'line': b'[ 75%] Built target obstacle_node\n'}
+[32.817431] (-) TimerEvent: {}
+[32.851703] (obs_filiter) StdoutLine: {'line': b'[100%] Built target plane_node\n'}
+[32.900326] (obs_filiter) CommandEnded: {'returncode': 0}
+[32.917539] (-) TimerEvent: {}
+[33.018136] (-) TimerEvent: {}
+[33.118805] (-) TimerEvent: {}
+[33.168988] (obs_filiter) JobProgress: {'identifier': 'obs_filiter', 'progress': 'install'}
+[33.170752] (obs_filiter) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/workspace/build/obs_filiter'], 'cwd': '/workspace/build/obs_filiter', 'env': OrderedDict([('TWINE_PASSWORD', 'NvidiaJetson24'), ('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONFAULTHANDLER', '1'), ('CUDACXX', '/usr/local/cuda/bin/nvcc'), ('PYTHONIOENCODING', 'utf-8'), ('PIP_ROOT_USER_ACTION', 'ignore'), ('LANGUAGE', 'en_US:en'), ('PIP_TRUSTED_HOST', 'jetson.webredirect.org'), ('PIP_DEFAULT_TIMEOUT', '100'), ('PYTHONHASHSEED', 'random'), ('HOSTNAME', 'ubuntu'), ('TWINE_REPOSITORY_URL', 'http://jao-51/jp6/cu126'), ('TAR_INDEX_URL', 'http://jetson.webredirect.org:8000/jp6/cu126'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:'), ('HOME', '/home/work'), ('OLDPWD', '/home/work'), ('CMAKE_CUDA_COMPILER', '/usr/local/cuda/bin/nvcc'), ('TORCH_NVCC_FLAGS', '-Xfatbin -compress-all'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_TOOLKIT_ROOT_DIR', '/usr/local/cuda'), ('CUDA_NVCC_EXECUTABLE', '/usr/local/cuda/bin/nvcc'), ('CUDNN_LIB_PATH', '/usr/lib/aarch64-linux-gnu'), ('CUDAARCHS', '87'), ('PIP_CACHE_PURGE', 'true'), ('COLCON_PREFIX_PATH', '/workspace/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('RS_VER', 'v2.56.5'), ('SCP_UPLOAD_PASS', 'nvidia'), ('PIP_DISABLE_PIP_VERSION_CHECK', 'on'), ('CUDA_ARCHITECTURES', '87'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('TWINE_USERNAME', 'jp6'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PIP_INDEX_URL', 'https://pypi.org/simple'), ('PIP_NO_CACHE_DIR', 'off'), ('DISPLAY', ':1'), ('SCP_UPLOAD_USER', 'nvidia'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XAUTHORITY', '/home/work/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('SCP_UPLOAD_URL', 'jao-51:/dist/jp6/cu126'), ('AMENT_PREFIX_PATH', '/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/rc_receiver_if:/workspace/install/pixhawk_control:/workspace/install/obs_filiter:/workspace/install/motor_if:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble/install:/opt/ros/humble/install'), ('TWINE_NON_INTERACTIVE', '1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PYTHON_VERSION', '3.10'), ('OPENCV_VERSION', '4.10.0'), ('SETUPTOOLS_USE_DISTUTILS', 'stdlib'), ('NVCC_PATH', '/usr/local/cuda/bin/nvcc'), ('OPENCV_URL', ''), ('PWD', '/workspace/build/obs_filiter'), ('LC_ALL', 'C.UTF-8'), ('CUDA_HOME', '/usr/local/cuda'), ('CUDNN_LIB_INCLUDE_PATH', '/usr/include'), ('PYTHONPATH', '/workspace/install/visualization/lib/python3.10/site-packages:/workspace/install/uwb_nls/lib/python3.10/site-packages:/workspace/install/ultrasonic/lib/python3.10/site-packages:/workspace/install/track/lib/python3.10/site-packages:/workspace/install/record/lib/python3.10/site-packages:/workspace/install/rc_receiver/lib/python3.10/site-packages:/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages:/workspace/install/pixhawk_control/lib/python3.10/site-packages:/workspace/install/motor_if/local/lib/python3.10/dist-packages:/workspace/install/motor/lib/python3.10/site-packages:/workspace/install/camera/lib/python3.10/site-packages:/usr/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('PIP_EXTRA_INDEX_URL', ''), ('COLCON', '1'), ('CUDA_BIN_PATH', '/usr/local/cuda/bin'), ('CMAKE_PREFIX_PATH', '/workspace/install/rc_receiver_if:/workspace/install/obs_filiter:/workspace/install/motor_if:/opt/ros/humble/install:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera')]), 'shell': False}
+[33.218974] (-) TimerEvent: {}
+[33.319631] (-) TimerEvent: {}
+[33.341908] (obs_filiter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.342490] (obs_filiter) StdoutLine: {'line': b'-- Installing: /workspace/install/obs_filiter/lib/obs_filiter/realsense_read_node\n'}
+[33.353477] (obs_filiter) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspace/install/obs_filiter/lib/obs_filiter/realsense_read_node" to ""\n'}
+[33.354154] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/plane_node\n'}
+[33.354772] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/obstacle_node\n'}
+[33.355357] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/xz_visualizer_node\n'}
+[33.355716] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter\n'}
+[33.355938] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter\n'}
+[33.356117] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter/plane_estimator.hpp\n'}
+[33.356350] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter/visualization.hpp\n'}
+[33.356490] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter/obstacle_detector.hpp\n'}
+[33.356682] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter//launch\n'}
+[33.356864] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter//launch/obs_filiter_launch.py\n'}
+[33.357034] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/ament_index/resource_index/package_run_dependencies/obs_filiter\n'}
+[33.357168] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/ament_index/resource_index/parent_prefix_path/obs_filiter\n'}
+[33.357322] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/environment/ament_prefix_path.sh\n'}
+[33.357453] (obs_filiter) StdoutLine: {'line': b'-- Installing: /workspace/install/obs_filiter/share/obs_filiter/environment/ament_prefix_path.dsv\n'}
+[33.357635] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/environment/path.sh\n'}
+[33.357799] (obs_filiter) StdoutLine: {'line': b'-- Installing: /workspace/install/obs_filiter/share/obs_filiter/environment/path.dsv\n'}
+[33.357956] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.bash\n'}
+[33.358158] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.sh\n'}
+[33.358317] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.zsh\n'}
+[33.358446] (obs_filiter) StdoutLine: {'line': b'-- Installing: /workspace/install/obs_filiter/share/obs_filiter/local_setup.dsv\n'}
+[33.358600] (obs_filiter) StdoutLine: {'line': b'-- Installing: /workspace/install/obs_filiter/share/obs_filiter/package.dsv\n'}
+[33.358870] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/ament_index/resource_index/packages/obs_filiter\n'}
+[33.359322] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/cmake/obs_filiterConfig.cmake\n'}
+[33.359489] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/cmake/obs_filiterConfig-version.cmake\n'}
+[33.359637] (obs_filiter) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/package.xml\n'}
+[33.397220] (obs_filiter) CommandEnded: {'returncode': 0}
+[33.419724] (-) TimerEvent: {}
+[33.520289] (-) TimerEvent: {}
+[33.620912] (-) TimerEvent: {}
+[33.718158] (obs_filiter) JobEnded: {'identifier': 'obs_filiter', 'rc': 0}
+[33.721005] (-) TimerEvent: {}
+[33.721264] (-) EventReactorShutdown: {}

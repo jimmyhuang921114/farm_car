@@ -1,0 +1,27 @@
+[4.097s] Invoking command in '/workspace/src/record': PYTHONPATH=/workspace/build/record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/record/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/record build --build-base /workspace/build/record/build install --record /workspace/build/record/install.log --single-version-externally-managed install_data
+[4.487s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.487s]   warnings.warn(msg)
+[4.701s] running egg_info
+[4.731s] writing ../../build/record/record.egg-info/PKG-INFO
+[4.733s] writing dependency_links to ../../build/record/record.egg-info/dependency_links.txt
+[4.734s] writing entry points to ../../build/record/record.egg-info/entry_points.txt
+[4.734s] writing requirements to ../../build/record/record.egg-info/requires.txt
+[4.735s] writing top-level names to ../../build/record/record.egg-info/top_level.txt
+[4.803s] reading manifest file '../../build/record/record.egg-info/SOURCES.txt'
+[4.806s] writing manifest file '../../build/record/record.egg-info/SOURCES.txt'
+[4.806s] running build
+[4.807s] running build_py
+[4.808s] copying record/record_node.py -> /workspace/build/record/build/lib/record
+[4.808s] copying record/__init__.py -> /workspace/build/record/build/lib/record
+[4.809s] running install
+[4.818s] running install_lib
+[4.850s] running install_data
+[4.851s] copying resource/record -> /workspace/install/record/share/ament_index/resource_index/packages
+[4.852s] copying package.xml -> /workspace/install/record/share/record
+[4.852s] running install_egg_info
+[4.887s] removing '/workspace/install/record/lib/python3.10/site-packages/record-0.0.0-py3.10.egg-info' (and everything under it)
+[4.887s] Copying ../../build/record/record.egg-info to /workspace/install/record/lib/python3.10/site-packages/record-0.0.0-py3.10.egg-info
+[4.889s] running install_scripts
+[5.188s] Installing record_node script to /workspace/install/record/lib/record
+[5.189s] writing list of installed files to '/workspace/build/record/install.log'
+[5.370s] Invoked command in '/workspace/src/record' returned '0': PYTHONPATH=/workspace/build/record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/record/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/record build --build-base /workspace/build/record/build install --record /workspace/build/record/install.log --single-version-externally-managed install_data

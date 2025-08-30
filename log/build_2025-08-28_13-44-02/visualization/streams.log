@@ -1,0 +1,30 @@
+[6.488s] Invoking command in '/workspace/src/visualization': PYTHONPATH=/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/visualization build --build-base /workspace/build/visualization/build install --record /workspace/build/visualization/install.log --single-version-externally-managed install_data
+[7.132s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[7.133s]   warnings.warn(msg)
+[7.442s] running egg_info
+[7.477s] writing ../../build/visualization/visualization.egg-info/PKG-INFO
+[7.495s] writing dependency_links to ../../build/visualization/visualization.egg-info/dependency_links.txt
+[7.495s] writing entry points to ../../build/visualization/visualization.egg-info/entry_points.txt
+[7.511s] writing requirements to ../../build/visualization/visualization.egg-info/requires.txt
+[7.511s] writing top-level names to ../../build/visualization/visualization.egg-info/top_level.txt
+[7.603s] reading manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+[7.619s] writing manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+[7.619s] running build
+[7.620s] running build_py
+[7.620s] copying visualization/visual.py -> /workspace/build/visualization/build/lib/visualization
+[7.627s] copying visualization/__init__.py -> /workspace/build/visualization/build/lib/visualization
+[7.628s] copying visualization/sim_node.py -> /workspace/build/visualization/build/lib/visualization
+[7.640s] running install
+[7.670s] running install_lib
+[7.739s] running install_data
+[7.763s] copying resource/visualization -> /workspace/install/visualization/share/ament_index/resource_index/packages
+[7.763s] copying package.xml -> /workspace/install/visualization/share/visualization
+[7.763s] copying launch/main_launch.py -> /workspace/install/visualization/share/visualization/launch
+[7.767s] running install_egg_info
+[7.807s] removing '/workspace/install/visualization/lib/python3.10/site-packages/visualization-0.0.0-py3.10.egg-info' (and everything under it)
+[7.811s] Copying ../../build/visualization/visualization.egg-info to /workspace/install/visualization/lib/python3.10/site-packages/visualization-0.0.0-py3.10.egg-info
+[7.817s] running install_scripts
+[8.401s] Installing sim_node script to /workspace/install/visualization/lib/visualization
+[8.405s] Installing visual script to /workspace/install/visualization/lib/visualization
+[8.405s] writing list of installed files to '/workspace/build/visualization/install.log'
+[8.567s] Invoked command in '/workspace/src/visualization' returned '0': PYTHONPATH=/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/visualization build --build-base /workspace/build/visualization/build install --record /workspace/build/visualization/install.log --single-version-externally-managed install_data

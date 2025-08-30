@@ -1,0 +1,2 @@
+[console_scripts]
+rc_receiver = rc_receiver.rc_receiver:main

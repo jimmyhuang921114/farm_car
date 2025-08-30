@@ -1,0 +1,39 @@
+running egg_info
+writing ../../build/track/track.egg-info/PKG-INFO
+writing dependency_links to ../../build/track/track.egg-info/dependency_links.txt
+writing entry points to ../../build/track/track.egg-info/entry_points.txt
+writing requirements to ../../build/track/track.egg-info/requires.txt
+writing top-level names to ../../build/track/track.egg-info/top_level.txt
+reading manifest file '../../build/track/track.egg-info/SOURCES.txt'
+writing manifest file '../../build/track/track.egg-info/SOURCES.txt'
+running build
+running build_py
+copying track/ByteTrack.py -> /workspace/build/track/build/lib/track
+copying track/bytetrack.py -> /workspace/build/track/build/lib/track
+copying track/matching.py -> /workspace/build/track/build/lib/track
+copying track/basetrack.py -> /workspace/build/track/build/lib/track
+copying track/depth.py -> /workspace/build/track/build/lib/track
+copying track/kalman_filter.py -> /workspace/build/track/build/lib/track
+copying track/YOLO.py -> /workspace/build/track/build/lib/track
+copying track/testa.py -> /workspace/build/track/build/lib/track
+copying track/test.py -> /workspace/build/track/build/lib/track
+copying track/testb.py -> /workspace/build/track/build/lib/track
+copying track/__init__.py -> /workspace/build/track/build/lib/track
+copying track/byte_tracker.py -> /workspace/build/track/build/lib/track
+running install
+running install_lib
+copying /workspace/build/track/build/lib/track/YOLO.py -> /workspace/install/track/lib/python3.10/site-packages/track
+byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/YOLO.py to YOLO.cpython-310.pyc
+running install_data
+copying resource/track -> /workspace/install/track/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/install/track/share/track
+running install_egg_info
+removing '/workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/track/track.egg-info to /workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ByteTrack script to /workspace/install/track/lib/track
+Installing YOLO script to /workspace/install/track/lib/track
+Installing bytetrack script to /workspace/install/track/lib/track
+Installing depth script to /workspace/install/track/lib/track
+Installing testa script to /workspace/install/track/lib/track
+writing list of installed files to '/workspace/build/track/install.log'

@@ -1,0 +1,25 @@
+[4.497s] Invoking command in '/workspace/src/record': PYTHONPATH=/workspace/build/record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/record/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/record build --build-base /workspace/build/record/build install --record /workspace/build/record/install.log --single-version-externally-managed install_data
+[4.572s] /usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[4.573s]   warnings.warn(
+[4.898s] /usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'
+[4.898s]   warnings.warn(msg)
+[5.116s] running egg_info
+[5.155s] writing ../../build/record/record.egg-info/PKG-INFO
+[5.156s] writing dependency_links to ../../build/record/record.egg-info/dependency_links.txt
+[5.157s] writing entry points to ../../build/record/record.egg-info/entry_points.txt
+[5.161s] writing requirements to ../../build/record/record.egg-info/requires.txt
+[5.169s] writing top-level names to ../../build/record/record.egg-info/top_level.txt
+[5.261s] reading manifest file '../../build/record/record.egg-info/SOURCES.txt'
+[5.262s] writing manifest file '../../build/record/record.egg-info/SOURCES.txt'
+[5.262s] running build
+[5.262s] running build_py
+[5.262s] running install
+[5.262s] running install_lib
+[5.315s] running install_data
+[5.315s] running install_egg_info
+[5.360s] removing '/workspace/install/record/lib/python3.10/site-packages/record-0.0.0-py3.10.egg-info' (and everything under it)
+[5.361s] Copying ../../build/record/record.egg-info to /workspace/install/record/lib/python3.10/site-packages/record-0.0.0-py3.10.egg-info
+[5.364s] running install_scripts
+[5.454s] Installing record_node script to /workspace/install/record/lib/record
+[5.454s] writing list of installed files to '/workspace/build/record/install.log'
+[5.903s] Invoked command in '/workspace/src/record' returned '0': PYTHONPATH=/workspace/build/record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/record/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/record build --build-base /workspace/build/record/build install --record /workspace/build/record/install.log --single-version-externally-managed install_data

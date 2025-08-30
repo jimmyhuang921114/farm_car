@@ -1,0 +1,900 @@
+[0.263s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.263s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb2237340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb24a0c40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb24a0c40>>)
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.355s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['cmake', 'python']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python_setup_py'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extension 'ros'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extensions ['cmake', 'python']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extension 'cmake'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extension 'python'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extensions ['python_setup_py']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(docker/jetson_r36) by extension 'python_setup_py'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'ros'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['cmake', 'python']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'cmake'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'python'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extensions ['python_setup_py']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_0) by extension 'python_setup_py'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extension 'ros'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extensions ['cmake', 'python']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extension 'cmake'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extension 'python'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_1) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extension 'ros'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extensions ['cmake', 'python']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extension 'cmake'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extension 'python'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extensions ['python_setup_py']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_2) by extension 'python_setup_py'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extension 'ros'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extensions ['cmake', 'python']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extension 'cmake'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extension 'python'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extensions ['python_setup_py']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_3) by extension 'python_setup_py'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extension 'colcon_meta'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extension 'ros'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extensions ['cmake', 'python']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extension 'cmake'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extension 'python'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extensions ['python_setup_py']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_4) by extension 'python_setup_py'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extension 'ros'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extensions ['cmake', 'python']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extension 'cmake'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extensions ['python_setup_py']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_5) by extension 'python_setup_py'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extensions ['cmake', 'python']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extension 'cmake'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extension 'python'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extensions ['python_setup_py']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_rx_6) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extensions ['cmake', 'python']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extension 'cmake'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extension 'python'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino/range_tx) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ignore_ament_install'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['colcon_pkg']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'colcon_pkg'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['colcon_meta']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'colcon_meta'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['ros']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera' with type 'ros.ament_python' and name 'camera'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'python_setup_py'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor) by extension 'ros'
+[0.424s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control/motor' with type 'ros.ament_python' and name 'motor'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor_if) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor_if) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor_if) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor_if) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor_if) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor_if) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor_if) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor_if) by extensions ['ros']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/motor_if) by extension 'ros'
+[0.426s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control/motor_if' with type 'ros.ament_cmake' and name 'motor_if'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver) by extension 'ros'
+[0.430s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control/rc_receiver' with type 'ros.ament_python' and name 'rc_receiver'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver_if) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver_if) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver_if) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver_if) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver_if) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver_if) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver_if) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver_if) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control/rc_receiver_if) by extension 'ros'
+[0.432s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control/rc_receiver_if' with type 'ros.ament_cmake' and name 'rc_receiver_if'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_filiter) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_filiter) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_filiter) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_filiter) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_filiter) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_filiter) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_filiter) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_filiter) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/obs_filiter) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obs_filiter' with type 'ros.ament_cmake' and name 'obs_filiter'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_control) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_control) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_control) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_control) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_control) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_control) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_control) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_control) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_control) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pixhawk_control' with type 'ros.ament_python' and name 'pixhawk_control'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/record) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/record) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/record) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/record) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/record) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/record) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/record) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/record) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/record) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'src/record' with type 'ros.ament_python' and name 'record'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/track) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/track) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/track) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/track) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/track) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/track) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/track) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/track) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/track) by extension 'ros'
+[0.442s] DEBUG:colcon.colcon_core.package_identification:Package 'src/track' with type 'ros.ament_python' and name 'track'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultrasonic) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultrasonic) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultrasonic) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultrasonic) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultrasonic) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultrasonic) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultrasonic) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultrasonic) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultrasonic) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ultrasonic' with type 'ros.ament_python' and name 'ultrasonic'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_nls) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_nls) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_nls) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_nls) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_nls) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_nls) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_nls) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_nls) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_nls) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uwb_nls' with type 'ros.ament_python' and name 'uwb_nls'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visualization' with type 'ros.ament_python' and name 'visualization'
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_target' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.505s] DEBUG:colcon.colcon_core.verb:Building package 'camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/camera', 'merge_install': False, 'path': '/workspace/src/camera', 'symlink_install': False, 'test_result_base': None}
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_first' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_force_configure' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'ament_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.506s] DEBUG:colcon.colcon_core.verb:Building package 'motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/motor', 'merge_install': False, 'path': '/workspace/src/motor_control/motor', 'symlink_install': False, 'test_result_base': None}
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'motor_if' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'motor_if' build argument 'cmake_target' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'motor_if' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'motor_if' build argument 'cmake_clean_cache' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'motor_if' build argument 'cmake_clean_first' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'motor_if' build argument 'cmake_force_configure' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'motor_if' build argument 'ament_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'motor_if' build argument 'catkin_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'motor_if' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.508s] DEBUG:colcon.colcon_core.verb:Building package 'motor_if' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/motor_if', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/motor_if', 'merge_install': False, 'path': '/workspace/src/motor_control/motor_if', 'symlink_install': False, 'test_result_base': None}
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'obs_filiter' build argument 'cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'obs_filiter' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'obs_filiter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'obs_filiter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'obs_filiter' build argument 'cmake_clean_first' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'obs_filiter' build argument 'cmake_force_configure' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'obs_filiter' build argument 'ament_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'obs_filiter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'obs_filiter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.509s] DEBUG:colcon.colcon_core.verb:Building package 'obs_filiter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/obs_filiter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/obs_filiter', 'merge_install': False, 'path': '/workspace/src/obs_filiter', 'symlink_install': False, 'test_result_base': None}
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_control' build argument 'cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_control' build argument 'cmake_target' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.510s] DEBUG:colcon.colcon_core.verb:Building package 'pixhawk_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/pixhawk_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/pixhawk_control', 'merge_install': False, 'path': '/workspace/src/pixhawk_control', 'symlink_install': False, 'test_result_base': None}
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver_if' build argument 'cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver_if' build argument 'cmake_target' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver_if' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver_if' build argument 'cmake_clean_cache' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver_if' build argument 'cmake_clean_first' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver_if' build argument 'cmake_force_configure' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver_if' build argument 'ament_cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver_if' build argument 'catkin_cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver_if' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.511s] DEBUG:colcon.colcon_core.verb:Building package 'rc_receiver_if' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/rc_receiver_if', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/rc_receiver_if', 'merge_install': False, 'path': '/workspace/src/motor_control/rc_receiver_if', 'symlink_install': False, 'test_result_base': None}
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'record' build argument 'cmake_args' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'record' build argument 'cmake_target' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'record' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'record' build argument 'cmake_clean_cache' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'record' build argument 'cmake_clean_first' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'record' build argument 'cmake_force_configure' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'record' build argument 'ament_cmake_args' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'record' build argument 'catkin_cmake_args' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'record' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.512s] DEBUG:colcon.colcon_core.verb:Building package 'record' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/record', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/record', 'merge_install': False, 'path': '/workspace/src/record', 'symlink_install': False, 'test_result_base': None}
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'track' build argument 'cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'track' build argument 'cmake_target' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'track' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'track' build argument 'cmake_clean_cache' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'track' build argument 'cmake_clean_first' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'track' build argument 'cmake_force_configure' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'track' build argument 'ament_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'track' build argument 'catkin_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'track' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.514s] DEBUG:colcon.colcon_core.verb:Building package 'track' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/track', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/track', 'merge_install': False, 'path': '/workspace/src/track', 'symlink_install': False, 'test_result_base': None}
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ultrasonic' build argument 'cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ultrasonic' build argument 'cmake_target' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ultrasonic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ultrasonic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'ultrasonic' build argument 'cmake_clean_first' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'ultrasonic' build argument 'cmake_force_configure' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'ultrasonic' build argument 'ament_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'ultrasonic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'ultrasonic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.515s] DEBUG:colcon.colcon_core.verb:Building package 'ultrasonic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/ultrasonic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/ultrasonic', 'merge_install': False, 'path': '/workspace/src/ultrasonic', 'symlink_install': False, 'test_result_base': None}
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'uwb_nls' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'uwb_nls' build argument 'cmake_target' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'uwb_nls' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'uwb_nls' build argument 'cmake_clean_cache' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'uwb_nls' build argument 'cmake_clean_first' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'uwb_nls' build argument 'cmake_force_configure' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'uwb_nls' build argument 'ament_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'uwb_nls' build argument 'catkin_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'uwb_nls' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.516s] DEBUG:colcon.colcon_core.verb:Building package 'uwb_nls' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/uwb_nls', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/uwb_nls', 'merge_install': False, 'path': '/workspace/src/uwb_nls', 'symlink_install': False, 'test_result_base': None}
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_target' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/visualization', 'merge_install': False, 'path': '/workspace/src/visualization', 'symlink_install': False, 'test_result_base': None}
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver' build argument 'cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver' build argument 'cmake_target' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver' build argument 'cmake_clean_first' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver' build argument 'cmake_force_configure' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver' build argument 'ament_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'rc_receiver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.518s] DEBUG:colcon.colcon_core.verb:Building package 'rc_receiver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/build/rc_receiver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/install/rc_receiver', 'merge_install': False, 'path': '/workspace/src/motor_control/rc_receiver', 'symlink_install': False, 'test_result_base': None}
+[0.519s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.531s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/src/motor_control/rc_receiver_if' with build type 'ament_cmake'
+[0.531s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/src/motor_control/rc_receiver_if'
+[0.537s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.563s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/src/camera' with build type 'ament_python'
+[0.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera', 'ament_prefix_path')
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/camera/share/camera/hook/ament_prefix_path.ps1'
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/camera/share/camera/hook/ament_prefix_path.dsv'
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/camera/share/camera/hook/ament_prefix_path.sh'
+[0.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.590s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/src/motor_control/motor' with build type 'ament_python'
+[0.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'ament_prefix_path')
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/motor/share/motor/hook/ament_prefix_path.ps1'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/motor/share/motor/hook/ament_prefix_path.dsv'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/motor/share/motor/hook/ament_prefix_path.sh'
+[0.594s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.594s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.616s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/src/motor_control/motor_if' with build type 'ament_cmake'
+[0.617s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/src/motor_control/motor_if'
+[0.618s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.618s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.652s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/src/obs_filiter' with build type 'ament_cmake'
+[0.653s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/src/obs_filiter'
+[0.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.693s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/src/pixhawk_control' with build type 'ament_python'
+[0.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixhawk_control', 'ament_prefix_path')
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/pixhawk_control/share/pixhawk_control/hook/ament_prefix_path.ps1'
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/pixhawk_control/share/pixhawk_control/hook/ament_prefix_path.dsv'
+[0.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/pixhawk_control/share/pixhawk_control/hook/ament_prefix_path.sh'
+[0.699s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.731s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/src/record' with build type 'ament_python'
+[0.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('record', 'ament_prefix_path')
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/record/share/record/hook/ament_prefix_path.ps1'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/record/share/record/hook/ament_prefix_path.dsv'
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/record/share/record/hook/ament_prefix_path.sh'
+[0.737s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.737s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.769s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/src/track' with build type 'ament_python'
+[0.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('track', 'ament_prefix_path')
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/track/share/track/hook/ament_prefix_path.ps1'
+[0.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/track/share/track/hook/ament_prefix_path.dsv'
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/track/share/track/hook/ament_prefix_path.sh'
+[0.778s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.779s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/rc_receiver_if': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/rc_receiver_if -- -j8 -l8
+[1.437s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/src/camera'
+[1.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.002s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/src/motor_control/motor'
+[2.003s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/motor_if': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/motor_if -- -j8 -l8
+[2.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/obs_filiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/obs_filiter -- -j8 -l8
+[2.632s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/src/pixhawk_control'
+[2.632s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.633s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.196s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/src/record'
+[3.197s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.197s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.811s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/src/track'
+[3.812s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/rc_receiver_if' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/rc_receiver_if -- -j8 -l8
+[3.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/motor_if' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/motor_if -- -j8 -l8
+[3.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/obs_filiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/obs_filiter -- -j8 -l8
+[4.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/obs_filiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/obs_filiter
+[4.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/motor_if': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/motor_if
+[4.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/build/rc_receiver_if': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/rc_receiver_if
+[5.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obs_filiter)
+[5.179s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter' for CMake module files
+[5.180s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter' for CMake config files
+[5.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/obs_filiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/obs_filiter
+[5.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('obs_filiter', 'cmake_prefix_path')
+[5.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/obs_filiter/share/obs_filiter/hook/cmake_prefix_path.ps1'
+[5.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/obs_filiter/share/obs_filiter/hook/cmake_prefix_path.dsv'
+[5.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/obs_filiter/share/obs_filiter/hook/cmake_prefix_path.sh'
+[5.201s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter/lib'
+[5.202s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter/bin'
+[5.202s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter/lib/pkgconfig/obs_filiter.pc'
+[5.203s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter/lib/python3.10/site-packages'
+[5.203s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter/bin'
+[5.204s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/obs_filiter/share/obs_filiter/package.ps1'
+[5.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/obs_filiter/share/obs_filiter/package.dsv'
+[5.217s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/obs_filiter/share/obs_filiter/package.sh'
+[5.220s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/obs_filiter/share/obs_filiter/package.bash'
+[5.221s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/obs_filiter/share/obs_filiter/package.zsh'
+[5.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/obs_filiter/share/colcon-core/packages/obs_filiter)
+[5.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rc_receiver_if)
+[5.598s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if' for CMake module files
+[5.600s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if' for CMake config files
+[5.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_receiver_if', 'cmake_prefix_path')
+[5.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/rc_receiver_if/share/rc_receiver_if/hook/cmake_prefix_path.ps1'
+[5.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/rc_receiver_if/share/rc_receiver_if/hook/cmake_prefix_path.dsv'
+[5.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/rc_receiver_if/share/rc_receiver_if/hook/cmake_prefix_path.sh'
+[5.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/rc_receiver_if' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/rc_receiver_if
+[5.606s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if/lib'
+[5.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_receiver_if', 'ld_library_path_lib')
+[5.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/rc_receiver_if/share/rc_receiver_if/hook/ld_library_path_lib.ps1'
+[5.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/rc_receiver_if/share/rc_receiver_if/hook/ld_library_path_lib.dsv'
+[5.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/rc_receiver_if/share/rc_receiver_if/hook/ld_library_path_lib.sh'
+[5.611s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if/bin'
+[5.612s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if/lib/pkgconfig/rc_receiver_if.pc'
+[5.612s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if/lib/python3.10/site-packages'
+[5.613s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if/bin'
+[5.613s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/rc_receiver_if/share/rc_receiver_if/package.ps1'
+[5.616s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/rc_receiver_if/share/rc_receiver_if/package.dsv'
+[5.618s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/rc_receiver_if/share/rc_receiver_if/package.sh'
+[5.619s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/rc_receiver_if/share/rc_receiver_if/package.bash'
+[5.621s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/rc_receiver_if/share/rc_receiver_if/package.zsh'
+[5.622s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/rc_receiver_if/share/colcon-core/packages/rc_receiver_if)
+[5.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_if)
+[5.634s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if' for CMake module files
+[5.636s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if' for CMake config files
+[5.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_if', 'cmake_prefix_path')
+[5.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/motor_if/share/motor_if/hook/cmake_prefix_path.ps1'
+[5.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/motor_if/share/motor_if/hook/cmake_prefix_path.dsv'
+[5.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/build/motor_if' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/motor_if
+[5.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/motor_if/share/motor_if/hook/cmake_prefix_path.sh'
+[5.645s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if/lib'
+[5.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_if', 'ld_library_path_lib')
+[5.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/motor_if/share/motor_if/hook/ld_library_path_lib.ps1'
+[5.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/motor_if/share/motor_if/hook/ld_library_path_lib.dsv'
+[5.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/motor_if/share/motor_if/hook/ld_library_path_lib.sh'
+[5.655s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if/bin'
+[5.655s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if/lib/pkgconfig/motor_if.pc'
+[5.656s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if/lib/python3.10/site-packages'
+[5.656s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if/bin'
+[5.657s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/motor_if/share/motor_if/package.ps1'
+[5.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/motor_if/share/motor_if/package.dsv'
+[5.669s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/motor_if/share/motor_if/package.sh'
+[5.671s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/motor_if/share/motor_if/package.bash'
+[5.672s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/motor_if/share/motor_if/package.zsh'
+[5.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/motor_if/share/colcon-core/packages/motor_if)
+[5.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obs_filiter)
+[5.738s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter' for CMake module files
+[5.739s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter' for CMake config files
+[5.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('obs_filiter', 'cmake_prefix_path')
+[5.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/obs_filiter/share/obs_filiter/hook/cmake_prefix_path.ps1'
+[5.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/obs_filiter/share/obs_filiter/hook/cmake_prefix_path.dsv'
+[5.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/obs_filiter/share/obs_filiter/hook/cmake_prefix_path.sh'
+[5.745s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter/lib'
+[5.746s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter/bin'
+[5.746s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter/lib/pkgconfig/obs_filiter.pc'
+[5.747s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter/lib/python3.10/site-packages'
+[5.747s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/obs_filiter/bin'
+[5.748s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/obs_filiter/share/obs_filiter/package.ps1'
+[5.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/obs_filiter/share/obs_filiter/package.dsv'
+[5.762s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/obs_filiter/share/obs_filiter/package.sh'
+[5.767s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/obs_filiter/share/obs_filiter/package.bash'
+[5.769s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/obs_filiter/share/obs_filiter/package.zsh'
+[5.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/obs_filiter/share/colcon-core/packages/obs_filiter)
+[5.792s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/src/ultrasonic' with build type 'ament_python'
+[5.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('ultrasonic', 'ament_prefix_path')
+[5.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/ultrasonic/share/ultrasonic/hook/ament_prefix_path.ps1'
+[5.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/ultrasonic/share/ultrasonic/hook/ament_prefix_path.dsv'
+[5.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/ultrasonic/share/ultrasonic/hook/ament_prefix_path.sh'
+[5.799s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.799s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.674s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/src/ultrasonic'
+[6.675s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/src/motor_control/motor': PYTHONPATH=/workspace/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/motor build --build-base /workspace/build/motor/build install --record /workspace/build/motor/install.log --single-version-externally-managed install_data
+[6.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/src/camera': PYTHONPATH=/workspace/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /workspace/build/camera/build install --record /workspace/build/camera/install.log --single-version-externally-managed install_data
+[6.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/src/record': PYTHONPATH=/workspace/build/record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/record/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/record build --build-base /workspace/build/record/build install --record /workspace/build/record/install.log --single-version-externally-managed install_data
+[6.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/src/pixhawk_control': PYTHONPATH=/workspace/build/pixhawk_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/pixhawk_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pixhawk_control build --build-base /workspace/build/pixhawk_control/build install --record /workspace/build/pixhawk_control/install.log --single-version-externally-managed install_data
+[6.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/src/track': PYTHONPATH=/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/track build --build-base /workspace/build/track/build install --record /workspace/build/track/install.log --single-version-externally-managed install_data
+[6.727s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rc_receiver_if)
+[6.727s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if' for CMake module files
+[6.729s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if' for CMake config files
+[6.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_receiver_if', 'cmake_prefix_path')
+[6.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/rc_receiver_if/share/rc_receiver_if/hook/cmake_prefix_path.ps1'
+[6.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/rc_receiver_if/share/rc_receiver_if/hook/cmake_prefix_path.dsv'
+[6.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/rc_receiver_if/share/rc_receiver_if/hook/cmake_prefix_path.sh'
+[6.734s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if/lib'
+[6.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_receiver_if', 'ld_library_path_lib')
+[6.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/rc_receiver_if/share/rc_receiver_if/hook/ld_library_path_lib.ps1'
+[6.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/rc_receiver_if/share/rc_receiver_if/hook/ld_library_path_lib.dsv'
+[6.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/rc_receiver_if/share/rc_receiver_if/hook/ld_library_path_lib.sh'
+[6.747s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if/bin'
+[6.748s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if/lib/pkgconfig/rc_receiver_if.pc'
+[6.749s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if/lib/python3.10/site-packages'
+[6.752s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver_if/bin'
+[6.754s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/rc_receiver_if/share/rc_receiver_if/package.ps1'
+[6.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/rc_receiver_if/share/rc_receiver_if/package.dsv'
+[6.760s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/rc_receiver_if/share/rc_receiver_if/package.sh'
+[6.764s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/rc_receiver_if/share/rc_receiver_if/package.bash'
+[6.766s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/rc_receiver_if/share/rc_receiver_if/package.zsh'
+[6.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/rc_receiver_if/share/colcon-core/packages/rc_receiver_if)
+[6.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_if)
+[6.778s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if' for CMake module files
+[6.783s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if' for CMake config files
+[6.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_if', 'cmake_prefix_path')
+[6.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/motor_if/share/motor_if/hook/cmake_prefix_path.ps1'
+[6.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/motor_if/share/motor_if/hook/cmake_prefix_path.dsv'
+[6.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/motor_if/share/motor_if/hook/cmake_prefix_path.sh'
+[6.791s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if/lib'
+[6.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_if', 'ld_library_path_lib')
+[6.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/motor_if/share/motor_if/hook/ld_library_path_lib.ps1'
+[6.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/motor_if/share/motor_if/hook/ld_library_path_lib.dsv'
+[6.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/motor_if/share/motor_if/hook/ld_library_path_lib.sh'
+[6.795s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if/bin'
+[6.795s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if/lib/pkgconfig/motor_if.pc'
+[6.796s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if/lib/python3.10/site-packages'
+[6.796s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor_if/bin'
+[6.797s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/motor_if/share/motor_if/package.ps1'
+[6.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/motor_if/share/motor_if/package.dsv'
+[6.800s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/motor_if/share/motor_if/package.sh'
+[6.801s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/motor_if/share/motor_if/package.bash'
+[6.802s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/motor_if/share/motor_if/package.zsh'
+[6.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/motor_if/share/colcon-core/packages/motor_if)
+[6.846s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/src/uwb_nls' with build type 'ament_python'
+[6.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_nls', 'ament_prefix_path')
+[6.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/uwb_nls/share/uwb_nls/hook/ament_prefix_path.ps1'
+[6.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/uwb_nls/share/uwb_nls/hook/ament_prefix_path.dsv'
+[6.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/uwb_nls/share/uwb_nls/hook/ament_prefix_path.sh'
+[6.854s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.855s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.915s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/src/visualization' with build type 'ament_python'
+[6.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization', 'ament_prefix_path')
+[6.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/visualization/share/visualization/hook/ament_prefix_path.ps1'
+[6.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/visualization/share/visualization/hook/ament_prefix_path.dsv'
+[6.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/visualization/share/visualization/hook/ament_prefix_path.sh'
+[6.921s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.921s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.930s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/src/uwb_nls'
+[7.931s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.931s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.595s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/src/visualization'
+[8.596s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.597s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.630s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/pixhawk_control' for CMake module files
+[8.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/src/pixhawk_control' returned '0': PYTHONPATH=/workspace/build/pixhawk_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/pixhawk_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pixhawk_control build --build-base /workspace/build/pixhawk_control/build install --record /workspace/build/pixhawk_control/install.log --single-version-externally-managed install_data
+[8.635s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/pixhawk_control' for CMake config files
+[8.648s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/pixhawk_control/lib'
+[8.648s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/pixhawk_control/bin'
+[8.648s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/pixhawk_control/lib/pkgconfig/pixhawk_control.pc'
+[8.649s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/pixhawk_control/lib/python3.10/site-packages'
+[8.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixhawk_control', 'pythonpath')
+[8.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/pixhawk_control/share/pixhawk_control/hook/pythonpath.ps1'
+[8.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/pixhawk_control/share/pixhawk_control/hook/pythonpath.dsv'
+[8.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/pixhawk_control/share/pixhawk_control/hook/pythonpath.sh'
+[8.653s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/pixhawk_control/bin'
+[8.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pixhawk_control)
+[8.662s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/pixhawk_control/share/pixhawk_control/package.ps1'
+[8.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/pixhawk_control/share/pixhawk_control/package.dsv'
+[8.666s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/pixhawk_control/share/pixhawk_control/package.sh'
+[8.667s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/pixhawk_control/share/pixhawk_control/package.bash'
+[8.667s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/pixhawk_control/share/pixhawk_control/package.zsh'
+[8.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/pixhawk_control/share/colcon-core/packages/pixhawk_control)
+[8.675s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/src/motor_control/rc_receiver' with build type 'ament_python'
+[8.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_receiver', 'ament_prefix_path')
+[8.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/rc_receiver/share/rc_receiver/hook/ament_prefix_path.ps1'
+[8.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/rc_receiver/share/rc_receiver/hook/ament_prefix_path.dsv'
+[8.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/rc_receiver/share/rc_receiver/hook/ament_prefix_path.sh'
+[8.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.707s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/track' for CMake module files
+[8.708s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/track' for CMake config files
+[8.709s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/track/lib'
+[8.709s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/track/bin'
+[8.710s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/track/lib/pkgconfig/track.pc'
+[8.710s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/track/lib/python3.10/site-packages'
+[8.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('track', 'pythonpath')
+[8.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/track/share/track/hook/pythonpath.ps1'
+[8.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/track/share/track/hook/pythonpath.dsv'
+[8.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/src/track' returned '0': PYTHONPATH=/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/track build --build-base /workspace/build/track/build install --record /workspace/build/track/install.log --single-version-externally-managed install_data
+[8.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/track/share/track/hook/pythonpath.sh'
+[8.716s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/track/bin'
+[8.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(track)
+[8.717s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/track/share/track/package.ps1'
+[8.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/track/share/track/package.dsv'
+[8.719s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/track/share/track/package.sh'
+[8.720s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/track/share/track/package.bash'
+[8.721s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/track/share/track/package.zsh'
+[8.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/track/share/colcon-core/packages/track)
+[8.723s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/camera' for CMake module files
+[8.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/src/camera' returned '0': PYTHONPATH=/workspace/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /workspace/build/camera/build install --record /workspace/build/camera/install.log --single-version-externally-managed install_data
+[8.726s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/camera' for CMake config files
+[8.727s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/camera/lib'
+[8.727s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/camera/bin'
+[8.728s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/camera/lib/pkgconfig/camera.pc'
+[8.728s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/camera/lib/python3.10/site-packages'
+[8.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera', 'pythonpath')
+[8.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/camera/share/camera/hook/pythonpath.ps1'
+[8.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/camera/share/camera/hook/pythonpath.dsv'
+[8.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/camera/share/camera/hook/pythonpath.sh'
+[8.732s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/camera/bin'
+[8.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera)
+[8.733s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/camera/share/camera/package.ps1'
+[8.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/camera/share/camera/package.dsv'
+[8.736s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/camera/share/camera/package.sh'
+[8.737s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/camera/share/camera/package.bash'
+[8.738s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/camera/share/camera/package.zsh'
+[8.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/camera/share/colcon-core/packages/camera)
+[8.740s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/record' for CMake module files
+[8.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/src/record' returned '0': PYTHONPATH=/workspace/build/record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/record/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/record build --build-base /workspace/build/record/build install --record /workspace/build/record/install.log --single-version-externally-managed install_data
+[8.743s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/record' for CMake config files
+[8.744s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/record/lib'
+[8.744s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/record/bin'
+[8.744s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/record/lib/pkgconfig/record.pc'
+[8.745s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/record/lib/python3.10/site-packages'
+[8.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('record', 'pythonpath')
+[8.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/record/share/record/hook/pythonpath.ps1'
+[8.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/record/share/record/hook/pythonpath.dsv'
+[8.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/record/share/record/hook/pythonpath.sh'
+[8.748s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/record/bin'
+[8.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(record)
+[8.749s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/record/share/record/package.ps1'
+[8.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/record/share/record/package.dsv'
+[8.752s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/record/share/record/package.sh'
+[8.753s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/record/share/record/package.bash'
+[8.754s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/record/share/record/package.zsh'
+[8.755s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/record/share/colcon-core/packages/record)
+[8.756s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor' for CMake module files
+[8.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/src/motor_control/motor' returned '0': PYTHONPATH=/workspace/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/motor build --build-base /workspace/build/motor/build install --record /workspace/build/motor/install.log --single-version-externally-managed install_data
+[8.758s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor' for CMake config files
+[8.760s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor/lib'
+[8.760s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor/bin'
+[8.760s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor/lib/pkgconfig/motor.pc'
+[8.761s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor/lib/python3.10/site-packages'
+[8.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'pythonpath')
+[8.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/motor/share/motor/hook/pythonpath.ps1'
+[8.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/motor/share/motor/hook/pythonpath.dsv'
+[8.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/motor/share/motor/hook/pythonpath.sh'
+[8.765s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/motor/bin'
+[8.765s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor)
+[8.766s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/motor/share/motor/package.ps1'
+[8.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/motor/share/motor/package.dsv'
+[8.768s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/motor/share/motor/package.sh'
+[8.770s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/motor/share/motor/package.bash'
+[8.770s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/motor/share/motor/package.zsh'
+[8.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/motor/share/colcon-core/packages/motor)
+[9.396s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/src/motor_control/rc_receiver'
+[9.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/src/ultrasonic': PYTHONPATH=/workspace/build/ultrasonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/ultrasonic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ultrasonic build --build-base /workspace/build/ultrasonic/build install --record /workspace/build/ultrasonic/install.log --single-version-externally-managed install_data
+[10.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/src/uwb_nls': PYTHONPATH=/workspace/build/uwb_nls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/uwb_nls/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uwb_nls build --build-base /workspace/build/uwb_nls/build install --record /workspace/build/uwb_nls/install.log --single-version-externally-managed install_data
+[10.537s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/ultrasonic' for CMake module files
+[10.540s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/ultrasonic' for CMake config files
+[10.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/src/ultrasonic' returned '0': PYTHONPATH=/workspace/build/ultrasonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/ultrasonic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ultrasonic build --build-base /workspace/build/ultrasonic/build install --record /workspace/build/ultrasonic/install.log --single-version-externally-managed install_data
+[10.543s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/ultrasonic/lib'
+[10.543s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/ultrasonic/bin'
+[10.543s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/ultrasonic/lib/pkgconfig/ultrasonic.pc'
+[10.544s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/ultrasonic/lib/python3.10/site-packages'
+[10.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('ultrasonic', 'pythonpath')
+[10.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/ultrasonic/share/ultrasonic/hook/pythonpath.ps1'
+[10.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/ultrasonic/share/ultrasonic/hook/pythonpath.dsv'
+[10.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/ultrasonic/share/ultrasonic/hook/pythonpath.sh'
+[10.550s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/ultrasonic/bin'
+[10.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ultrasonic)
+[10.552s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/ultrasonic/share/ultrasonic/package.ps1'
+[10.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/ultrasonic/share/ultrasonic/package.dsv'
+[10.556s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/ultrasonic/share/ultrasonic/package.sh'
+[10.559s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/ultrasonic/share/ultrasonic/package.bash'
+[10.560s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/ultrasonic/share/ultrasonic/package.zsh'
+[10.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/ultrasonic/share/colcon-core/packages/ultrasonic)
+[10.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/src/visualization': PYTHONPATH=/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/visualization build --build-base /workspace/build/visualization/build install --record /workspace/build/visualization/install.log --single-version-externally-managed install_data
+[11.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/src/motor_control/rc_receiver': LD_LIBRARY_PATH=/workspace/install/rc_receiver_if/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64 PYTHONPATH=/workspace/build/rc_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/rc_receiver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rc_receiver build --build-base /workspace/build/rc_receiver/build install --record /workspace/build/rc_receiver/install.log --single-version-externally-managed install_data
+[11.718s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/visualization' for CMake module files
+[11.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/src/visualization' returned '0': PYTHONPATH=/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/visualization build --build-base /workspace/build/visualization/build install --record /workspace/build/visualization/install.log --single-version-externally-managed install_data
+[11.724s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/visualization' for CMake config files
+[11.726s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/visualization/lib'
+[11.726s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/visualization/bin'
+[11.726s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/visualization/lib/pkgconfig/visualization.pc'
+[11.727s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/visualization/lib/python3.10/site-packages'
+[11.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization', 'pythonpath')
+[11.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/visualization/share/visualization/hook/pythonpath.ps1'
+[11.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/visualization/share/visualization/hook/pythonpath.dsv'
+[11.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/visualization/share/visualization/hook/pythonpath.sh'
+[11.731s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/visualization/bin'
+[11.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization)
+[11.732s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/visualization/share/visualization/package.ps1'
+[11.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/visualization/share/visualization/package.dsv'
+[11.734s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/visualization/share/visualization/package.sh'
+[11.735s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/visualization/share/visualization/package.bash'
+[11.735s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/visualization/share/visualization/package.zsh'
+[11.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/visualization/share/colcon-core/packages/visualization)
+[11.738s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/uwb_nls' for CMake module files
+[11.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/src/uwb_nls' returned '0': PYTHONPATH=/workspace/build/uwb_nls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/uwb_nls/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uwb_nls build --build-base /workspace/build/uwb_nls/build install --record /workspace/build/uwb_nls/install.log --single-version-externally-managed install_data
+[11.740s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/uwb_nls' for CMake config files
+[11.742s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/uwb_nls/lib'
+[11.742s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/uwb_nls/bin'
+[11.742s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/uwb_nls/lib/pkgconfig/uwb_nls.pc'
+[11.742s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/uwb_nls/lib/python3.10/site-packages'
+[11.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_nls', 'pythonpath')
+[11.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/uwb_nls/share/uwb_nls/hook/pythonpath.ps1'
+[11.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/uwb_nls/share/uwb_nls/hook/pythonpath.dsv'
+[11.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/uwb_nls/share/uwb_nls/hook/pythonpath.sh'
+[11.747s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/uwb_nls/bin'
+[11.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uwb_nls)
+[11.748s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/uwb_nls/share/uwb_nls/package.ps1'
+[11.749s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/uwb_nls/share/uwb_nls/package.dsv'
+[11.750s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/uwb_nls/share/uwb_nls/package.sh'
+[11.751s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/uwb_nls/share/uwb_nls/package.bash'
+[11.752s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/uwb_nls/share/uwb_nls/package.zsh'
+[11.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/uwb_nls/share/colcon-core/packages/uwb_nls)
+[12.211s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver' for CMake module files
+[12.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/src/motor_control/rc_receiver' returned '0': LD_LIBRARY_PATH=/workspace/install/rc_receiver_if/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64 PYTHONPATH=/workspace/build/rc_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/rc_receiver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rc_receiver build --build-base /workspace/build/rc_receiver/build install --record /workspace/build/rc_receiver/install.log --single-version-externally-managed install_data
+[12.214s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver' for CMake config files
+[12.216s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver/lib'
+[12.217s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver/bin'
+[12.217s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver/lib/pkgconfig/rc_receiver.pc'
+[12.218s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver/lib/python3.10/site-packages'
+[12.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_receiver', 'pythonpath')
+[12.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/rc_receiver/share/rc_receiver/hook/pythonpath.ps1'
+[12.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/install/rc_receiver/share/rc_receiver/hook/pythonpath.dsv'
+[12.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/install/rc_receiver/share/rc_receiver/hook/pythonpath.sh'
+[12.223s] Level 1:colcon.colcon_core.environment:checking '/workspace/install/rc_receiver/bin'
+[12.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rc_receiver)
+[12.224s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/rc_receiver/share/rc_receiver/package.ps1'
+[12.226s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/install/rc_receiver/share/rc_receiver/package.dsv'
+[12.227s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/rc_receiver/share/rc_receiver/package.sh'
+[12.229s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/rc_receiver/share/rc_receiver/package.bash'
+[12.230s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/install/rc_receiver/share/rc_receiver/package.zsh'
+[12.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/install/rc_receiver/share/colcon-core/packages/rc_receiver)
+[12.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.234s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[12.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.254s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.262s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[12.262s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.ps1'
+[12.267s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/install/_local_setup_util_ps1.py'
+[12.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.ps1'
+[12.274s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.sh'
+[12.275s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/install/_local_setup_util_sh.py'
+[12.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.sh'
+[12.280s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.bash'
+[12.281s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.bash'
+[12.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/install/local_setup.zsh'
+[12.285s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/install/setup.zsh'

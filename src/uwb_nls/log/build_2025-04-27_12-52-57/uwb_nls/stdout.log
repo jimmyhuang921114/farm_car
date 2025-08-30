@@ -1,0 +1,45 @@
+running egg_info
+writing build/uwb_nls/uwb_nls.egg-info/PKG-INFO
+writing dependency_links to build/uwb_nls/uwb_nls.egg-info/dependency_links.txt
+writing entry points to build/uwb_nls/uwb_nls.egg-info/entry_points.txt
+writing requirements to build/uwb_nls/uwb_nls.egg-info/requires.txt
+writing top-level names to build/uwb_nls/uwb_nls.egg-info/top_level.txt
+reading manifest file 'build/uwb_nls/uwb_nls.egg-info/SOURCES.txt'
+writing manifest file 'build/uwb_nls/uwb_nls.egg-info/SOURCES.txt'
+running build
+running build_py
+copying uwb_nls/nposition_filter.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+copying uwb_nls/nposition_nls.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+copying uwb_nls/uwb_visualization.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+copying uwb_nls/nvisual.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+copying uwb_nls/uwb_last_filter_nls.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+copying uwb_nls/nreceiver.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+running install
+running install_lib
+copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/nposition_filter.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/nposition_nls.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/uwb_visualization.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/nvisual.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/uwb_last_filter_nls.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/nreceiver.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/nposition_filter.py to nposition_filter.cpython-310.pyc
+byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/nposition_nls.py to nposition_nls.cpython-310.pyc
+byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/uwb_visualization.py to uwb_visualization.cpython-310.pyc
+byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/nvisual.py to nvisual.cpython-310.pyc
+byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/uwb_last_filter_nls.py to uwb_last_filter_nls.cpython-310.pyc
+byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/nreceiver.py to nreceiver.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/uwb_nls/uwb_nls.egg-info to /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls-0.0.0-py3.10.egg-info
+running install_scripts
+Installing first_filter script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+Installing last_filter_nls script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+Installing nposition script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+Installing nposition_filter script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+Installing nreceiver script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+Installing nvisual script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+Installing position_nls script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+Installing receiver script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+Installing visualization_all script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+writing list of installed files to '/workspace/src/uwb_nls/build/uwb_nls/install.log'

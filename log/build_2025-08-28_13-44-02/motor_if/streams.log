@@ -1,0 +1,249 @@
+[1.065s] Invoking command in '/workspace/build/motor_if': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/motor_if -- -j8 -l8
+[2.223s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[2.223s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)
+[2.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.223s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[2.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.381s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[5.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.318s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.325s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[7.325s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.325s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.325s]   the cmake_policy command to set the policy and suppress this warning.
+[7.326s] 
+[7.326s] Call Stack (most recent call first):
+[7.326s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.326s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.326s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[7.326s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.326s] [0m
+[7.421s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[7.421s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[7.421s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.421s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.421s]   the cmake_policy command to set the policy and suppress this warning.
+[7.422s] 
+[7.424s] Call Stack (most recent call first):
+[7.424s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[7.424s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.424s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.425s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[7.425s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.425s] [0m
+[7.475s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[7.475s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[7.475s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[7.475s]   the cmake_policy command to set the policy and suppress this warning.
+[7.475s] 
+[7.475s] Call Stack (most recent call first):
+[7.475s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[7.476s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.476s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.476s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[7.476s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.476s] [0m
+[7.482s] -- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+[7.482s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.482s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[7.544s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[7.621s] -- Added test 'lint_cmake' to check CMake code style
+[7.623s] -- Added test 'xmllint' to check XML markup files
+[7.632s] -- Configuring done (6.4s)
+[7.897s] -- Generating done (0.2s)
+[7.941s] -- Build files have been written to: /workspace/build/motor_if
+[8.083s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.176s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.187s] [  6%] Built target ament_cmake_python_copy_motor_if
+[9.182s] running egg_info
+[9.247s] writing motor_if.egg-info/PKG-INFO
+[9.251s] writing dependency_links to motor_if.egg-info/dependency_links.txt
+[9.255s] writing top-level names to motor_if.egg-info/top_level.txt
+[9.324s] [  6%] Built target motor_if__cpp
+[9.334s] [  9%] [32mBuilding C object CMakeFiles/motor_if__rosidl_generator_c.dir/rosidl_generator_c/motor_if/srv/detail/motor_pos__functions.c.o[0m
+[9.396s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.421s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.433s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.449s] reading manifest file 'motor_if.egg-info/SOURCES.txt'
+[9.465s] writing manifest file 'motor_if.egg-info/SOURCES.txt'
+[9.673s] [ 19%] Built target ament_cmake_python_build_motor_if_egg
+[9.770s] [ 22%] [32m[1mLinking C shared library libmotor_if__rosidl_generator_c.so[0m
+[9.980s] [ 22%] Built target motor_if__rosidl_generator_c
+[9.993s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.025s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.049s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.677s] [ 35%] [32mBuilding CXX object CMakeFiles/motor_if__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_if/srv/motor_pos__type_support.cpp.o[0m
+[10.928s] [ 38%] [32mBuilding CXX object CMakeFiles/motor_if__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_if/srv/detail/motor_pos__type_support.cpp.o[0m
+[10.970s] [ 41%] [32mBuilding CXX object CMakeFiles/motor_if__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_if/srv/detail/dds_fastrtps/motor_pos__type_support.cpp.o[0m
+[11.197s] [ 45%] [32mBuilding C object CMakeFiles/motor_if__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_if/srv/detail/motor_pos__type_support.c.o[0m
+[11.494s] [ 48%] [32m[1mLinking C shared library libmotor_if__rosidl_typesupport_introspection_c.so[0m
+[11.627s] [ 48%] Built target motor_if__rosidl_typesupport_introspection_c
+[11.672s] [ 51%] [32mBuilding CXX object CMakeFiles/motor_if__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_if/srv/motor_pos__type_support.cpp.o[0m
+[11.732s] [ 54%] [32mBuilding CXX object CMakeFiles/motor_if__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_if/srv/detail/motor_pos__type_support_c.cpp.o[0m
+[11.867s] [ 58%] [32m[1mLinking CXX shared library libmotor_if__rosidl_typesupport_c.so[0m
+[12.048s] [ 58%] Built target motor_if__rosidl_typesupport_c
+[12.144s] [ 61%] [32m[1mLinking CXX shared library libmotor_if__rosidl_typesupport_cpp.so[0m
+[12.282s] [ 61%] Built target motor_if__rosidl_typesupport_cpp
+[12.718s] [ 64%] [32m[1mLinking CXX shared library libmotor_if__rosidl_typesupport_introspection_cpp.so[0m
+[12.945s] [ 64%] Built target motor_if__rosidl_typesupport_introspection_cpp
+[12.997s] [ 67%] [32m[1mLinking CXX shared library libmotor_if__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.331s] [ 70%] [32m[1mLinking CXX shared library libmotor_if__rosidl_typesupport_fastrtps_c.so[0m
+[13.370s] [ 70%] Built target motor_if__rosidl_typesupport_fastrtps_cpp
+[13.610s] [ 70%] Built target motor_if__rosidl_typesupport_fastrtps_c
+[13.753s] [ 70%] Built target motor_if
+[13.882s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.078s] [ 74%] Built target motor_if__py
+[15.192s] [ 77%] [32mBuilding C object CMakeFiles/motor_if__rosidl_generator_py.dir/rosidl_generator_py/motor_if/srv/_motor_pos_s.c.o[0m
+[15.414s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/motor_if/libmotor_if__rosidl_generator_py.so[0m
+[15.479s] [ 80%] Built target motor_if__rosidl_generator_py
+[15.523s] [ 83%] [32mBuilding C object CMakeFiles/motor_if__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motor_if/_motor_if_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.586s] [ 87%] [32mBuilding C object CMakeFiles/motor_if__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motor_if/_motor_if_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.606s] [ 90%] [32mBuilding C object CMakeFiles/motor_if__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motor_if/_motor_if_s.ep.rosidl_typesupport_c.c.o[0m
+[15.838s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/motor_if/motor_if_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[15.854s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/motor_if/motor_if_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[15.859s] [100%] [32m[1mLinking C shared library rosidl_generator_py/motor_if/motor_if_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[15.944s] [100%] Built target motor_if__rosidl_typesupport_introspection_c__pyext
+[15.960s] [100%] Built target motor_if__rosidl_typesupport_fastrtps_c__pyext
+[15.967s] [100%] Built target motor_if__rosidl_typesupport_c__pyext
+[16.137s] Invoked command in '/workspace/build/motor_if' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/motor_if -- -j8 -l8
+[16.770s] Invoking command in '/workspace/build/motor_if': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/motor_if
+[16.986s] -- Install configuration: ""
+[16.986s] -- Up-to-date: /workspace/install/motor_if/share/ament_index/resource_index/rosidl_interfaces/motor_if
+[16.993s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if
+[16.993s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv
+[16.993s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/motor_pos.h
+[16.994s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail
+[16.994s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__functions.c
+[16.994s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__struct.h
+[16.994s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__type_support.h
+[16.994s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__functions.h
+[16.994s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg
+[16.995s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_generator_c__visibility_control.h
+[16.995s] -- Installing: /workspace/install/motor_if/share/motor_if/environment/library_path.sh
+[16.995s] -- Installing: /workspace/install/motor_if/share/motor_if/environment/library_path.dsv
+[16.999s] -- Installing: /workspace/install/motor_if/lib/libmotor_if__rosidl_generator_c.so
+[16.999s] -- Set non-toolchain portion of runtime path of "/workspace/install/motor_if/lib/libmotor_if__rosidl_generator_c.so" to ""
+[17.000s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if
+[17.000s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv
+[17.000s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail
+[17.000s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__rosidl_typesupport_fastrtps_c.h
+[17.001s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg
+[17.002s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.002s] -- Installing: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_fastrtps_c.so
+[17.003s] -- Set non-toolchain portion of runtime path of "/workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_fastrtps_c.so" to ""
+[17.003s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if
+[17.003s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv
+[17.003s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail
+[17.005s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__rosidl_typesupport_introspection_c.h
+[17.005s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__type_support.c
+[17.005s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg
+[17.006s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.014s] -- Installing: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_introspection_c.so
+[17.015s] -- Set non-toolchain portion of runtime path of "/workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_introspection_c.so" to ""
+[17.015s] -- Installing: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_c.so
+[17.015s] -- Set non-toolchain portion of runtime path of "/workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_c.so" to ""
+[17.016s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if
+[17.016s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv
+[17.016s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail
+[17.016s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__traits.hpp
+[17.016s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__type_support.hpp
+[17.017s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__struct.hpp
+[17.017s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__builder.hpp
+[17.017s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/motor_pos.hpp
+[17.017s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg
+[17.017s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_generator_cpp__visibility_control.hpp
+[17.017s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if
+[17.018s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv
+[17.018s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail
+[17.018s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/dds_fastrtps
+[17.018s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__rosidl_typesupport_fastrtps_cpp.hpp
+[17.018s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg
+[17.018s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.018s] -- Installing: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_fastrtps_cpp.so
+[17.020s] -- Set non-toolchain portion of runtime path of "/workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.020s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if
+[17.021s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv
+[17.021s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail
+[17.021s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__type_support.cpp
+[17.021s] -- Installing: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__rosidl_typesupport_introspection_cpp.hpp
+[17.027s] -- Installing: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_introspection_cpp.so
+[17.028s] -- Set non-toolchain portion of runtime path of "/workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_introspection_cpp.so" to ""
+[17.033s] -- Installing: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_cpp.so
+[17.035s] -- Set non-toolchain portion of runtime path of "/workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_cpp.so" to ""
+[17.035s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/pythonpath.sh
+[17.035s] -- Installing: /workspace/install/motor_if/share/motor_if/environment/pythonpath.dsv
+[17.036s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info
+[17.036s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info/SOURCES.txt
+[17.036s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info/top_level.txt
+[17.043s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info/dependency_links.txt
+[17.043s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info/PKG-INFO
+[17.047s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if
+[17.048s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv
+[17.048s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv/_motor_pos_s.c
+[17.048s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv/_motor_pos.py
+[17.048s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv/__init__.py
+[17.048s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/_motor_if_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.048s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[17.048s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[17.048s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[17.048s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/libmotor_if__rosidl_generator_py.so
+[17.049s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/_motor_if_s.ep.rosidl_typesupport_introspection_c.c
+[17.049s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/__init__.py
+[17.049s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/_motor_if_s.ep.rosidl_typesupport_c.c
+[17.143s] Listing '/workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if'...
+[17.151s] Compiling '/workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/__init__.py'...
+[17.155s] Listing '/workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv'...
+[17.157s] Compiling '/workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv/__init__.py'...
+[17.160s] Compiling '/workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv/_motor_pos.py'...
+[17.181s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[17.181s] -- Set non-toolchain portion of runtime path of "/workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[17.183s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[17.184s] -- Set non-toolchain portion of runtime path of "/workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[17.184s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[17.184s] -- Set non-toolchain portion of runtime path of "/workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[17.185s] -- Installing: /workspace/install/motor_if/lib/libmotor_if__rosidl_generator_py.so
+[17.193s] -- Set non-toolchain portion of runtime path of "/workspace/install/motor_if/lib/libmotor_if__rosidl_generator_py.so" to ""
+[17.193s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/srv/MotorPos.idl
+[17.194s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/srv/MotorPos.srv
+[17.194s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/srv/MotorPos_Request.msg
+[17.194s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/srv/MotorPos_Response.msg
+[17.194s] -- Up-to-date: /workspace/install/motor_if/share/ament_index/resource_index/package_run_dependencies/motor_if
+[17.194s] -- Installing: /workspace/install/motor_if/share/ament_index/resource_index/parent_prefix_path/motor_if
+[17.194s] -- Installing: /workspace/install/motor_if/share/motor_if/environment/ament_prefix_path.sh
+[17.194s] -- Installing: /workspace/install/motor_if/share/motor_if/environment/ament_prefix_path.dsv
+[17.194s] -- Installing: /workspace/install/motor_if/share/motor_if/environment/path.sh
+[17.195s] -- Installing: /workspace/install/motor_if/share/motor_if/environment/path.dsv
+[17.195s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/local_setup.bash
+[17.195s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/local_setup.sh
+[17.195s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/local_setup.zsh
+[17.195s] -- Installing: /workspace/install/motor_if/share/motor_if/local_setup.dsv
+[17.195s] -- Installing: /workspace/install/motor_if/share/motor_if/package.dsv
+[17.195s] -- Up-to-date: /workspace/install/motor_if/share/ament_index/resource_index/packages/motor_if
+[17.196s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_cExport.cmake
+[17.196s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_cExport-noconfig.cmake
+[17.201s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_typesupport_fastrtps_cExport.cmake
+[17.202s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.206s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_introspection_cExport.cmake
+[17.206s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.213s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_cExport.cmake
+[17.213s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_cExport-noconfig.cmake
+[17.215s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_cppExport.cmake
+[17.217s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.217s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.219s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_introspection_cppExport.cmake
+[17.220s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.221s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_cppExport.cmake
+[17.221s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_cppExport-noconfig.cmake
+[17.223s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_pyExport.cmake
+[17.224s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_pyExport-noconfig.cmake
+[17.224s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/rosidl_cmake-extras.cmake
+[17.224s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.227s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/ament_cmake_export_libraries-extras.cmake
+[17.228s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/ament_cmake_export_targets-extras.cmake
+[17.245s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.245s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.245s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.245s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_ifConfig.cmake
+[17.245s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_ifConfig-version.cmake
+[17.245s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/package.xml
+[17.323s] Invoked command in '/workspace/build/motor_if' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/motor_if

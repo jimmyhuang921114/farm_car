@@ -1,0 +1,27 @@
+[4.985s] Invoking command in '/workspace/src/camera': PYTHONPATH=/workspace/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /workspace/build/camera/build install --record /workspace/build/camera/install.log --single-version-externally-managed install_data
+[6.393s] running egg_info
+[6.393s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[6.393s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[6.393s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[6.393s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[6.393s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[6.394s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[6.394s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[6.394s] running build
+[6.394s] running build_py
+[6.394s] copying camera/realsense.py -> /workspace/build/camera/build/lib/camera
+[6.394s] copying camera/__init__.py -> /workspace/build/camera/build/lib/camera
+[6.394s] running install
+[6.394s] running install_lib
+[6.394s] running install_data
+[6.394s] copying resource/camera -> /workspace/install/camera/share/ament_index/resource_index/packages
+[6.395s] copying package.xml -> /workspace/install/camera/share/camera
+[6.400s] running install_egg_info
+[6.401s] removing '/workspace/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)
+[6.401s] Copying ../../build/camera/camera.egg-info to /workspace/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[6.401s] running install_scripts
+[6.402s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[6.402s]   warnings.warn(msg)
+[6.754s] Installing realsense script to /workspace/install/camera/lib/camera
+[6.754s] writing list of installed files to '/workspace/build/camera/install.log'
+[8.889s] Invoked command in '/workspace/src/camera' returned '0': PYTHONPATH=/workspace/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /workspace/build/camera/build install --record /workspace/build/camera/install.log --single-version-externally-managed install_data

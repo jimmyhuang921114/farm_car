@@ -1,0 +1,69 @@
+[4.116s] Invoking command in '/workspace/src/track': PYTHONPATH=/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/track build --build-base /workspace/build/track/build install --record /workspace/build/track/install.log --single-version-externally-managed install_data
+[5.438s] running egg_info
+[5.439s] creating ../../build/track/track.egg-info
+[5.439s] writing ../../build/track/track.egg-info/PKG-INFO
+[5.439s] writing dependency_links to ../../build/track/track.egg-info/dependency_links.txt
+[5.439s] writing entry points to ../../build/track/track.egg-info/entry_points.txt
+[5.439s] writing requirements to ../../build/track/track.egg-info/requires.txt
+[5.439s] writing top-level names to ../../build/track/track.egg-info/top_level.txt
+[5.439s] writing manifest file '../../build/track/track.egg-info/SOURCES.txt'
+[5.439s] reading manifest file '../../build/track/track.egg-info/SOURCES.txt'
+[5.439s] writing manifest file '../../build/track/track.egg-info/SOURCES.txt'
+[5.440s] running build
+[5.440s] running build_py
+[5.440s] creating /workspace/build/track/build/lib/track
+[5.440s] copying track/ByteTrack.py -> /workspace/build/track/build/lib/track
+[5.440s] copying track/bytetrack.py -> /workspace/build/track/build/lib/track
+[5.440s] copying track/matching.py -> /workspace/build/track/build/lib/track
+[5.440s] copying track/basetrack.py -> /workspace/build/track/build/lib/track
+[5.440s] copying track/depth.py -> /workspace/build/track/build/lib/track
+[5.440s] copying track/kalman_filter.py -> /workspace/build/track/build/lib/track
+[5.440s] copying track/YOLO.py -> /workspace/build/track/build/lib/track
+[5.440s] copying track/testa.py -> /workspace/build/track/build/lib/track
+[5.441s] copying track/test.py -> /workspace/build/track/build/lib/track
+[5.441s] copying track/testb.py -> /workspace/build/track/build/lib/track
+[5.441s] copying track/__init__.py -> /workspace/build/track/build/lib/track
+[5.441s] copying track/byte_tracker.py -> /workspace/build/track/build/lib/track
+[5.441s] running install
+[5.441s] running install_lib
+[5.441s] creating /workspace/install/track/lib/python3.10/site-packages/track
+[5.441s] copying /workspace/build/track/build/lib/track/ByteTrack.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[5.441s] copying /workspace/build/track/build/lib/track/bytetrack.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[5.441s] copying /workspace/build/track/build/lib/track/matching.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[5.441s] copying /workspace/build/track/build/lib/track/basetrack.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[5.442s] copying /workspace/build/track/build/lib/track/depth.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[5.442s] copying /workspace/build/track/build/lib/track/kalman_filter.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[5.442s] copying /workspace/build/track/build/lib/track/YOLO.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[5.442s] copying /workspace/build/track/build/lib/track/testa.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[5.442s] copying /workspace/build/track/build/lib/track/test.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[5.442s] copying /workspace/build/track/build/lib/track/testb.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[5.442s] copying /workspace/build/track/build/lib/track/__init__.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[5.442s] copying /workspace/build/track/build/lib/track/byte_tracker.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[5.442s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/ByteTrack.py to ByteTrack.cpython-310.pyc
+[5.442s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/bytetrack.py to bytetrack.cpython-310.pyc
+[5.442s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/matching.py to matching.cpython-310.pyc
+[5.443s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/basetrack.py to basetrack.cpython-310.pyc
+[5.443s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/depth.py to depth.cpython-310.pyc
+[5.443s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/kalman_filter.py to kalman_filter.cpython-310.pyc
+[5.443s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/YOLO.py to YOLO.cpython-310.pyc
+[5.444s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/testa.py to testa.cpython-310.pyc
+[5.444s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/test.py to test.cpython-310.pyc
+[5.445s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/testb.py to testb.cpython-310.pyc
+[5.445s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/__init__.py to __init__.cpython-310.pyc
+[5.445s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/byte_tracker.py to byte_tracker.cpython-310.pyc
+[5.445s] running install_data
+[5.445s] creating /workspace/install/track/share/ament_index/resource_index/packages
+[5.445s] copying resource/track -> /workspace/install/track/share/ament_index/resource_index/packages
+[5.445s] copying package.xml -> /workspace/install/track/share/track
+[5.445s] running install_egg_info
+[5.445s] Copying ../../build/track/track.egg-info to /workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info
+[5.445s] running install_scripts
+[5.445s] Installing ByteTrack script to /workspace/install/track/lib/track
+[5.446s] Installing YOLO script to /workspace/install/track/lib/track
+[5.446s] Installing bytetrack script to /workspace/install/track/lib/track
+[5.446s] Installing depth script to /workspace/install/track/lib/track
+[5.446s] Installing testa script to /workspace/install/track/lib/track
+[5.446s] writing list of installed files to '/workspace/build/track/install.log'
+[5.446s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.446s]   warnings.warn(msg)
+[5.579s] Invoked command in '/workspace/src/track' returned '0': PYTHONPATH=/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/track build --build-base /workspace/build/track/build install --record /workspace/build/track/install.log --single-version-externally-managed install_data

@@ -1,0 +1,28 @@
+[2.409s] Invoking command in '/workspace/src/motor_control/rc_receiver': LD_LIBRARY_PATH=/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64 PYTHONPATH=/workspace/build/rc_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/rc_receiver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rc_receiver build --build-base /workspace/build/rc_receiver/build install --record /workspace/build/rc_receiver/install.log --single-version-externally-managed install_data
+[2.770s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.771s]   warnings.warn(msg)
+[2.985s] running egg_info
+[3.017s] writing ../../../build/rc_receiver/rc_receiver.egg-info/PKG-INFO
+[3.019s] writing dependency_links to ../../../build/rc_receiver/rc_receiver.egg-info/dependency_links.txt
+[3.020s] writing entry points to ../../../build/rc_receiver/rc_receiver.egg-info/entry_points.txt
+[3.022s] writing requirements to ../../../build/rc_receiver/rc_receiver.egg-info/requires.txt
+[3.022s] writing top-level names to ../../../build/rc_receiver/rc_receiver.egg-info/top_level.txt
+[3.114s] reading manifest file '../../../build/rc_receiver/rc_receiver.egg-info/SOURCES.txt'
+[3.116s] adding license file 'LICENSE'
+[3.119s] writing manifest file '../../../build/rc_receiver/rc_receiver.egg-info/SOURCES.txt'
+[3.120s] running build
+[3.121s] running build_py
+[3.123s] copying rc_receiver/__init__.py -> /workspace/build/rc_receiver/build/lib/rc_receiver
+[3.124s] copying rc_receiver/rc_receiver.py -> /workspace/build/rc_receiver/build/lib/rc_receiver
+[3.128s] running install
+[3.138s] running install_lib
+[3.207s] running install_data
+[3.209s] copying resource/rc_receiver -> /workspace/install/rc_receiver/share/ament_index/resource_index/packages
+[3.213s] copying package.xml -> /workspace/install/rc_receiver/share/rc_receiver
+[3.215s] running install_egg_info
+[3.254s] removing '/workspace/install/rc_receiver/lib/python3.10/site-packages/rc_receiver-0.0.0-py3.10.egg-info' (and everything under it)
+[3.259s] Copying ../../../build/rc_receiver/rc_receiver.egg-info to /workspace/install/rc_receiver/lib/python3.10/site-packages/rc_receiver-0.0.0-py3.10.egg-info
+[3.273s] running install_scripts
+[3.569s] Installing rc_receiver script to /workspace/install/rc_receiver/lib/rc_receiver
+[3.570s] writing list of installed files to '/workspace/build/rc_receiver/install.log'
+[3.679s] Invoked command in '/workspace/src/motor_control/rc_receiver' returned '0': LD_LIBRARY_PATH=/workspace/install/rc_receiver_if/lib:/workspace/install/motor_if/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64 PYTHONPATH=/workspace/build/rc_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/rc_receiver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rc_receiver build --build-base /workspace/build/rc_receiver/build install --record /workspace/build/rc_receiver/install.log --single-version-externally-managed install_data

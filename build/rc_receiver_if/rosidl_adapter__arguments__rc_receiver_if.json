@@ -1,0 +1,6 @@
+{
+  "package_name": "rc_receiver_if",
+  "non_idl_tuples": [
+    "/workspace/src/motor_control/rc_receiver_if:msg/ReceiverData.msg"
+  ]
+}

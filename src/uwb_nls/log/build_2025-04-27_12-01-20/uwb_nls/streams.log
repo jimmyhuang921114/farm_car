@@ -1,0 +1,67 @@
+[0.364s] Invoking command in '/workspace/src/uwb_nls': PYTHONPATH=/workspace/src/uwb_nls/build/uwb_nls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/uwb_nls build --build-base /workspace/src/uwb_nls/build/uwb_nls/build install --record /workspace/src/uwb_nls/build/uwb_nls/install.log --single-version-externally-managed install_data
+[0.476s] running egg_info
+[0.476s] creating build/uwb_nls/uwb_nls.egg-info
+[0.476s] writing build/uwb_nls/uwb_nls.egg-info/PKG-INFO
+[0.476s] writing dependency_links to build/uwb_nls/uwb_nls.egg-info/dependency_links.txt
+[0.477s] writing entry points to build/uwb_nls/uwb_nls.egg-info/entry_points.txt
+[0.477s] writing requirements to build/uwb_nls/uwb_nls.egg-info/requires.txt
+[0.477s] writing top-level names to build/uwb_nls/uwb_nls.egg-info/top_level.txt
+[0.477s] writing manifest file 'build/uwb_nls/uwb_nls.egg-info/SOURCES.txt'
+[0.478s] reading manifest file 'build/uwb_nls/uwb_nls.egg-info/SOURCES.txt'
+[0.478s] writing manifest file 'build/uwb_nls/uwb_nls.egg-info/SOURCES.txt'
+[0.478s] running build
+[0.478s] running build_py
+[0.478s] creating /workspace/src/uwb_nls/build/uwb_nls/build
+[0.478s] creating /workspace/src/uwb_nls/build/uwb_nls/build/lib
+[0.478s] creating /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+[0.478s] copying uwb_nls/new_receiver.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+[0.479s] copying uwb_nls/uwb_ransac_filter.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+[0.479s] copying uwb_nls/nposition_nls.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+[0.479s] copying uwb_nls/uwb_visualization.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+[0.479s] copying uwb_nls/position_nls.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+[0.479s] copying uwb_nls/uwb_receiver.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+[0.479s] copying uwb_nls/__init__.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+[0.479s] copying uwb_nls/uwb_last_filter_nls.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+[0.479s] copying uwb_nls/uwb_filter.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+[0.479s] copying uwb_nls/nreceiver.py -> /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls
+[0.479s] running install
+[0.479s] running install_lib
+[0.479s] creating /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+[0.479s] copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/new_receiver.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+[0.479s] copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/uwb_ransac_filter.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+[0.479s] copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/nposition_nls.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+[0.480s] copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/uwb_visualization.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+[0.480s] copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/position_nls.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+[0.480s] copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/uwb_receiver.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+[0.480s] copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/__init__.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+[0.480s] copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/uwb_last_filter_nls.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+[0.480s] copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/uwb_filter.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+[0.480s] copying /workspace/src/uwb_nls/build/uwb_nls/build/lib/uwb_nls/nreceiver.py -> /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls
+[0.480s] byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/new_receiver.py to new_receiver.cpython-310.pyc
+[0.480s] byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/uwb_ransac_filter.py to uwb_ransac_filter.cpython-310.pyc
+[0.480s] byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/nposition_nls.py to nposition_nls.cpython-310.pyc
+[0.481s] byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/uwb_visualization.py to uwb_visualization.cpython-310.pyc
+[0.481s] byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/position_nls.py to position_nls.cpython-310.pyc
+[0.482s] byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/uwb_receiver.py to uwb_receiver.cpython-310.pyc
+[0.482s] byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/__init__.py to __init__.cpython-310.pyc
+[0.482s] byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/uwb_last_filter_nls.py to uwb_last_filter_nls.cpython-310.pyc
+[0.483s] byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/uwb_filter.py to uwb_filter.cpython-310.pyc
+[0.483s] byte-compiling /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls/nreceiver.py to nreceiver.cpython-310.pyc
+[0.484s] running install_data
+[0.484s] creating /workspace/src/uwb_nls/install/uwb_nls/share/ament_index
+[0.484s] creating /workspace/src/uwb_nls/install/uwb_nls/share/ament_index/resource_index
+[0.484s] creating /workspace/src/uwb_nls/install/uwb_nls/share/ament_index/resource_index/packages
+[0.484s] copying resource/uwb_nls -> /workspace/src/uwb_nls/install/uwb_nls/share/ament_index/resource_index/packages
+[0.484s] copying package.xml -> /workspace/src/uwb_nls/install/uwb_nls/share/uwb_nls
+[0.484s] running install_egg_info
+[0.485s] Copying build/uwb_nls/uwb_nls.egg-info to /workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages/uwb_nls-0.0.0-py3.10.egg-info
+[0.485s] running install_scripts
+[0.497s] Installing first_filter script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+[0.497s] Installing last_filter_nls script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+[0.497s] Installing new_position script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+[0.497s] Installing new_receiver script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+[0.497s] Installing position_nls script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+[0.497s] Installing receiver script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+[0.497s] Installing visualization_all script to /workspace/src/uwb_nls/install/uwb_nls/lib/uwb_nls
+[0.497s] writing list of installed files to '/workspace/src/uwb_nls/build/uwb_nls/install.log'
+[0.509s] Invoked command in '/workspace/src/uwb_nls' returned '0': PYTHONPATH=/workspace/src/uwb_nls/build/uwb_nls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/uwb_nls/install/uwb_nls/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/uwb_nls build --build-base /workspace/src/uwb_nls/build/uwb_nls/build install --record /workspace/src/uwb_nls/build/uwb_nls/install.log --single-version-externally-managed install_data

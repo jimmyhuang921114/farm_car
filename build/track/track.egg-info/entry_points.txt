@@ -1,0 +1,6 @@
+[console_scripts]
+ByteTrack = track.ByteTrack:main
+YOLO = track.YOLO:main
+bytetrack = track.bytetrack:main
+depth = track.depth:main
+testa = track.testa:main

@@ -1,0 +1,31 @@
+[ 50%] Built target obstacle_node
+[ 50%] Built target realsense_read_node
+[ 75%] Built target xz_visualizer_node
+[100%] Built target plane_node
+-- Install configuration: ""
+-- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/realsense_read_node
+-- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/plane_node
+-- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/obstacle_node
+-- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/xz_visualizer_node
+-- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter
+-- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter
+-- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter/plane_estimator.hpp
+-- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter/visualization.hpp
+-- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter/obstacle_detector.hpp
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter//launch
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter//launch/obs_filiter_launch.py
+-- Up-to-date: /workspace/install/obs_filiter/share/ament_index/resource_index/package_run_dependencies/obs_filiter
+-- Up-to-date: /workspace/install/obs_filiter/share/ament_index/resource_index/parent_prefix_path/obs_filiter
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/environment/path.sh
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/environment/path.dsv
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.bash
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.sh
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.zsh
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.dsv
+-- Installing: /workspace/install/obs_filiter/share/obs_filiter/package.dsv
+-- Up-to-date: /workspace/install/obs_filiter/share/ament_index/resource_index/packages/obs_filiter
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/cmake/obs_filiterConfig.cmake
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/cmake/obs_filiterConfig-version.cmake
+-- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/package.xml

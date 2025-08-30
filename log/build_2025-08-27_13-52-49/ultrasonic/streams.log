@@ -1,0 +1,50 @@
+[3.270s] Invoking command in '/workspace/src/ultrasonic': PYTHONPATH=/workspace/build/ultrasonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/ultrasonic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ultrasonic build --build-base /workspace/build/ultrasonic/build install --record /workspace/build/ultrasonic/install.log --single-version-externally-managed install_data
+[4.035s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.039s]   warnings.warn(msg)
+[4.657s] running egg_info
+[4.661s] creating ../../build/ultrasonic/ultrasonic.egg-info
+[4.773s] writing ../../build/ultrasonic/ultrasonic.egg-info/PKG-INFO
+[4.775s] writing dependency_links to ../../build/ultrasonic/ultrasonic.egg-info/dependency_links.txt
+[4.781s] writing entry points to ../../build/ultrasonic/ultrasonic.egg-info/entry_points.txt
+[4.799s] writing requirements to ../../build/ultrasonic/ultrasonic.egg-info/requires.txt
+[4.817s] writing top-level names to ../../build/ultrasonic/ultrasonic.egg-info/top_level.txt
+[4.817s] writing manifest file '../../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'
+[4.961s] reading manifest file '../../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'
+[4.975s] writing manifest file '../../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'
+[4.984s] running build
+[4.984s] running build_py
+[4.985s] creating /workspace/build/ultrasonic/build/lib/ultrasonic
+[4.985s] copying ultrasonic/us_receiver.py -> /workspace/build/ultrasonic/build/lib/ultrasonic
+[4.987s] copying ultrasonic/us_visualizer.py -> /workspace/build/ultrasonic/build/lib/ultrasonic
+[4.990s] copying ultrasonic/us_checker.py -> /workspace/build/ultrasonic/build/lib/ultrasonic
+[4.992s] copying ultrasonic/us_obstacle.py -> /workspace/build/ultrasonic/build/lib/ultrasonic
+[4.994s] copying ultrasonic/range.py -> /workspace/build/ultrasonic/build/lib/ultrasonic
+[5.001s] copying ultrasonic/__init__.py -> /workspace/build/ultrasonic/build/lib/ultrasonic
+[5.003s] running install
+[5.013s] running install_lib
+[5.148s] creating /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+[5.149s] copying /workspace/build/ultrasonic/build/lib/ultrasonic/us_receiver.py -> /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+[5.149s] copying /workspace/build/ultrasonic/build/lib/ultrasonic/us_visualizer.py -> /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+[5.149s] copying /workspace/build/ultrasonic/build/lib/ultrasonic/us_checker.py -> /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+[5.150s] copying /workspace/build/ultrasonic/build/lib/ultrasonic/us_obstacle.py -> /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+[5.150s] copying /workspace/build/ultrasonic/build/lib/ultrasonic/range.py -> /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+[5.150s] copying /workspace/build/ultrasonic/build/lib/ultrasonic/__init__.py -> /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+[5.166s] byte-compiling /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic/us_receiver.py to us_receiver.cpython-310.pyc
+[5.174s] byte-compiling /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic/us_visualizer.py to us_visualizer.cpython-310.pyc
+[5.181s] byte-compiling /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic/us_checker.py to us_checker.cpython-310.pyc
+[5.197s] byte-compiling /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic/us_obstacle.py to us_obstacle.cpython-310.pyc
+[5.208s] byte-compiling /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic/range.py to range.cpython-310.pyc
+[5.215s] byte-compiling /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic/__init__.py to __init__.cpython-310.pyc
+[5.216s] running install_data
+[5.218s] creating /workspace/install/ultrasonic/share/ament_index/resource_index/packages
+[5.220s] copying resource/ultrasonic -> /workspace/install/ultrasonic/share/ament_index/resource_index/packages
+[5.228s] copying package.xml -> /workspace/install/ultrasonic/share/ultrasonic
+[5.229s] running install_egg_info
+[5.377s] Copying ../../build/ultrasonic/ultrasonic.egg-info to /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic-0.0.0-py3.10.egg-info
+[5.383s] running install_scripts
+[6.008s] Installing checker script to /workspace/install/ultrasonic/lib/ultrasonic
+[6.008s] Installing obstacle script to /workspace/install/ultrasonic/lib/ultrasonic
+[6.008s] Installing receiver script to /workspace/install/ultrasonic/lib/ultrasonic
+[6.008s] Installing visualizer script to /workspace/install/ultrasonic/lib/ultrasonic
+[6.009s] writing list of installed files to '/workspace/build/ultrasonic/install.log'
+[6.159s] Invoked command in '/workspace/src/ultrasonic' returned '0': PYTHONPATH=/workspace/build/ultrasonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/ultrasonic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ultrasonic build --build-base /workspace/build/ultrasonic/build install --record /workspace/build/ultrasonic/install.log --single-version-externally-managed install_data

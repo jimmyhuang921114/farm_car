@@ -1,0 +1,29 @@
+[5.329s] Invoking command in '/workspace/src/pixhawk_control': PYTHONPATH=/workspace/build/pixhawk_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/pixhawk_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pixhawk_control build --build-base /workspace/build/pixhawk_control/build install --record /workspace/build/pixhawk_control/install.log --single-version-externally-managed install_data
+[5.429s] /usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[5.430s]   warnings.warn(
+[5.838s] /usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'
+[5.838s]   warnings.warn(msg)
+[6.142s] running egg_info
+[6.200s] writing ../../build/pixhawk_control/pixhawk_control.egg-info/PKG-INFO
+[6.202s] writing dependency_links to ../../build/pixhawk_control/pixhawk_control.egg-info/dependency_links.txt
+[6.202s] writing entry points to ../../build/pixhawk_control/pixhawk_control.egg-info/entry_points.txt
+[6.202s] writing requirements to ../../build/pixhawk_control/pixhawk_control.egg-info/requires.txt
+[6.203s] writing top-level names to ../../build/pixhawk_control/pixhawk_control.egg-info/top_level.txt
+[6.296s] reading manifest file '../../build/pixhawk_control/pixhawk_control.egg-info/SOURCES.txt'
+[6.299s] writing manifest file '../../build/pixhawk_control/pixhawk_control.egg-info/SOURCES.txt'
+[6.299s] running build
+[6.299s] running build_py
+[6.301s] copying pixhawk_control/rc_receive.py -> /workspace/build/pixhawk_control/build/lib/pixhawk_control
+[6.302s] running install
+[6.304s] running install_lib
+[6.349s] copying /workspace/build/pixhawk_control/build/lib/pixhawk_control/rc_receive.py -> /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control
+[6.358s] byte-compiling /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control/rc_receive.py to rc_receive.cpython-310.pyc
+[6.378s] running install_data
+[6.379s] running install_egg_info
+[6.414s] removing '/workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control-0.0.0-py3.10.egg-info' (and everything under it)
+[6.414s] Copying ../../build/pixhawk_control/pixhawk_control.egg-info to /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control-0.0.0-py3.10.egg-info
+[6.430s] running install_scripts
+[6.538s] Installing rc_receive script to /workspace/install/pixhawk_control/lib/pixhawk_control
+[6.539s] Installing velocity_to_pwm script to /workspace/install/pixhawk_control/lib/pixhawk_control
+[6.539s] writing list of installed files to '/workspace/build/pixhawk_control/install.log'
+[6.972s] Invoked command in '/workspace/src/pixhawk_control' returned '0': PYTHONPATH=/workspace/build/pixhawk_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/pixhawk_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pixhawk_control build --build-base /workspace/build/pixhawk_control/build install --record /workspace/build/pixhawk_control/install.log --single-version-externally-managed install_data

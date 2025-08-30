@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rc_receiver_if/msg/ReceiverData.msg
+// generated code does not contain a copyright notice
+
+
+module rc_receiver_if {
+  module msg {
+    typedef int16 int16__18[18];
+    typedef float float__2[2];
+    struct ReceiverData {
+      @default (value="(1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000)")
+      int16__18 channel_data;
+
+      @default (value="(0.0, 0.0)")
+      float__2 wheel_control;
+
+      @default (value="(0.0, 0.0)")
+      float__2 twist;
+    };
+  };
+};

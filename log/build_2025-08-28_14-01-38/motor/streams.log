@@ -1,0 +1,29 @@
+[4.350s] Invoking command in '/workspace/src/motor_control/motor': PYTHONPATH=/workspace/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/motor build --build-base /workspace/build/motor/build install --record /workspace/build/motor/install.log --single-version-externally-managed install_data
+[4.714s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.715s]   warnings.warn(msg)
+[4.909s] running egg_info
+[4.957s] writing ../../../build/motor/motor.egg-info/PKG-INFO
+[4.961s] writing dependency_links to ../../../build/motor/motor.egg-info/dependency_links.txt
+[4.962s] writing entry points to ../../../build/motor/motor.egg-info/entry_points.txt
+[4.962s] writing requirements to ../../../build/motor/motor.egg-info/requires.txt
+[4.963s] writing top-level names to ../../../build/motor/motor.egg-info/top_level.txt
+[5.032s] reading manifest file '../../../build/motor/motor.egg-info/SOURCES.txt'
+[5.033s] writing manifest file '../../../build/motor/motor.egg-info/SOURCES.txt'
+[5.034s] running build
+[5.034s] running build_py
+[5.035s] copying motor/motor.py -> /workspace/build/motor/build/lib/motor
+[5.035s] copying motor/find_motor.py -> /workspace/build/motor/build/lib/motor
+[5.036s] copying motor/__init__.py -> /workspace/build/motor/build/lib/motor
+[5.036s] running install
+[5.045s] running install_lib
+[5.077s] running install_data
+[5.078s] copying resource/motor -> /workspace/install/motor/share/ament_index/resource_index/packages
+[5.078s] copying package.xml -> /workspace/install/motor/share/motor
+[5.078s] running install_egg_info
+[5.112s] removing '/workspace/install/motor/lib/python3.10/site-packages/motor-0.0.0-py3.10.egg-info' (and everything under it)
+[5.113s] Copying ../../../build/motor/motor.egg-info to /workspace/install/motor/lib/python3.10/site-packages/motor-0.0.0-py3.10.egg-info
+[5.115s] running install_scripts
+[5.395s] Installing find_motor script to /workspace/install/motor/lib/motor
+[5.395s] Installing motor_drive_node script to /workspace/install/motor/lib/motor
+[5.396s] writing list of installed files to '/workspace/build/motor/install.log'
+[5.665s] Invoked command in '/workspace/src/motor_control/motor' returned '0': PYTHONPATH=/workspace/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/motor build --build-base /workspace/build/motor/build install --record /workspace/build/motor/install.log --single-version-externally-managed install_data

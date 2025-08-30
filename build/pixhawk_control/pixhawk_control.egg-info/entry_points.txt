@@ -1,0 +1,3 @@
+[console_scripts]
+rc_receive = pixhawk_control.rc_receive:main
+velocity_to_pwm = pixhawk_control.velocity_to_pwm:main

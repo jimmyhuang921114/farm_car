@@ -1,0 +1,35 @@
+[0.000000] (-) TimerEvent: {}
+[0.001138] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.001438] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.001531] (motor_if) JobQueued: {'identifier': 'motor_if', 'dependencies': OrderedDict()}
+[0.001572] (obs_filiter) JobQueued: {'identifier': 'obs_filiter', 'dependencies': OrderedDict()}
+[0.001644] (pixhawk_control) JobQueued: {'identifier': 'pixhawk_control', 'dependencies': OrderedDict()}
+[0.001703] (rc_receiver_if) JobQueued: {'identifier': 'rc_receiver_if', 'dependencies': OrderedDict()}
+[0.001754] (record) JobQueued: {'identifier': 'record', 'dependencies': OrderedDict()}
+[0.001802] (track) JobQueued: {'identifier': 'track', 'dependencies': OrderedDict()}
+[0.001850] (ultrasonic) JobQueued: {'identifier': 'ultrasonic', 'dependencies': OrderedDict()}
+[0.001899] (uwb_nls) JobQueued: {'identifier': 'uwb_nls', 'dependencies': OrderedDict()}
+[0.001947] (visualization) JobQueued: {'identifier': 'visualization', 'dependencies': OrderedDict()}
+[0.001996] (rc_receiver) JobQueued: {'identifier': 'rc_receiver', 'dependencies': OrderedDict([('rc_receiver_if', '/workspace/install/rc_receiver_if')])}
+[0.002052] (rc_receiver_if) JobStarted: {'identifier': 'rc_receiver_if'}
+[0.024310] (camera) JobStarted: {'identifier': 'camera'}
+[0.043835] (motor) JobStarted: {'identifier': 'motor'}
+[0.045024] (motor) JobEnded: {'identifier': 'motor', 'rc': 0}
+[0.046705] (motor_if) JobStarted: {'identifier': 'motor_if'}
+[0.061404] (obs_filiter) JobStarted: {'identifier': 'obs_filiter'}
+[0.079821] (pixhawk_control) JobStarted: {'identifier': 'pixhawk_control'}
+[0.099404] (-) TimerEvent: {}
+[0.102533] (record) JobStarted: {'identifier': 'record'}
+[0.123619] (track) JobStarted: {'identifier': 'track'}
+[0.144543] (rc_receiver_if) JobEnded: {'identifier': 'rc_receiver_if', 'rc': 'SIGINT'}
+[0.146374] (camera) JobEnded: {'identifier': 'camera', 'rc': 'SIGINT'}
+[0.148377] (motor_if) JobEnded: {'identifier': 'motor_if', 'rc': 'SIGINT'}
+[0.149172] (obs_filiter) JobEnded: {'identifier': 'obs_filiter', 'rc': 'SIGINT'}
+[0.149667] (pixhawk_control) JobEnded: {'identifier': 'pixhawk_control', 'rc': 'SIGINT'}
+[0.150146] (record) JobEnded: {'identifier': 'record', 'rc': 'SIGINT'}
+[0.150571] (track) JobEnded: {'identifier': 'track', 'rc': 'SIGINT'}
+[0.159338] (ultrasonic) JobSkipped: {'identifier': 'ultrasonic'}
+[0.159443] (uwb_nls) JobSkipped: {'identifier': 'uwb_nls'}
+[0.159485] (visualization) JobSkipped: {'identifier': 'visualization'}
+[0.159517] (rc_receiver) JobSkipped: {'identifier': 'rc_receiver'}
+[0.159548] (-) EventReactorShutdown: {}

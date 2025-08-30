@@ -1,0 +1,26 @@
+[2.555s] Invoking command in '/workspace/src/visualization': PYTHONPATH=/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/visualization build --build-base /workspace/build/visualization/build install --record /workspace/build/visualization/install.log --single-version-externally-managed install_data
+[2.612s] /usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[2.612s]   warnings.warn(
+[2.873s] /usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'
+[2.874s]   warnings.warn(msg)
+[3.080s] running egg_info
+[3.102s] writing ../../build/visualization/visualization.egg-info/PKG-INFO
+[3.103s] writing dependency_links to ../../build/visualization/visualization.egg-info/dependency_links.txt
+[3.104s] writing entry points to ../../build/visualization/visualization.egg-info/entry_points.txt
+[3.106s] writing requirements to ../../build/visualization/visualization.egg-info/requires.txt
+[3.106s] writing top-level names to ../../build/visualization/visualization.egg-info/top_level.txt
+[3.173s] reading manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+[3.174s] writing manifest file '../../build/visualization/visualization.egg-info/SOURCES.txt'
+[3.174s] running build
+[3.174s] running build_py
+[3.174s] running install
+[3.175s] running install_lib
+[3.208s] running install_data
+[3.208s] running install_egg_info
+[3.242s] removing '/workspace/install/visualization/lib/python3.10/site-packages/visualization-0.0.0-py3.10.egg-info' (and everything under it)
+[3.243s] Copying ../../build/visualization/visualization.egg-info to /workspace/install/visualization/lib/python3.10/site-packages/visualization-0.0.0-py3.10.egg-info
+[3.244s] running install_scripts
+[3.315s] Installing sim_node script to /workspace/install/visualization/lib/visualization
+[3.315s] Installing visual script to /workspace/install/visualization/lib/visualization
+[3.316s] writing list of installed files to '/workspace/build/visualization/install.log'
+[3.399s] Invoked command in '/workspace/src/visualization' returned '0': PYTHONPATH=/workspace/build/visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/visualization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/visualization build --build-base /workspace/build/visualization/build install --record /workspace/build/visualization/install.log --single-version-externally-managed install_data

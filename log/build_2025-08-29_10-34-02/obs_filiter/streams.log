@@ -1,0 +1,35 @@
+[1.406s] Invoking command in '/workspace/build/obs_filiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/obs_filiter -- -j8 -l8
+[2.607s] [ 25%] Built target realsense_read_node
+[2.608s] [ 50%] Built target xz_visualizer_node
+[2.608s] [ 75%] Built target obstacle_node
+[2.608s] [100%] Built target plane_node
+[3.223s] Invoked command in '/workspace/build/obs_filiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/obs_filiter -- -j8 -l8
+[4.168s] Invoking command in '/workspace/build/obs_filiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/obs_filiter
+[4.471s] -- Install configuration: ""
+[4.472s] -- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/realsense_read_node
+[4.473s] -- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/plane_node
+[4.473s] -- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/obstacle_node
+[4.473s] -- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/xz_visualizer_node
+[4.474s] -- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter
+[4.474s] -- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter
+[4.474s] -- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter/plane_estimator.hpp
+[4.475s] -- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter/visualization.hpp
+[4.475s] -- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter/obstacle_detector.hpp
+[4.475s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter//launch
+[4.475s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter//launch/obs_filiter_launch.py
+[4.475s] -- Up-to-date: /workspace/install/obs_filiter/share/ament_index/resource_index/package_run_dependencies/obs_filiter
+[4.476s] -- Up-to-date: /workspace/install/obs_filiter/share/ament_index/resource_index/parent_prefix_path/obs_filiter
+[4.476s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/environment/ament_prefix_path.sh
+[4.476s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/environment/ament_prefix_path.dsv
+[4.476s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/environment/path.sh
+[4.476s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/environment/path.dsv
+[4.476s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.bash
+[4.477s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.sh
+[4.477s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.zsh
+[4.477s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.dsv
+[4.477s] -- Installing: /workspace/install/obs_filiter/share/obs_filiter/package.dsv
+[4.477s] -- Up-to-date: /workspace/install/obs_filiter/share/ament_index/resource_index/packages/obs_filiter
+[4.477s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/cmake/obs_filiterConfig.cmake
+[4.478s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/cmake/obs_filiterConfig-version.cmake
+[4.478s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/package.xml
+[4.528s] Invoked command in '/workspace/build/obs_filiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/obs_filiter

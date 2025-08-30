@@ -1,0 +1,146 @@
+[0.254s] Invoking command in '/workspace/build/rc_receiver_if': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/rc_receiver_if -- -j8 -l8
+[2.814s] [ 12%] Built target rc_receiver_if__cpp
+[2.815s] [ 12%] Built target rc_receiver_if__rosidl_generator_c
+[2.817s] [ 12%] Built target ament_cmake_python_copy_rc_receiver_if
+[2.817s] [ 22%] Built target rc_receiver_if__rosidl_typesupport_cpp
+[2.817s] [ 32%] Built target rc_receiver_if__rosidl_typesupport_introspection_cpp
+[2.818s] [ 41%] Built target rc_receiver_if__rosidl_typesupport_fastrtps_cpp
+[2.819s] [ 51%] Built target rc_receiver_if__rosidl_typesupport_introspection_c
+[2.820s] [ 70%] Built target rc_receiver_if__rosidl_typesupport_fastrtps_c
+[2.820s] [ 70%] Built target rc_receiver_if__rosidl_typesupport_c
+[2.821s] [ 70%] Built target rc_receiver_if
+[2.822s] [ 74%] Built target rc_receiver_if__py
+[2.822s] [ 80%] Built target rc_receiver_if__rosidl_generator_py
+[2.823s] [ 87%] Built target rc_receiver_if__rosidl_typesupport_fastrtps_c__pyext
+[2.824s] [ 93%] Built target rc_receiver_if__rosidl_typesupport_c__pyext
+[2.824s] [100%] Built target rc_receiver_if__rosidl_typesupport_introspection_c__pyext
+[2.824s] running egg_info
+[2.827s] writing rc_receiver_if.egg-info/PKG-INFO
+[2.828s] writing dependency_links to rc_receiver_if.egg-info/dependency_links.txt
+[2.829s] writing top-level names to rc_receiver_if.egg-info/top_level.txt
+[2.829s] reading manifest file 'rc_receiver_if.egg-info/SOURCES.txt'
+[2.830s] writing manifest file 'rc_receiver_if.egg-info/SOURCES.txt'
+[2.830s] [100%] Built target ament_cmake_python_build_rc_receiver_if_egg
+[2.831s] /usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[2.831s]   warnings.warn(
+[2.836s] Invoked command in '/workspace/build/rc_receiver_if' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/rc_receiver_if -- -j8 -l8
+[3.796s] Invoking command in '/workspace/build/rc_receiver_if': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/rc_receiver_if
+[4.148s] -- Install configuration: ""
+[4.149s] -- Up-to-date: /workspace/install/rc_receiver_if/share/ament_index/resource_index/rosidl_interfaces/rc_receiver_if
+[4.149s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if
+[4.149s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg
+[4.149s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/rosidl_generator_c__visibility_control.h
+[4.149s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail
+[4.150s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__functions.c
+[4.150s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__type_support.h
+[4.150s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__struct.h
+[4.150s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__functions.h
+[4.150s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/receiver_data.h
+[4.150s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/library_path.sh
+[4.151s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/library_path.dsv
+[4.151s] -- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_generator_c.so
+[4.151s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if
+[4.151s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg
+[4.151s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail
+[4.151s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__rosidl_typesupport_fastrtps_c.h
+[4.151s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.151s] -- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_typesupport_fastrtps_c.so
+[4.163s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if
+[4.164s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg
+[4.164s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail
+[4.164s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__rosidl_typesupport_introspection_c.h
+[4.164s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__type_support.c
+[4.164s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.165s] -- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_typesupport_introspection_c.so
+[4.165s] -- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_typesupport_c.so
+[4.165s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if
+[4.165s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg
+[4.165s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail
+[4.165s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__struct.hpp
+[4.165s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__type_support.hpp
+[4.166s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__traits.hpp
+[4.166s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__builder.hpp
+[4.166s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/receiver_data.hpp
+[4.166s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.167s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if
+[4.168s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg
+[4.168s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.168s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail
+[4.168s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__rosidl_typesupport_fastrtps_cpp.hpp
+[4.168s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/dds_fastrtps
+[4.169s] -- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_typesupport_fastrtps_cpp.so
+[4.169s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if
+[4.169s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg
+[4.169s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail
+[4.169s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__type_support.cpp
+[4.171s] -- Up-to-date: /workspace/install/rc_receiver_if/include/rc_receiver_if/rc_receiver_if/msg/detail/receiver_data__rosidl_typesupport_introspection_cpp.hpp
+[4.176s] -- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_typesupport_introspection_cpp.so
+[4.177s] -- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_typesupport_cpp.so
+[4.177s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/pythonpath.sh
+[4.177s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/pythonpath.dsv
+[4.177s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if-0.0.0-py3.10.egg-info
+[4.178s] -- Installing: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.178s] -- Installing: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if-0.0.0-py3.10.egg-info/top_level.txt
+[4.178s] -- Installing: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.178s] -- Installing: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if-0.0.0-py3.10.egg-info/PKG-INFO
+[4.178s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if
+[4.178s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/_rc_receiver_if_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.178s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/rc_receiver_if_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.179s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/librc_receiver_if__rosidl_generator_py.so
+[4.179s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/msg
+[4.179s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/msg/_receiver_data.py
+[4.179s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/msg/_receiver_data_s.c
+[4.179s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/msg/__init__.py
+[4.179s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/rc_receiver_if_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.187s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/_rc_receiver_if_s.ep.rosidl_typesupport_c.c
+[4.187s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/__init__.py
+[4.187s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/_rc_receiver_if_s.ep.rosidl_typesupport_introspection_c.c
+[4.187s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/rc_receiver_if_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.353s] Listing '/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if'...
+[4.353s] Listing '/workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/msg'...
+[4.371s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/rc_receiver_if_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.372s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/rc_receiver_if_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.372s] -- Up-to-date: /workspace/install/rc_receiver_if/local/lib/python3.10/dist-packages/rc_receiver_if/rc_receiver_if_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.372s] -- Up-to-date: /workspace/install/rc_receiver_if/lib/librc_receiver_if__rosidl_generator_py.so
+[4.372s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/msg/ReceiverData.idl
+[4.372s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/msg/ReceiverData.msg
+[4.373s] -- Up-to-date: /workspace/install/rc_receiver_if/share/ament_index/resource_index/package_run_dependencies/rc_receiver_if
+[4.373s] -- Up-to-date: /workspace/install/rc_receiver_if/share/ament_index/resource_index/parent_prefix_path/rc_receiver_if
+[4.373s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/ament_prefix_path.sh
+[4.373s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/ament_prefix_path.dsv
+[4.374s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/path.sh
+[4.374s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/environment/path.dsv
+[4.375s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/local_setup.bash
+[4.375s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/local_setup.sh
+[4.375s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/local_setup.zsh
+[4.375s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/local_setup.dsv
+[4.376s] -- Installing: /workspace/install/rc_receiver_if/share/rc_receiver_if/package.dsv
+[4.377s] -- Up-to-date: /workspace/install/rc_receiver_if/share/ament_index/resource_index/packages/rc_receiver_if
+[4.378s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_generator_cExport.cmake
+[4.378s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_generator_cExport-noconfig.cmake
+[4.382s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_typesupport_fastrtps_cExport.cmake
+[4.382s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.383s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_introspection_cExport.cmake
+[4.383s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.383s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_cExport.cmake
+[4.383s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_cExport-noconfig.cmake
+[4.383s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_generator_cppExport.cmake
+[4.383s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.383s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.384s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_introspection_cppExport.cmake
+[4.384s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.384s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_cppExport.cmake
+[4.384s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_if__rosidl_typesupport_cppExport-noconfig.cmake
+[4.384s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_generator_pyExport.cmake
+[4.384s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/export_rc_receiver_if__rosidl_generator_pyExport-noconfig.cmake
+[4.384s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rosidl_cmake-extras.cmake
+[4.385s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.385s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/ament_cmake_export_libraries-extras.cmake
+[4.385s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/ament_cmake_export_targets-extras.cmake
+[4.385s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.385s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.385s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.385s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_ifConfig.cmake
+[4.385s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/cmake/rc_receiver_ifConfig-version.cmake
+[4.393s] -- Up-to-date: /workspace/install/rc_receiver_if/share/rc_receiver_if/package.xml
+[4.473s] Invoked command in '/workspace/build/rc_receiver_if' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/rc_receiver_if

@@ -1,0 +1,6 @@
+{
+  "package_name": "motor_if",
+  "non_idl_tuples": [
+    "/workspace/src/motor_control/motor_if:srv/MotorPos.srv"
+  ]
+}

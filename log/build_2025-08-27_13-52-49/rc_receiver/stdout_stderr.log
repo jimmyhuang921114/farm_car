@@ -1,0 +1,34 @@
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../../build/rc_receiver/rc_receiver.egg-info
+writing ../../../build/rc_receiver/rc_receiver.egg-info/PKG-INFO
+writing dependency_links to ../../../build/rc_receiver/rc_receiver.egg-info/dependency_links.txt
+writing entry points to ../../../build/rc_receiver/rc_receiver.egg-info/entry_points.txt
+writing requirements to ../../../build/rc_receiver/rc_receiver.egg-info/requires.txt
+writing top-level names to ../../../build/rc_receiver/rc_receiver.egg-info/top_level.txt
+writing manifest file '../../../build/rc_receiver/rc_receiver.egg-info/SOURCES.txt'
+reading manifest file '../../../build/rc_receiver/rc_receiver.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/rc_receiver/rc_receiver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/build/rc_receiver/build/lib/rc_receiver
+copying rc_receiver/__init__.py -> /workspace/build/rc_receiver/build/lib/rc_receiver
+copying rc_receiver/rc_receiver.py -> /workspace/build/rc_receiver/build/lib/rc_receiver
+running install
+running install_lib
+creating /workspace/install/rc_receiver/lib/python3.10/site-packages/rc_receiver
+copying /workspace/build/rc_receiver/build/lib/rc_receiver/__init__.py -> /workspace/install/rc_receiver/lib/python3.10/site-packages/rc_receiver
+copying /workspace/build/rc_receiver/build/lib/rc_receiver/rc_receiver.py -> /workspace/install/rc_receiver/lib/python3.10/site-packages/rc_receiver
+byte-compiling /workspace/install/rc_receiver/lib/python3.10/site-packages/rc_receiver/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspace/install/rc_receiver/lib/python3.10/site-packages/rc_receiver/rc_receiver.py to rc_receiver.cpython-310.pyc
+running install_data
+creating /workspace/install/rc_receiver/share/ament_index/resource_index/packages
+copying resource/rc_receiver -> /workspace/install/rc_receiver/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/install/rc_receiver/share/rc_receiver
+running install_egg_info
+Copying ../../../build/rc_receiver/rc_receiver.egg-info to /workspace/install/rc_receiver/lib/python3.10/site-packages/rc_receiver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rc_receiver script to /workspace/install/rc_receiver/lib/rc_receiver
+writing list of installed files to '/workspace/build/rc_receiver/install.log'

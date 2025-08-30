@@ -1,0 +1,25 @@
+[6.059s] Invoking command in '/workspace/src/camera': PYTHONPATH=/workspace/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /workspace/build/camera/build install --record /workspace/build/camera/install.log --single-version-externally-managed install_data
+[6.204s] /usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[6.213s]   warnings.warn(
+[6.737s] /usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'
+[6.738s]   warnings.warn(msg)
+[7.063s] running egg_info
+[7.134s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[7.136s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[7.137s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[7.143s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[7.143s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[7.360s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[7.377s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[7.377s] running build
+[7.378s] running build_py
+[7.378s] running install
+[7.378s] running install_lib
+[7.452s] running install_data
+[7.452s] running install_egg_info
+[7.510s] removing '/workspace/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)
+[7.512s] Copying ../../build/camera/camera.egg-info to /workspace/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[7.517s] running install_scripts
+[7.660s] Installing realsense script to /workspace/install/camera/lib/camera
+[7.663s] writing list of installed files to '/workspace/build/camera/install.log'
+[8.451s] Invoked command in '/workspace/src/camera' returned '0': PYTHONPATH=/workspace/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /workspace/build/camera/build install --record /workspace/build/camera/install.log --single-version-externally-managed install_data

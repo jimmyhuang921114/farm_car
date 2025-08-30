@@ -1,0 +1,41 @@
+[4.156s] Invoking command in '/workspace/src/pixhawk_control': PYTHONPATH=/workspace/build/pixhawk_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/pixhawk_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pixhawk_control build --build-base /workspace/build/pixhawk_control/build install --record /workspace/build/pixhawk_control/install.log --single-version-externally-managed install_data
+[5.583s] running egg_info
+[5.584s] creating ../../build/pixhawk_control/pixhawk_control.egg-info
+[5.589s] writing ../../build/pixhawk_control/pixhawk_control.egg-info/PKG-INFO
+[5.589s] writing dependency_links to ../../build/pixhawk_control/pixhawk_control.egg-info/dependency_links.txt
+[5.589s] writing requirements to ../../build/pixhawk_control/pixhawk_control.egg-info/requires.txt
+[5.589s] writing top-level names to ../../build/pixhawk_control/pixhawk_control.egg-info/top_level.txt
+[5.589s] writing manifest file '../../build/pixhawk_control/pixhawk_control.egg-info/SOURCES.txt'
+[5.589s] reading manifest file '../../build/pixhawk_control/pixhawk_control.egg-info/SOURCES.txt'
+[5.589s] writing manifest file '../../build/pixhawk_control/pixhawk_control.egg-info/SOURCES.txt'
+[5.590s] running build
+[5.590s] running build_py
+[5.590s] creating /workspace/build/pixhawk_control/build/lib/pixhawk_control
+[5.590s] copying pixhawk_control/connect_pixhawk.py -> /workspace/build/pixhawk_control/build/lib/pixhawk_control
+[5.590s] copying pixhawk_control/connect_debug.py -> /workspace/build/pixhawk_control/build/lib/pixhawk_control
+[5.590s] copying pixhawk_control/__init__.py -> /workspace/build/pixhawk_control/build/lib/pixhawk_control
+[5.590s] running install
+[5.590s] running install_lib
+[5.590s] creating /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control
+[5.590s] copying /workspace/build/pixhawk_control/build/lib/pixhawk_control/connect_pixhawk.py -> /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control
+[5.591s] copying /workspace/build/pixhawk_control/build/lib/pixhawk_control/connect_debug.py -> /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control
+[5.591s] copying /workspace/build/pixhawk_control/build/lib/pixhawk_control/__init__.py -> /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control
+[5.591s] byte-compiling /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control/connect_pixhawk.py to connect_pixhawk.cpython-310.pyc
+[5.591s] byte-compiling /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control/connect_debug.py to connect_debug.cpython-310.pyc
+[5.591s] byte-compiling /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control/__init__.py to __init__.cpython-310.pyc
+[5.591s] running install_data
+[5.591s] creating /workspace/install/pixhawk_control/share/ament_index/resource_index/packages
+[5.591s] copying resource/pixhawk_control -> /workspace/install/pixhawk_control/share/ament_index/resource_index/packages
+[5.591s] copying package.xml -> /workspace/install/pixhawk_control/share/pixhawk_control
+[5.591s] running install_egg_info
+[5.591s] Copying ../../build/pixhawk_control/pixhawk_control.egg-info to /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control-0.0.0-py3.10.egg-info
+[5.592s] running install_scripts
+[5.592s] writing list of installed files to '/workspace/build/pixhawk_control/install.log'
+[5.592s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.592s]   warnings.warn(msg)
+[5.592s]   File "/workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control/connect_pixhawk.py", line 36
+[5.592s]     python3 -c "import mavsdk, sys; print('mavsdk', mavsdk.__version__)"
+[5.592s]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[5.592s] SyntaxError: invalid syntax
+[5.592s] 
+[5.610s] Invoked command in '/workspace/src/pixhawk_control' returned '0': PYTHONPATH=/workspace/build/pixhawk_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/pixhawk_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pixhawk_control build --build-base /workspace/build/pixhawk_control/build install --record /workspace/build/pixhawk_control/install.log --single-version-externally-managed install_data

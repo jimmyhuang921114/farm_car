@@ -1,0 +1,41 @@
+[5.319s] Invoking command in '/workspace/src/track': PYTHONPATH=/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/track build --build-base /workspace/build/track/build install --record /workspace/build/track/install.log --single-version-externally-managed install_data
+[5.656s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.657s]   warnings.warn(msg)
+[5.842s] running egg_info
+[5.873s] writing ../../build/track/track.egg-info/PKG-INFO
+[5.874s] writing dependency_links to ../../build/track/track.egg-info/dependency_links.txt
+[5.874s] writing entry points to ../../build/track/track.egg-info/entry_points.txt
+[5.875s] writing requirements to ../../build/track/track.egg-info/requires.txt
+[5.875s] writing top-level names to ../../build/track/track.egg-info/top_level.txt
+[5.939s] reading manifest file '../../build/track/track.egg-info/SOURCES.txt'
+[5.941s] writing manifest file '../../build/track/track.egg-info/SOURCES.txt'
+[5.941s] running build
+[5.941s] running build_py
+[5.942s] copying track/ByteTrack.py -> /workspace/build/track/build/lib/track
+[5.943s] copying track/bytetrack.py -> /workspace/build/track/build/lib/track
+[5.943s] copying track/matching.py -> /workspace/build/track/build/lib/track
+[5.948s] copying track/basetrack.py -> /workspace/build/track/build/lib/track
+[5.948s] copying track/depth.py -> /workspace/build/track/build/lib/track
+[5.948s] copying track/kalman_filter.py -> /workspace/build/track/build/lib/track
+[5.948s] copying track/YOLO.py -> /workspace/build/track/build/lib/track
+[5.948s] copying track/testa.py -> /workspace/build/track/build/lib/track
+[5.949s] copying track/test.py -> /workspace/build/track/build/lib/track
+[5.950s] copying track/testb.py -> /workspace/build/track/build/lib/track
+[5.950s] copying track/__init__.py -> /workspace/build/track/build/lib/track
+[5.950s] copying track/byte_tracker.py -> /workspace/build/track/build/lib/track
+[5.950s] running install
+[5.956s] running install_lib
+[5.990s] running install_data
+[5.990s] copying resource/track -> /workspace/install/track/share/ament_index/resource_index/packages
+[5.991s] copying package.xml -> /workspace/install/track/share/track
+[5.991s] running install_egg_info
+[6.028s] removing '/workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info' (and everything under it)
+[6.028s] Copying ../../build/track/track.egg-info to /workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info
+[6.030s] running install_scripts
+[6.282s] Installing ByteTrack script to /workspace/install/track/lib/track
+[6.284s] Installing YOLO script to /workspace/install/track/lib/track
+[6.285s] Installing bytetrack script to /workspace/install/track/lib/track
+[6.286s] Installing depth script to /workspace/install/track/lib/track
+[6.286s] Installing testa script to /workspace/install/track/lib/track
+[6.287s] writing list of installed files to '/workspace/build/track/install.log'
+[6.379s] Invoked command in '/workspace/src/track' returned '0': PYTHONPATH=/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/track build --build-base /workspace/build/track/build install --record /workspace/build/track/install.log --single-version-externally-managed install_data

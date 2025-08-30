@@ -1,0 +1,6 @@
+Invoking command in '/workspace/build/rc_receiver_if': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /workspace/src/motor_control/rc_receiver_if -DCMAKE_INSTALL_PREFIX=/workspace/install/rc_receiver_if
+Invoked command in '/workspace/build/rc_receiver_if' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /workspace/src/motor_control/rc_receiver_if -DCMAKE_INSTALL_PREFIX=/workspace/install/rc_receiver_if
+Invoking command in '/workspace/build/rc_receiver_if': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /workspace/build/rc_receiver_if -- -j8 -l8
+Invoked command in '/workspace/build/rc_receiver_if' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /workspace/build/rc_receiver_if -- -j8 -l8
+Invoking command in '/workspace/build/rc_receiver_if': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /workspace/build/rc_receiver_if
+Invoked command in '/workspace/build/rc_receiver_if' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /workspace/build/rc_receiver_if

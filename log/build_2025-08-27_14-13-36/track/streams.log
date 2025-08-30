@@ -1,0 +1,43 @@
+[1.476s] Invoking command in '/workspace/src/track': PYTHONPATH=/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/track build --build-base /workspace/build/track/build install --record /workspace/build/track/install.log --single-version-externally-managed install_data
+[1.784s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.785s]   warnings.warn(msg)
+[1.961s] running egg_info
+[1.991s] writing ../../build/track/track.egg-info/PKG-INFO
+[1.992s] writing dependency_links to ../../build/track/track.egg-info/dependency_links.txt
+[1.992s] writing entry points to ../../build/track/track.egg-info/entry_points.txt
+[1.993s] writing requirements to ../../build/track/track.egg-info/requires.txt
+[1.993s] writing top-level names to ../../build/track/track.egg-info/top_level.txt
+[2.053s] reading manifest file '../../build/track/track.egg-info/SOURCES.txt'
+[2.056s] writing manifest file '../../build/track/track.egg-info/SOURCES.txt'
+[2.056s] running build
+[2.056s] running build_py
+[2.057s] copying track/ByteTrack.py -> /workspace/build/track/build/lib/track
+[2.058s] copying track/bytetrack.py -> /workspace/build/track/build/lib/track
+[2.058s] copying track/matching.py -> /workspace/build/track/build/lib/track
+[2.059s] copying track/basetrack.py -> /workspace/build/track/build/lib/track
+[2.060s] copying track/depth.py -> /workspace/build/track/build/lib/track
+[2.060s] copying track/kalman_filter.py -> /workspace/build/track/build/lib/track
+[2.061s] copying track/YOLO.py -> /workspace/build/track/build/lib/track
+[2.061s] copying track/testa.py -> /workspace/build/track/build/lib/track
+[2.062s] copying track/test.py -> /workspace/build/track/build/lib/track
+[2.062s] copying track/testb.py -> /workspace/build/track/build/lib/track
+[2.062s] copying track/__init__.py -> /workspace/build/track/build/lib/track
+[2.063s] copying track/byte_tracker.py -> /workspace/build/track/build/lib/track
+[2.065s] running install
+[2.073s] running install_lib
+[2.103s] copying /workspace/build/track/build/lib/track/YOLO.py -> /workspace/install/track/lib/python3.10/site-packages/track
+[2.105s] byte-compiling /workspace/install/track/lib/python3.10/site-packages/track/YOLO.py to YOLO.cpython-310.pyc
+[2.106s] running install_data
+[2.107s] copying resource/track -> /workspace/install/track/share/ament_index/resource_index/packages
+[2.107s] copying package.xml -> /workspace/install/track/share/track
+[2.108s] running install_egg_info
+[2.140s] removing '/workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info' (and everything under it)
+[2.141s] Copying ../../build/track/track.egg-info to /workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info
+[2.143s] running install_scripts
+[2.374s] Installing ByteTrack script to /workspace/install/track/lib/track
+[2.375s] Installing YOLO script to /workspace/install/track/lib/track
+[2.375s] Installing bytetrack script to /workspace/install/track/lib/track
+[2.375s] Installing depth script to /workspace/install/track/lib/track
+[2.375s] Installing testa script to /workspace/install/track/lib/track
+[2.376s] writing list of installed files to '/workspace/build/track/install.log'
+[2.452s] Invoked command in '/workspace/src/track' returned '0': PYTHONPATH=/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/track build --build-base /workspace/build/track/build install --record /workspace/build/track/install.log --single-version-externally-managed install_data

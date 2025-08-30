@@ -1,0 +1,8 @@
+setup.py
+motor_if/__init__.py
+motor_if.egg-info/PKG-INFO
+motor_if.egg-info/SOURCES.txt
+motor_if.egg-info/dependency_links.txt
+motor_if.egg-info/top_level.txt
+motor_if/srv/__init__.py
+motor_if/srv/_motor_pos.py

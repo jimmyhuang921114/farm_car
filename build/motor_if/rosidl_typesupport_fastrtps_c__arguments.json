@@ -1,0 +1,19 @@
+{
+  "package_name": "motor_if",
+  "output_dir": "/workspace/build/motor_if/rosidl_typesupport_fastrtps_c/motor_if",
+  "template_dir": "/opt/ros/humble/install/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/workspace/build/motor_if/rosidl_adapter/motor_if:srv/MotorPos.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/install/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/humble/install/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/workspace/build/motor_if/rosidl_adapter/motor_if/srv/MotorPos.idl"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8cddc7a34cf3ee660642.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "obs_filiter",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "obs_filiter_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obs_filiter_uninstall-5507385062ff5c3b1446.json",
+					"name" : "obs_filiter_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_node-8ce0aa16fb379c578419.json",
+					"name" : "obstacle_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plane_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plane_node-3b782b11f65a234fa77a.json",
+					"name" : "plane_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense_read_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense_read_node-d555ecb6af9cdf852c5f.json",
+					"name" : "realsense_read_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1949a34b09d502b0103a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xz_visualizer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xz_visualizer_node-aa0dda9dc37458561a6a.json",
+					"name" : "xz_visualizer_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/build/obs_filiter",
+		"source" : "/workspace/src/obs_filiter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,26 @@
+[4.126s] Invoking command in '/workspace/src/pixhawk_control': PYTHONPATH=/workspace/build/pixhawk_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/pixhawk_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pixhawk_control build --build-base /workspace/build/pixhawk_control/build install --record /workspace/build/pixhawk_control/install.log --single-version-externally-managed install_data
+[4.516s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.516s]   warnings.warn(msg)
+[4.709s] running egg_info
+[4.749s] writing ../../build/pixhawk_control/pixhawk_control.egg-info/PKG-INFO
+[4.750s] writing dependency_links to ../../build/pixhawk_control/pixhawk_control.egg-info/dependency_links.txt
+[4.751s] writing requirements to ../../build/pixhawk_control/pixhawk_control.egg-info/requires.txt
+[4.751s] writing top-level names to ../../build/pixhawk_control/pixhawk_control.egg-info/top_level.txt
+[4.833s] reading manifest file '../../build/pixhawk_control/pixhawk_control.egg-info/SOURCES.txt'
+[4.837s] writing manifest file '../../build/pixhawk_control/pixhawk_control.egg-info/SOURCES.txt'
+[4.838s] running build
+[4.838s] running build_py
+[4.840s] copying pixhawk_control/connect_pixhawk.py -> /workspace/build/pixhawk_control/build/lib/pixhawk_control
+[4.841s] copying pixhawk_control/connect_debug.py -> /workspace/build/pixhawk_control/build/lib/pixhawk_control
+[4.842s] copying pixhawk_control/__init__.py -> /workspace/build/pixhawk_control/build/lib/pixhawk_control
+[4.843s] running install
+[4.852s] running install_lib
+[4.894s] running install_data
+[4.900s] copying resource/pixhawk_control -> /workspace/install/pixhawk_control/share/ament_index/resource_index/packages
+[4.900s] copying package.xml -> /workspace/install/pixhawk_control/share/pixhawk_control
+[4.900s] running install_egg_info
+[4.938s] removing '/workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control-0.0.0-py3.10.egg-info' (and everything under it)
+[4.939s] Copying ../../build/pixhawk_control/pixhawk_control.egg-info to /workspace/install/pixhawk_control/lib/python3.10/site-packages/pixhawk_control-0.0.0-py3.10.egg-info
+[4.941s] running install_scripts
+[5.260s] writing list of installed files to '/workspace/build/pixhawk_control/install.log'
+[5.408s] Invoked command in '/workspace/src/pixhawk_control' returned '0': PYTHONPATH=/workspace/build/pixhawk_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/pixhawk_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pixhawk_control build --build-base /workspace/build/pixhawk_control/build install --record /workspace/build/pixhawk_control/install.log --single-version-externally-managed install_data

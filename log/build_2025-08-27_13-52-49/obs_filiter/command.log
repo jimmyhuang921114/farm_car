@@ -1,0 +1,6 @@
+Invoking command in '/workspace/build/obs_filiter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /workspace/src/obs_filiter -DCMAKE_INSTALL_PREFIX=/workspace/install/obs_filiter
+Invoked command in '/workspace/build/obs_filiter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /workspace/src/obs_filiter -DCMAKE_INSTALL_PREFIX=/workspace/install/obs_filiter
+Invoking command in '/workspace/build/obs_filiter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /workspace/build/obs_filiter -- -j8 -l8
+Invoked command in '/workspace/build/obs_filiter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /workspace/build/obs_filiter -- -j8 -l8
+Invoking command in '/workspace/build/obs_filiter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /workspace/build/obs_filiter
+Invoked command in '/workspace/build/obs_filiter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /workspace/build/obs_filiter

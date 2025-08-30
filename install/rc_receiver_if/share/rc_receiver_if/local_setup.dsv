@@ -1,0 +1,4 @@
+source;share/rc_receiver_if/environment/ament_prefix_path.sh
+source;share/rc_receiver_if/environment/library_path.sh
+source;share/rc_receiver_if/environment/path.sh
+source;share/rc_receiver_if/environment/pythonpath.sh

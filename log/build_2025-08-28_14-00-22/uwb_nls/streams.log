@@ -1,0 +1,32 @@
+[2.500s] Invoking command in '/workspace/src/uwb_nls': PYTHONPATH=/workspace/build/uwb_nls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/uwb_nls/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uwb_nls build --build-base /workspace/build/uwb_nls/build install --record /workspace/build/uwb_nls/install.log --single-version-externally-managed install_data
+[2.823s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.823s]   warnings.warn(msg)
+[3.007s] running egg_info
+[3.036s] writing ../../build/uwb_nls/uwb_nls.egg-info/PKG-INFO
+[3.037s] writing dependency_links to ../../build/uwb_nls/uwb_nls.egg-info/dependency_links.txt
+[3.038s] writing entry points to ../../build/uwb_nls/uwb_nls.egg-info/entry_points.txt
+[3.038s] writing requirements to ../../build/uwb_nls/uwb_nls.egg-info/requires.txt
+[3.039s] writing top-level names to ../../build/uwb_nls/uwb_nls.egg-info/top_level.txt
+[3.102s] reading manifest file '../../build/uwb_nls/uwb_nls.egg-info/SOURCES.txt'
+[3.105s] writing manifest file '../../build/uwb_nls/uwb_nls.egg-info/SOURCES.txt'
+[3.105s] running build
+[3.105s] running build_py
+[3.108s] running install
+[3.117s] running install_lib
+[3.152s] running install_data
+[3.152s] running install_egg_info
+[3.186s] removing '/workspace/install/uwb_nls/lib/python3.10/site-packages/uwb_nls-0.0.0-py3.10.egg-info' (and everything under it)
+[3.186s] Copying ../../build/uwb_nls/uwb_nls.egg-info to /workspace/install/uwb_nls/lib/python3.10/site-packages/uwb_nls-0.0.0-py3.10.egg-info
+[3.188s] running install_scripts
+[3.437s] Installing distance_filter script to /workspace/install/uwb_nls/lib/uwb_nls
+[3.437s] Installing last_filter_nls script to /workspace/install/uwb_nls/lib/uwb_nls
+[3.437s] Installing ndistance_filter script to /workspace/install/uwb_nls/lib/uwb_nls
+[3.437s] Installing nposition script to /workspace/install/uwb_nls/lib/uwb_nls
+[3.438s] Installing nposition_filter script to /workspace/install/uwb_nls/lib/uwb_nls
+[3.438s] Installing nreceiver script to /workspace/install/uwb_nls/lib/uwb_nls
+[3.438s] Installing nvisual script to /workspace/install/uwb_nls/lib/uwb_nls
+[3.438s] Installing position_nls script to /workspace/install/uwb_nls/lib/uwb_nls
+[3.439s] Installing receiver script to /workspace/install/uwb_nls/lib/uwb_nls
+[3.439s] Installing visualization_all script to /workspace/install/uwb_nls/lib/uwb_nls
+[3.440s] writing list of installed files to '/workspace/build/uwb_nls/install.log'
+[3.530s] Invoked command in '/workspace/src/uwb_nls' returned '0': PYTHONPATH=/workspace/build/uwb_nls/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/uwb_nls/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uwb_nls build --build-base /workspace/build/uwb_nls/build install --record /workspace/build/uwb_nls/install.log --single-version-externally-managed install_data

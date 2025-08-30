@@ -1,0 +1,29 @@
+[4.320s] Invoking command in '/workspace/src/track': PYTHONPATH=/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/track build --build-base /workspace/build/track/build install --record /workspace/build/track/install.log --single-version-externally-managed install_data
+[4.435s] /usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[4.438s]   warnings.warn(
+[4.673s] /usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'tests_require'
+[4.674s]   warnings.warn(msg)
+[4.904s] running egg_info
+[4.944s] writing ../../build/track/track.egg-info/PKG-INFO
+[4.947s] writing dependency_links to ../../build/track/track.egg-info/dependency_links.txt
+[4.948s] writing entry points to ../../build/track/track.egg-info/entry_points.txt
+[4.949s] writing requirements to ../../build/track/track.egg-info/requires.txt
+[4.949s] writing top-level names to ../../build/track/track.egg-info/top_level.txt
+[5.023s] reading manifest file '../../build/track/track.egg-info/SOURCES.txt'
+[5.030s] writing manifest file '../../build/track/track.egg-info/SOURCES.txt'
+[5.031s] running build
+[5.031s] running build_py
+[5.032s] running install
+[5.033s] running install_lib
+[5.065s] running install_data
+[5.065s] running install_egg_info
+[5.106s] removing '/workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info' (and everything under it)
+[5.106s] Copying ../../build/track/track.egg-info to /workspace/install/track/lib/python3.10/site-packages/track-0.0.0-py3.10.egg-info
+[5.110s] running install_scripts
+[5.210s] Installing ByteTrack script to /workspace/install/track/lib/track
+[5.211s] Installing YOLO script to /workspace/install/track/lib/track
+[5.211s] Installing bytetrack script to /workspace/install/track/lib/track
+[5.211s] Installing depth script to /workspace/install/track/lib/track
+[5.211s] Installing testa script to /workspace/install/track/lib/track
+[5.212s] writing list of installed files to '/workspace/build/track/install.log'
+[5.696s] Invoked command in '/workspace/src/track' returned '0': PYTHONPATH=/workspace/build/track/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/track/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/track build --build-base /workspace/build/track/build install --record /workspace/build/track/install.log --single-version-externally-managed install_data

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f1eabad7f75c76783472.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rc_receiver_if__py",
+					"jsonFile" : "directory-rc_receiver_if__py-547d86ef46e83c9be7e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspace/build/rc_receiver_if/rc_receiver_if__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rc_receiver_if",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rc_receiver_if_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rc_receiver_if_egg-458f657f0210d93a505a.json",
+					"name" : "ament_cmake_python_build_rc_receiver_if_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rc_receiver_if::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rc_receiver_if-15157108750cca047715.json",
+					"name" : "ament_cmake_python_copy_rc_receiver_if",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if-9fab4475c42fbbe7cff6.json",
+					"name" : "rc_receiver_if",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if__cpp-65c0716434b2ed75f83d.json",
+					"name" : "rc_receiver_if__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rc_receiver_if__py::@9e0e5cf0114f09226332",
+					"jsonFile" : "target-rc_receiver_if__py-6152e77ceb0a5535de1f.json",
+					"name" : "rc_receiver_if__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if__rosidl_generator_c-793c38f669fd084d3da9.json",
+					"name" : "rc_receiver_if__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if__rosidl_generator_py-89544c8a5a25ab632c6f.json",
+					"name" : "rc_receiver_if__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if__rosidl_typesupport_c-74945d627f7918eddd40.json",
+					"name" : "rc_receiver_if__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if__rosidl_typesupport_c__pyext-d67230546a881dd60de6.json",
+					"name" : "rc_receiver_if__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if__rosidl_typesupport_cpp-7c2702c4e64479279add.json",
+					"name" : "rc_receiver_if__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if__rosidl_typesupport_fastrtps_c-744ed0f1ecb9966f065c.json",
+					"name" : "rc_receiver_if__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if__rosidl_typesupport_fastrtps_c__pyext-38dbed0d6023ef58499e.json",
+					"name" : "rc_receiver_if__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if__rosidl_typesupport_fastrtps_cpp-fcb0e1d23ef6a5196bd3.json",
+					"name" : "rc_receiver_if__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if__rosidl_typesupport_introspection_c-b40a2fb9dfcb6447fc45.json",
+					"name" : "rc_receiver_if__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if__rosidl_typesupport_introspection_c__pyext-2b7235bcc5544697b3dd.json",
+					"name" : "rc_receiver_if__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if__rosidl_typesupport_introspection_cpp-2f23b1a0bd744bbf3f04.json",
+					"name" : "rc_receiver_if__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_receiver_if_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_receiver_if_uninstall-d57d9ba810a5f62c6ed7.json",
+					"name" : "rc_receiver_if_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3f4fc316969738ef8aed.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/build/rc_receiver_if",
+		"source" : "/workspace/src/motor_control/rc_receiver_if"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

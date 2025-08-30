@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rc_receiver_if__py",
+		"source" : "/workspace/build/rc_receiver_if/rc_receiver_if__py"
+	}
+}

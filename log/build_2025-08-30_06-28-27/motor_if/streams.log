@@ -1,0 +1,153 @@
+[1.301s] Invoking command in '/workspace/build/motor_if': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble /usr/local/bin/cmake --build /workspace/build/motor_if -- -j8 -l8
+[2.464s] [  3%] Built target motor_if__cpp
+[2.464s] [ 12%] Built target motor_if__rosidl_generator_c
+[2.465s] [ 12%] Built target ament_cmake_python_copy_motor_if
+[2.465s] [ 22%] Built target motor_if__rosidl_typesupport_introspection_c
+[2.465s] [ 35%] Built target motor_if__rosidl_typesupport_cpp
+[2.465s] [ 41%] Built target motor_if__rosidl_typesupport_c
+[2.465s] [ 51%] Built target motor_if__rosidl_typesupport_introspection_cpp
+[2.465s] [ 61%] Built target motor_if__rosidl_typesupport_fastrtps_cpp
+[2.465s] [ 70%] Built target motor_if__rosidl_typesupport_fastrtps_c
+[2.465s] [ 70%] Built target motor_if
+[2.466s] [ 74%] Built target motor_if__py
+[2.466s] [ 80%] Built target motor_if__rosidl_generator_py
+[2.466s] [ 87%] Built target motor_if__rosidl_typesupport_fastrtps_c__pyext
+[2.466s] [100%] Built target motor_if__rosidl_typesupport_c__pyext
+[2.466s] [100%] Built target motor_if__rosidl_typesupport_introspection_c__pyext
+[2.466s] running egg_info
+[2.466s] writing motor_if.egg-info/PKG-INFO
+[2.467s] writing dependency_links to motor_if.egg-info/dependency_links.txt
+[2.467s] writing top-level names to motor_if.egg-info/top_level.txt
+[2.467s] reading manifest file 'motor_if.egg-info/SOURCES.txt'
+[2.467s] writing manifest file 'motor_if.egg-info/SOURCES.txt'
+[2.467s] [100%] Built target ament_cmake_python_build_motor_if_egg
+[2.467s] /usr/local/lib/python3.10/dist-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[2.467s]   warnings.warn(
+[3.022s] Invoked command in '/workspace/build/motor_if' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble /usr/local/bin/cmake --build /workspace/build/motor_if -- -j8 -l8
+[3.676s] Invoking command in '/workspace/build/motor_if': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble /usr/local/bin/cmake --install /workspace/build/motor_if
+[3.878s] -- Install configuration: ""
+[3.879s] -- Up-to-date: /workspace/install/motor_if/share/ament_index/resource_index/rosidl_interfaces/motor_if
+[3.879s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if
+[3.881s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv
+[3.883s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/motor_pos.h
+[3.884s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail
+[3.884s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__functions.c
+[3.885s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__struct.h
+[3.885s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__type_support.h
+[3.885s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__functions.h
+[3.886s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg
+[3.886s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_generator_c__visibility_control.h
+[3.890s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/library_path.sh
+[3.891s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/library_path.dsv
+[3.898s] -- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_generator_c.so
+[3.899s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if
+[3.909s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv
+[3.909s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail
+[3.909s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__rosidl_typesupport_fastrtps_c.h
+[3.910s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg
+[3.910s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.910s] -- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_fastrtps_c.so
+[3.911s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if
+[3.911s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv
+[3.911s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail
+[3.912s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__rosidl_typesupport_introspection_c.h
+[3.912s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__type_support.c
+[3.912s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg
+[3.912s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.913s] -- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_introspection_c.so
+[3.913s] -- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_c.so
+[3.921s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if
+[3.921s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv
+[3.922s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail
+[3.922s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__traits.hpp
+[3.922s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__type_support.hpp
+[3.922s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__struct.hpp
+[3.923s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__builder.hpp
+[3.923s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/motor_pos.hpp
+[3.923s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg
+[3.924s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.924s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if
+[3.924s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv
+[3.924s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail
+[3.924s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/dds_fastrtps
+[3.924s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__rosidl_typesupport_fastrtps_cpp.hpp
+[3.924s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg
+[3.925s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.925s] -- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_fastrtps_cpp.so
+[3.925s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if
+[3.925s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv
+[3.925s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail
+[3.925s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__type_support.cpp
+[3.925s] -- Up-to-date: /workspace/install/motor_if/include/motor_if/motor_if/srv/detail/motor_pos__rosidl_typesupport_introspection_cpp.hpp
+[3.925s] -- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_introspection_cpp.so
+[3.926s] -- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_typesupport_cpp.so
+[3.926s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/pythonpath.sh
+[3.928s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/pythonpath.dsv
+[3.928s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info
+[3.929s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.930s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info/top_level.txt
+[3.930s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.930s] -- Installing: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if-0.0.0-py3.10.egg-info/PKG-INFO
+[3.930s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if
+[3.930s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv
+[3.930s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv/_motor_pos_s.c
+[3.930s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv/_motor_pos.py
+[3.931s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv/__init__.py
+[3.931s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/_motor_if_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.931s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.931s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.931s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.931s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/libmotor_if__rosidl_generator_py.so
+[3.931s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/_motor_if_s.ep.rosidl_typesupport_introspection_c.c
+[3.932s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/__init__.py
+[3.932s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/_motor_if_s.ep.rosidl_typesupport_c.c
+[4.024s] Listing '/workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if'...
+[4.026s] Listing '/workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/srv'...
+[4.042s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.045s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.048s] -- Up-to-date: /workspace/install/motor_if/local/lib/python3.10/dist-packages/motor_if/motor_if_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.052s] -- Up-to-date: /workspace/install/motor_if/lib/libmotor_if__rosidl_generator_py.so
+[4.053s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/srv/MotorPos.idl
+[4.054s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/srv/MotorPos.srv
+[4.055s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/srv/MotorPos_Request.msg
+[4.056s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/srv/MotorPos_Response.msg
+[4.056s] -- Up-to-date: /workspace/install/motor_if/share/ament_index/resource_index/package_run_dependencies/motor_if
+[4.057s] -- Up-to-date: /workspace/install/motor_if/share/ament_index/resource_index/parent_prefix_path/motor_if
+[4.057s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/ament_prefix_path.sh
+[4.058s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/ament_prefix_path.dsv
+[4.059s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/path.sh
+[4.059s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/environment/path.dsv
+[4.060s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/local_setup.bash
+[4.060s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/local_setup.sh
+[4.061s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/local_setup.zsh
+[4.061s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/local_setup.dsv
+[4.062s] -- Installing: /workspace/install/motor_if/share/motor_if/package.dsv
+[4.065s] -- Up-to-date: /workspace/install/motor_if/share/ament_index/resource_index/packages/motor_if
+[4.068s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_cExport.cmake
+[4.070s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_cExport-noconfig.cmake
+[4.075s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_typesupport_fastrtps_cExport.cmake
+[4.075s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.076s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_introspection_cExport.cmake
+[4.076s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.077s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_cExport.cmake
+[4.077s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_cExport-noconfig.cmake
+[4.077s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_cppExport.cmake
+[4.078s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.082s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.082s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_introspection_cppExport.cmake
+[4.083s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.098s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_cppExport.cmake
+[4.099s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_if__rosidl_typesupport_cppExport-noconfig.cmake
+[4.101s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_pyExport.cmake
+[4.102s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/export_motor_if__rosidl_generator_pyExport-noconfig.cmake
+[4.102s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/rosidl_cmake-extras.cmake
+[4.102s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.103s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/ament_cmake_export_libraries-extras.cmake
+[4.103s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/ament_cmake_export_targets-extras.cmake
+[4.103s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.104s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.104s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.104s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_ifConfig.cmake
+[4.104s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/cmake/motor_ifConfig-version.cmake
+[4.104s] -- Up-to-date: /workspace/install/motor_if/share/motor_if/package.xml
+[4.136s] Invoked command in '/workspace/build/motor_if' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera:/opt/ros/humble /usr/local/bin/cmake --install /workspace/build/motor_if

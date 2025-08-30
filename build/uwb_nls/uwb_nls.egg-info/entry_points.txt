@@ -1,0 +1,11 @@
+[console_scripts]
+distance_filter = uwb_nls.distance_filter:main
+last_filter_nls = uwb_nls.uwb_last_filter_nls:main
+ndistance_filter = uwb_nls.ndistance_filter:main
+nposition = uwb_nls.nposition_nls:main
+nposition_filter = uwb_nls.nposition_filter:main
+nreceiver = uwb_nls.nreceiver:main
+nvisual = uwb_nls.nvisual:main
+position_nls = uwb_nls.position_nls:main
+receiver = uwb_nls.uwb_receiver:main
+visualization_all = uwb_nls.uwb_visualization:main

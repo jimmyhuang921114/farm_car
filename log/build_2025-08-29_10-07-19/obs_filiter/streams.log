@@ -1,0 +1,143 @@
+[1.410s] Invoking command in '/workspace/build/obs_filiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/obs_filiter -- -j8 -l8
+[2.683s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[2.683s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/install/share/rclcpp/cmake)
+[2.684s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[2.688s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[2.735s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[2.828s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.876s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.991s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[2.997s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[3.360s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.690s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[3.832s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/install/share/cv_bridge/cmake)
+[3.871s] [33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+[3.871s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[3.871s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[3.872s]   set the policy and suppress this warning.
+[3.872s] 
+[3.872s] Call Stack (most recent call first):
+[3.872s]   /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+[3.872s]   /opt/ros/humble/install/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.872s]   /opt/ros/humble/install/share/cv_bridge/cmake/cv_bridgeConfig.cmake:41 (include)
+[3.872s]   CMakeLists.txt:14 (find_package)
+[3.872s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.873s] [0m
+[4.070s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[4.070s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[4.070s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[4.070s]   cmake_policy command to set the policy and suppress this warning.
+[4.070s] 
+[4.070s]   CMake variable EIGEN_ROOT is set to:
+[4.071s] 
+[4.071s]     /usr/include/eigen3
+[4.071s] 
+[4.071s]   For compatibility, find_package is ignoring the variable, but code in a
+[4.071s]   .cmake module might still use it.
+[4.071s] Call Stack (most recent call first):
+[4.071s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[4.072s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[4.072s]   CMakeLists.txt:16 (find_package)
+[4.072s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.072s] [0m
+[4.109s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.110s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[4.111s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[4.111s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[4.111s]   set the policy and suppress this warning.
+[4.112s] 
+[4.112s] Call Stack (most recent call first):
+[4.112s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[4.113s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[4.113s]   CMakeLists.txt:16 (find_package)
+[4.113s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.113s] [0m
+[4.278s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.305s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.307s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.307s] [0m** WARNING ** io features related to png will be disabled[0m
+[6.618s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[6.618s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[6.630s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[6.631s]   set the policy and suppress this warning.
+[6.631s] 
+[6.631s] Call Stack (most recent call first):
+[6.631s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[6.632s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[6.632s]   CMakeLists.txt:16 (find_package)
+[6.632s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.632s] [0m
+[6.705s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.715s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[6.715s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[6.715s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[6.715s]   cmake_policy command to set the policy and suppress this warning.
+[6.715s] 
+[6.716s]   CMake variable FLANN_ROOT is set to:
+[6.716s] 
+[6.716s]     /usr
+[6.716s] 
+[6.716s]   For compatibility, find_package is ignoring the variable, but code in a
+[6.716s]   .cmake module might still use it.
+[6.716s] Call Stack (most recent call first):
+[6.716s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[6.717s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[6.717s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[6.717s]   CMakeLists.txt:16 (find_package)
+[6.717s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.717s] [0m
+[6.835s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[8.510s] -- looking for PCL_COMMON
+[8.511s] -- looking for PCL_OCTREE
+[8.511s] -- looking for PCL_IO
+[8.511s] -- looking for PCL_KDTREE
+[8.512s] -- looking for PCL_SEARCH
+[8.512s] -- looking for PCL_SAMPLE_CONSENSUS
+[8.512s] -- looking for PCL_FILTERS
+[8.513s] -- looking for PCL_GEOMETRY
+[8.513s] -- looking for PCL_2D
+[8.514s] -- looking for PCL_FEATURES
+[8.514s] -- looking for PCL_ML
+[8.514s] -- looking for PCL_SEGMENTATION
+[8.515s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/install/share/pcl_conversions/cmake)
+[8.611s] -- Found image_transport: 3.1.9 (/opt/ros/humble/install/share/image_transport/cmake)
+[9.034s] -- Configuring done (7.2s)
+[9.427s] -- Generating done (0.4s)
+[9.455s] -- Build files have been written to: /workspace/build/obs_filiter
+[9.607s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense_read_node.dir/src/realsense_read.cpp.o[0m
+[30.495s] [ 25%] [32m[1mLinking CXX executable realsense_read_node[0m
+[32.438s] [ 25%] Built target realsense_read_node
+[32.570s] [ 50%] Built target xz_visualizer_node
+[32.650s] [ 75%] Built target obstacle_node
+[32.729s] [100%] Built target plane_node
+[32.779s] Invoked command in '/workspace/build/obs_filiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --build /workspace/build/obs_filiter -- -j8 -l8
+[33.050s] Invoking command in '/workspace/build/obs_filiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/obs_filiter
+[33.219s] -- Install configuration: ""
+[33.220s] -- Installing: /workspace/install/obs_filiter/lib/obs_filiter/realsense_read_node
+[33.231s] -- Set non-toolchain portion of runtime path of "/workspace/install/obs_filiter/lib/obs_filiter/realsense_read_node" to ""
+[33.231s] -- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/plane_node
+[33.232s] -- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/obstacle_node
+[33.232s] -- Up-to-date: /workspace/install/obs_filiter/lib/obs_filiter/xz_visualizer_node
+[33.233s] -- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter
+[33.233s] -- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter
+[33.233s] -- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter/plane_estimator.hpp
+[33.233s] -- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter/visualization.hpp
+[33.234s] -- Up-to-date: /workspace/install/obs_filiter/include/obs_filiter/obs_filiter/obstacle_detector.hpp
+[33.234s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter//launch
+[33.234s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter//launch/obs_filiter_launch.py
+[33.234s] -- Up-to-date: /workspace/install/obs_filiter/share/ament_index/resource_index/package_run_dependencies/obs_filiter
+[33.234s] -- Up-to-date: /workspace/install/obs_filiter/share/ament_index/resource_index/parent_prefix_path/obs_filiter
+[33.234s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/environment/ament_prefix_path.sh
+[33.235s] -- Installing: /workspace/install/obs_filiter/share/obs_filiter/environment/ament_prefix_path.dsv
+[33.235s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/environment/path.sh
+[33.235s] -- Installing: /workspace/install/obs_filiter/share/obs_filiter/environment/path.dsv
+[33.235s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.bash
+[33.235s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.sh
+[33.235s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/local_setup.zsh
+[33.236s] -- Installing: /workspace/install/obs_filiter/share/obs_filiter/local_setup.dsv
+[33.236s] -- Installing: /workspace/install/obs_filiter/share/obs_filiter/package.dsv
+[33.236s] -- Up-to-date: /workspace/install/obs_filiter/share/ament_index/resource_index/packages/obs_filiter
+[33.236s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/cmake/obs_filiterConfig.cmake
+[33.237s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/cmake/obs_filiterConfig-version.cmake
+[33.237s] -- Up-to-date: /workspace/install/obs_filiter/share/obs_filiter/package.xml
+[33.277s] Invoked command in '/workspace/build/obs_filiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/visualization:/workspace/install/uwb_nls:/workspace/install/ultrasonic:/workspace/install/track:/workspace/install/record:/workspace/install/rc_receiver:/workspace/install/pixhawk_control:/workspace/install/motor:/workspace/install/camera /usr/local/bin/cmake --install /workspace/build/obs_filiter

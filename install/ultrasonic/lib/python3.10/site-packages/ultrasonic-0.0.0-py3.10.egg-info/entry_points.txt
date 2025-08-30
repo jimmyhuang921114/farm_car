@@ -1,0 +1,5 @@
+[console_scripts]
+checker = ultrasonic.us_checker:main
+obstacle = ultrasonic.us_obstacle:main
+receiver = ultrasonic.us_receiver:main
+visualizer = ultrasonic.us_visualizer:main

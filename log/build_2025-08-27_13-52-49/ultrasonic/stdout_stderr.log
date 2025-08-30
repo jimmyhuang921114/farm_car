@@ -1,0 +1,48 @@
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/ultrasonic/ultrasonic.egg-info
+writing ../../build/ultrasonic/ultrasonic.egg-info/PKG-INFO
+writing dependency_links to ../../build/ultrasonic/ultrasonic.egg-info/dependency_links.txt
+writing entry points to ../../build/ultrasonic/ultrasonic.egg-info/entry_points.txt
+writing requirements to ../../build/ultrasonic/ultrasonic.egg-info/requires.txt
+writing top-level names to ../../build/ultrasonic/ultrasonic.egg-info/top_level.txt
+writing manifest file '../../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'
+reading manifest file '../../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'
+writing manifest file '../../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/build/ultrasonic/build/lib/ultrasonic
+copying ultrasonic/us_receiver.py -> /workspace/build/ultrasonic/build/lib/ultrasonic
+copying ultrasonic/us_visualizer.py -> /workspace/build/ultrasonic/build/lib/ultrasonic
+copying ultrasonic/us_checker.py -> /workspace/build/ultrasonic/build/lib/ultrasonic
+copying ultrasonic/us_obstacle.py -> /workspace/build/ultrasonic/build/lib/ultrasonic
+copying ultrasonic/range.py -> /workspace/build/ultrasonic/build/lib/ultrasonic
+copying ultrasonic/__init__.py -> /workspace/build/ultrasonic/build/lib/ultrasonic
+running install
+running install_lib
+creating /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+copying /workspace/build/ultrasonic/build/lib/ultrasonic/us_receiver.py -> /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+copying /workspace/build/ultrasonic/build/lib/ultrasonic/us_visualizer.py -> /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+copying /workspace/build/ultrasonic/build/lib/ultrasonic/us_checker.py -> /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+copying /workspace/build/ultrasonic/build/lib/ultrasonic/us_obstacle.py -> /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+copying /workspace/build/ultrasonic/build/lib/ultrasonic/range.py -> /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+copying /workspace/build/ultrasonic/build/lib/ultrasonic/__init__.py -> /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic
+byte-compiling /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic/us_receiver.py to us_receiver.cpython-310.pyc
+byte-compiling /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic/us_visualizer.py to us_visualizer.cpython-310.pyc
+byte-compiling /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic/us_checker.py to us_checker.cpython-310.pyc
+byte-compiling /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic/us_obstacle.py to us_obstacle.cpython-310.pyc
+byte-compiling /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic/range.py to range.cpython-310.pyc
+byte-compiling /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /workspace/install/ultrasonic/share/ament_index/resource_index/packages
+copying resource/ultrasonic -> /workspace/install/ultrasonic/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/install/ultrasonic/share/ultrasonic
+running install_egg_info
+Copying ../../build/ultrasonic/ultrasonic.egg-info to /workspace/install/ultrasonic/lib/python3.10/site-packages/ultrasonic-0.0.0-py3.10.egg-info
+running install_scripts
+Installing checker script to /workspace/install/ultrasonic/lib/ultrasonic
+Installing obstacle script to /workspace/install/ultrasonic/lib/ultrasonic
+Installing receiver script to /workspace/install/ultrasonic/lib/ultrasonic
+Installing visualizer script to /workspace/install/ultrasonic/lib/ultrasonic
+writing list of installed files to '/workspace/build/ultrasonic/install.log'
