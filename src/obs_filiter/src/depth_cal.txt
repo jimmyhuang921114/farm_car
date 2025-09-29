@@ -1,0 +1,145 @@
+#include <memory>
+#include <mutex>
+#include <rclcpp/rclcpp.hpp>
+#include <sensor_msgs/msg/image.hpp>
+#include <sensor_msgs/msg/point_cloud2.hpp>
+#include <cv_bridge/cv_bridge.h>
+#include <opencv2/opencv.hpp>
+#include <pcl/point_types.h>
+#include <pcl_conversions/pcl_conversions.h>
+#include <pcl/segmentation/sac_segmentation.h>
+
+class PlaneNode : public rclcpp::Node {
+public:
+    PlaneNode() : Node("plane_node") {
+        color_sub_ = this->create_subscription<sensor_msgs::msg::Image>(
+            "/color/image_raw", 10, std::bind(&PlaneNode::color_callback, this, std::placeholders::_1));
+        depth_sub_ = this->create_subscription<sensor_msgs::msg::Image>(
+            "/depth/image_raw", 10, std::bind(&PlaneNode::depth_callback, this, std::placeholders::_1));
+        cloud_pub_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("/plane_cloud", 10);
+        RCLCPP_INFO(this->get_logger(), "PlaneNode started (without VoxelGrid)");
+    }
+
+private:
+    rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr color_sub_, depth_sub_;
+    rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr cloud_pub_;
+    std::mutex mutex_;
+    sensor_msgs::msg::Image::ConstSharedPtr latest_color_, latest_depth_;
+
+    const float fx_ = 616.0f, fy_ = 616.0f, cx_ = 320.0f, cy_ = 240.0f;
+
+    void color_callback(const sensor_msgs::msg::Image::ConstSharedPtr msg) {
+        std::lock_guard<std::mutex> lock(mutex_);
+        latest_color_ = msg;
+        try_process();
+    }
+
+    void depth_callback(const sensor_msgs::msg::Image::ConstSharedPtr msg) {
+        std::lock_guard<std::mutex> lock(mutex_);
+        latest_depth_ = msg;
+        try_process();
+    }
+
+    void try_process() {
+        if (!latest_color_ || !latest_depth_) return;
+
+        auto color_msg = latest_color_;
+        auto depth_msg = latest_depth_;
+        latest_color_.reset();
+        latest_depth_.reset();
+
+        cv::Mat color, depth;
+        try {
+            color = cv_bridge::toCvCopy(color_msg, "bgr8")->image;
+            depth = cv_bridge::toCvCopy(depth_msg, "16UC1")->image;
+        } catch (...) {
+            RCLCPP_ERROR(this->get_logger(), "cv_bridge conversion failed.");
+            return;
+        }
+
+        if (color.empty() || depth.empty() || color.size() != depth.size()) return;
+
+        auto cloud = std::make_shared<pcl::PointCloud<pcl::PointXYZRGB>>();
+        const int rows = depth.rows;
+        const int cols = depth.cols;
+
+        for (int y = rows / 2; y < rows; y += 2) {
+            const uint16_t* depth_row = depth.ptr<uint16_t>(y);
+            const cv::Vec3b* color_row = color.ptr<cv::Vec3b>(y);
+            for (int x = 0; x < cols; x += 2) {
+                uint16_t d = depth_row[x];
+                if (d == 0) continue;
+                float z = d / 1000.0f;
+                if (z < 0.1f || z > 2.5f || std::isnan(z)) continue;
+
+                float x3d = (x - cx_) * z / fx_;
+                float y3d = (y - cy_) * z / fy_;
+
+                pcl::PointXYZRGB pt;
+                pt.x = x3d;
+                pt.y = y3d;
+                pt.z = z;
+                pt.b = color_row[x][0];
+                pt.g = color_row[x][1];
+                pt.r = color_row[x][2];
+                cloud->push_back(pt);
+            }
+        }
+
+        if (cloud->empty()) {
+            RCLCPP_WARN(this->get_logger(), "Cloud empty.");
+            return;
+        }
+
+        // Step 1: 平面擬合（直接用原始點雲）
+        if (cloud->size() < 50) {
+            RCLCPP_WARN(this->get_logger(), "Not enough points for plane fitting: %zu", cloud->size());
+            return;
+        }
+
+        pcl::ModelCoefficients::Ptr coeff(new pcl::ModelCoefficients);
+        pcl::PointIndices::Ptr inliers(new pcl::PointIndices);
+        pcl::SACSegmentation<pcl::PointXYZRGB> seg;
+        seg.setOptimizeCoefficients(true);
+        seg.setModelType(pcl::SACMODEL_PLANE);
+        seg.setMethodType(pcl::SAC_RANSAC);
+        seg.setDistanceThreshold(0.02);
+        seg.setInputCloud(cloud);
+
+        try {
+            seg.segment(*inliers, *coeff);
+        } catch (const std::exception& e) {
+            RCLCPP_ERROR(this->get_logger(), "Segmentation error: %s", e.what());
+            return;
+        }
+
+        if (inliers->indices.empty()) {
+            RCLCPP_WARN(this->get_logger(), "No plane detected.");
+        } else {
+            for (int idx : inliers->indices) {
+                if (idx >= 0 && idx < static_cast<int>(cloud->points.size())) {
+                    cloud->points[idx].r = 0;
+                    cloud->points[idx].g = 255;
+                    cloud->points[idx].b = 0;
+                }
+            }
+        }
+
+        sensor_msgs::msg::PointCloud2 ros_cloud;
+        pcl::toROSMsg(*cloud, ros_cloud);
+        ros_cloud.header.stamp = color_msg->header.stamp;
+        ros_cloud.header.frame_id = "camera_link";
+        cloud_pub_->publish(ros_cloud);
+
+        RCLCPP_INFO_THROTTLE(this->get_logger(), *this->get_clock(), 3000,
+            "Published cloud: %zu pts, inliers: %zu",
+            cloud->size(), inliers->indices.size());
+    }
+};
+
+int main(int argc, char** argv) {
+    rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<PlaneNode>());
+    rclcpp::shutdown();
+    return 0;
+}

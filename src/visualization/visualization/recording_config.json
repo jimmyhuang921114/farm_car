@@ -1,0 +1,86 @@
+{
+    "recording": {
+      "rec": {
+        "output": "interface_record.avi",
+        "fps": 20,
+        "codec": "XVID",
+        "width": 1280,
+        "height": 720
+      },
+      "raw": {
+        "image_nodes": [
+          {
+            "topic": "/camera/color",
+            "output": "camera_color.avi",
+            "fps": 20,
+            "codec": "XVID",
+            "width": 640,
+            "height": 480
+          },
+          {
+            "topic": "/camera/depth",
+            "output": "camera_depth.avi",
+            "fps": 20,
+            "codec": "XVID",
+            "width": 640,
+            "height": 480
+          },
+          {
+            "topic": "/tracking_image",
+            "output": "tracking_image.avi",
+            "fps": 20,
+            "codec": "XVID",
+            "width": 640,
+            "height": 480
+          },
+          {
+            "topic": "/masked_image",
+            "output": "masked_image.avi",
+            "fps": 20,
+            "codec": "XVID",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "ultrasonic_nodes": [
+          {
+            "topic": "/ultrasonic_data_1",
+            "output": "ultrasonic1.csv"
+          },
+          {
+            "topic": "/ultrasonic_data_2",
+            "output": "ultrasonic2.csv"
+          }
+        ],
+        "uwb_nodes": {
+          "filtered": {
+            "topic": "/uwb_filtered_position",
+            "output": "uwb_filtered.csv"
+          },
+          "raw": [
+            {
+              "topic": "uwb_receiver_node_0",
+              "output": "uwb_raw_0.csv",
+              "format": "Float32"
+            },
+            {
+              "topic": "uwb_receiver_node_2",
+              "output": "uwb_raw_2.csv",
+              "format": "Float32"
+            },
+            {
+              "topic": "uwb_receiver_node_3",
+              "output": "uwb_raw_3.csv",
+              "format": "Float32"
+            },
+            {
+              "topic": "uwb_receiver_node_5",
+              "output": "uwb_raw_5.csv",
+              "format": "Float32"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

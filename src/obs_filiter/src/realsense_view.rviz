@@ -1,0 +1,30 @@
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/TF
+      Name: TF
+    - Class: rviz_default_plugins/Image
+      Name: Color Image
+      Image Topic: /camera/color/image_raw
+      Normalize Range: true
+      Queue Size: 2
+    - Class: rviz_default_plugins/Image
+      Name: Depth Image
+      Image Topic: /camera/depth/image_rect_raw
+      Normalize Range: true
+      Queue Size: 2
+      Min: 0.0
+      Max: 5.0
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Point Cloud
+      Topic: /camera/depth/color/points
+      Queue Size: 2
+      Style: Flat Squares
+      Size (Pixels): 2
+      Color Transformer: RGB8
+  Enabled: true
+  Global Options:
+    Fixed Frame: camera_link
+    Background Color: [0.0, 0.0, 0.0]
+    Frame Rate: 30
+  Name: root

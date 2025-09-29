@@ -1,0 +1,19 @@
+# ================================
+# 🔧 ROS 2 Build / Install / Log
+# ================================
+build/
+install/
+log/
+.colcon/
+ament_cmake_core/
+ament_index/
+
+# ================================
+# 🧠 PyTorch / 模型檔案
+# ================================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+*.ckpt
